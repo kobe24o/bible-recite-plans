@@ -1,6 +1,6 @@
 {
   "format": "bible-recite-quiz-bank",
-  "version": 1,
+  "version": 2,
   "questions": [
     {
       "translationId": "cmn-cu89s",
@@ -11,9 +11,8 @@
       "end": 16,
       "word": "施弗拉",
       "partOfSpeech": "Noun",
-      "meaning": "施弗拉：一位希伯来收生婆的名字",
-      "reference": "1:15",
-      "verseText": "有希伯来的两个收生婆，一名施弗拉，一名普阿；埃及王对她们说："
+      "meaning": "一位希伯来收生婆的名字",
+      "reference": "1:15"
     },
     {
       "translationId": "cmn-cu89s",
@@ -24,9 +23,8 @@
       "end": 20,
       "word": "成立家室",
       "partOfSpeech": "Verb",
-      "meaning": "成立家室：建立自己的家庭",
-      "reference": "1:21",
-      "verseText": "收生婆因为敬畏　神，　神便叫她们成立家室。"
+      "meaning": "建立自己的家庭",
+      "reference": "1:21"
     },
     {
       "translationId": "cmn-cu89s",
@@ -37,9 +35,8 @@
       "end": 5,
       "word": "利未",
       "partOfSpeech": "Noun",
-      "meaning": "利未：以色列的支派名",
-      "reference": "2:1",
-      "verseText": "有一个利未家的人娶了一个利未女子为妻。"
+      "meaning": "以色列的支派名",
+      "reference": "2:1"
     },
     {
       "translationId": "cmn-cu89s",
@@ -50,9 +47,8 @@
       "end": 6,
       "word": "利未家",
       "partOfSpeech": "名词",
-      "meaning": "利未家：利未人的家族",
-      "reference": "2:1",
-      "verseText": "有一个利未家的人娶了一个利未女子为妻。"
+      "meaning": "利未人的家族",
+      "reference": "2:1"
     },
     {
       "translationId": "cmn-cu89s",
@@ -63,9 +59,8 @@
       "end": 16,
       "word": "俊美",
       "partOfSpeech": "形容词",
-      "meaning": "俊美：相貌好看",
-      "reference": "2:2",
-      "verseText": "那女人怀孕，生一个儿子，见他俊美，就藏了他三个月，"
+      "meaning": "相貌好看",
+      "reference": "2:2"
     },
     {
       "translationId": "cmn-cu89s",
@@ -76,9 +71,8 @@
       "end": 5,
       "word": "法老的女儿",
       "partOfSpeech": "名词",
-      "meaning": "法老的女儿：埃及国王的子女",
-      "reference": "2:5",
-      "verseText": "法老的女儿来到河边洗澡，她的使女们在河边行走。她看见箱子在芦荻中，就打发一个婢女拿来。"
+      "meaning": "埃及国王的子女",
+      "reference": "2:5"
     },
     {
       "translationId": "cmn-cu89s",
@@ -89,9 +83,8 @@
       "end": 11,
       "word": "法老的女儿",
       "partOfSpeech": "名词",
-      "meaning": "法老的女儿：埃及法老的女儿",
-      "reference": "2:7",
-      "verseText": "孩子的姊姊对法老的女儿说：「我去在希伯来妇人中叫一个奶妈来，为你奶这孩子，可以不可以？」"
+      "meaning": "埃及法老的女儿",
+      "reference": "2:7"
     },
     {
       "translationId": "cmn-cu89s",
@@ -102,9 +95,8 @@
       "end": 14,
       "word": "童女",
       "partOfSpeech": "名词",
-      "meaning": "童女：年轻的女子",
-      "reference": "2:8",
-      "verseText": "法老的女儿说：「可以。」童女就去叫了孩子的母亲来。"
+      "meaning": "年轻的女子",
+      "reference": "2:8"
     },
     {
       "translationId": "cmn-cu89s",
@@ -115,9 +107,8 @@
       "end": 5,
       "word": "摩西",
       "partOfSpeech": "专有名词",
-      "meaning": "摩西：以色列人的领袖",
-      "reference": "2:11",
-      "verseText": "后来，摩西长大，他出去到他弟兄那里，看他们的重担，见一个埃及人打希伯来人的一个弟兄。"
+      "meaning": "以色列人的领袖",
+      "reference": "2:11"
     },
     {
       "translationId": "cmn-cu89s",
@@ -128,9 +119,8 @@
       "end": 2,
       "word": "法老",
       "partOfSpeech": "专有名词",
-      "meaning": "法老：埃及王的称号",
-      "reference": "2:15",
-      "verseText": "法老听见这事，就想杀摩西，但摩西躲避法老，逃往米甸地居住。"
+      "meaning": "埃及王的称号",
+      "reference": "2:15"
     },
     {
       "translationId": "cmn-cu89s",
@@ -141,9 +131,8 @@
       "end": 7,
       "word": "井旁",
       "partOfSpeech": "名词",
-      "meaning": "井旁：水井旁边",
-      "reference": "2:16",
-      "verseText": "一日，他在井旁坐下。米甸的祭司有七个女儿；她们来打水，打满了槽，要饮父亲的群羊。"
+      "meaning": "水井旁边",
+      "reference": "2:16"
     },
     {
       "translationId": "cmn-cu89s",
@@ -154,9 +143,8 @@
       "end": 5,
       "word": "牧羊的人",
       "partOfSpeech": "Noun",
-      "meaning": "牧羊的人：放牧羊群的人",
-      "reference": "2:17",
-      "verseText": "有牧羊的人来，把她们赶走了，摩西却起来帮助她们，又饮了她们的群羊。"
+      "meaning": "放牧羊群的人",
+      "reference": "2:17"
     },
     {
       "translationId": "cmn-cu89s",
@@ -167,9 +155,8 @@
       "end": 2,
       "word": "摩西",
       "partOfSpeech": "专有名词",
-      "meaning": "摩西：以色列人的领袖",
-      "reference": "2:21",
-      "verseText": "摩西甘心和那人同住；那人把他的女儿西坡拉给摩西为妻。"
+      "meaning": "以色列人的领袖",
+      "reference": "2:21"
     },
     {
       "translationId": "cmn-cu89s",
@@ -180,9 +167,8 @@
       "end": 3,
       "word": "西坡拉",
       "partOfSpeech": "专有名词",
-      "meaning": "西坡拉：基甸的女儿，摩西的妻子",
-      "reference": "2:22",
-      "verseText": "西坡拉生了一个儿子，摩西给他起名叫革舜，意思说：「因我在外邦作了寄居的。」"
+      "meaning": "基甸的女儿，摩西的妻子",
+      "reference": "2:22"
     },
     {
       "translationId": "cmn-cu89s",
@@ -193,9 +179,8 @@
       "end": 1,
       "word": "神",
       "partOfSpeech": "专有名词",
-      "meaning": "神：上帝",
-      "reference": "2:24",
-      "verseText": "神听见他们的哀声，就记念他与亚伯拉罕、以撒、雅各所立的约。"
+      "meaning": "上帝",
+      "reference": "2:24"
     },
     {
       "translationId": "cmn-cu89s",
@@ -206,9 +191,8 @@
       "end": 1,
       "word": "神",
       "partOfSpeech": "专有名词",
-      "meaning": "神：上帝",
-      "reference": "2:25",
-      "verseText": "神看顾以色列人，也知道他们的[苦情]。"
+      "meaning": "上帝",
+      "reference": "2:25"
     },
     {
       "translationId": "cmn-cu89s",
@@ -219,9 +203,8 @@
       "end": 5,
       "word": "神",
       "partOfSpeech": "名词",
-      "meaning": "神：创造天地的至高存在",
-      "reference": "1:1",
-      "verseText": "起初，　神创造天地。"
+      "meaning": "创造天地的至高存在",
+      "reference": "1:1"
     },
     {
       "translationId": "cmn-cu89s",
@@ -232,9 +215,8 @@
       "end": 6,
       "word": "空气",
       "partOfSpeech": "名词",
-      "meaning": "空气：神造出的分隔水层的介质",
-      "reference": "1:7",
-      "verseText": "神就造出空气，将空气以下的水、空气以上的水分开了。事就这样成了。"
+      "meaning": "神造出的分隔水层的介质",
+      "reference": "1:7"
     },
     {
       "translationId": "cmn-cu89s",
@@ -245,9 +227,8 @@
       "end": 10,
       "word": "青草",
       "partOfSpeech": "名词",
-      "meaning": "青草：绿色的草本植物",
-      "reference": "1:11",
-      "verseText": "神说：「地要发生青草和结种子的菜蔬，并结果子的树木，各从其类，果子都包着核。」事就这样成了。"
+      "meaning": "绿色的草本植物",
+      "reference": "1:11"
     },
     {
       "translationId": "cmn-cu89s",
@@ -258,9 +239,8 @@
       "end": 10,
       "word": "光体",
       "partOfSpeech": "名词",
-      "meaning": "光体：天上发光的天体",
-      "reference": "1:14",
-      "verseText": "神说：「天上要有光体，可以分昼夜，作记号，定节令、日子、年岁，"
+      "meaning": "天上发光的天体",
+      "reference": "1:14"
     },
     {
       "translationId": "cmn-cu89s",
@@ -271,9 +251,8 @@
       "end": 6,
       "word": "大鱼",
       "partOfSpeech": "名词",
-      "meaning": "大鱼：水中巨大的生物",
-      "reference": "1:21",
-      "verseText": "神就造出大鱼和水中所滋生各样有生命的动物，各从其类；又造出各样飞鸟，各从其类。　神看着是好的。"
+      "meaning": "水中巨大的生物",
+      "reference": "1:21"
     },
     {
       "translationId": "cmn-cu89s",
@@ -284,9 +263,8 @@
       "end": 16,
       "word": "滋生繁多",
       "partOfSpeech": "动词短语",
-      "meaning": "滋生繁多：大量繁殖增多",
-      "reference": "1:22",
-      "verseText": "神就赐福给这一切，说：「滋生繁多，充满海中的水；雀鸟也要多生在地上。」"
+      "meaning": "大量繁殖增多",
+      "reference": "1:22"
     },
     {
       "translationId": "cmn-cu89s",
@@ -297,9 +275,8 @@
       "end": 8,
       "word": "野兽",
       "partOfSpeech": "名词",
-      "meaning": "野兽：陆地上的野生哺乳动物",
-      "reference": "1:25",
-      "verseText": "于是　神造出野兽，各从其类；牲畜，各从其类；地上一切昆虫，各从其类。　神看着是好的。"
+      "meaning": "陆地上的野生哺乳动物",
+      "reference": "1:25"
     },
     {
       "translationId": "cmn-cu89s",
@@ -310,9 +287,8 @@
       "end": 2,
       "word": "女人",
       "partOfSpeech": "名词",
-      "meaning": "女人：女性人类",
-      "reference": "3:2",
-      "verseText": "女人对蛇说：「园中树上的果子，我们可以吃，"
+      "meaning": "女性人类",
+      "reference": "3:2"
     },
     {
       "translationId": "cmn-cu89s",
@@ -323,9 +299,8 @@
       "end": 3,
       "word": "耶和华",
       "partOfSpeech": "专有名词",
-      "meaning": "耶和华：神的名称",
-      "reference": "3:9",
-      "verseText": "耶和华　神呼唤那人，对他说：「你在哪里？」"
+      "meaning": "神的名称",
+      "reference": "3:9"
     },
     {
       "translationId": "cmn-cu89s",
@@ -336,9 +311,8 @@
       "end": 8,
       "word": "荆棘",
       "partOfSpeech": "名词",
-      "meaning": "荆棘：带刺的灌木",
-      "reference": "3:18",
-      "verseText": "地必给你长出荆棘和蒺藜来； 你也要吃田间的菜蔬。"
+      "meaning": "带刺的灌木",
+      "reference": "3:18"
     },
     {
       "translationId": "cmn-cu89s",
@@ -349,9 +323,8 @@
       "end": 3,
       "word": "洁净",
       "partOfSpeech": "形容词",
-      "meaning": "洁净：不脏",
-      "reference": "7:2",
-      "verseText": "凡洁净的畜类，你要带七公七母；不洁净的畜类，你要带一公一母；"
+      "meaning": "不脏",
+      "reference": "7:2"
     },
     {
       "translationId": "cmn-cu89s",
@@ -362,9 +335,8 @@
       "end": 2,
       "word": "耶稣",
       "partOfSpeech": "名词",
-      "meaning": "耶稣：基督教的核心人物",
-      "reference": "8:10",
-      "verseText": "耶稣听见就希奇，对跟从的人说：「我实在告诉你们，这么大的信心，就是在以色列中，我也没有遇见过。"
+      "meaning": "基督教的核心人物",
+      "reference": "8:10"
     },
     {
       "translationId": "cmn-cu89s",
@@ -375,9 +347,8 @@
       "end": 6,
       "word": "圣",
       "partOfSpeech": "形容词",
-      "meaning": "圣：神圣的",
-      "reference": "24:1",
-      "verseText": "耶稣出了[圣]殿，正走的时候，门徒进前来，把殿宇指给他看。"
+      "meaning": "神圣的",
+      "reference": "24:1"
     },
     {
       "translationId": "cmn-cu89s",
@@ -388,9 +359,8 @@
       "end": 12,
       "word": "谨慎",
       "partOfSpeech": "动词",
-      "meaning": "谨慎：小心防备",
-      "reference": "24:4",
-      "verseText": "耶稣回答说：「你们要谨慎，免得有人迷惑你们。"
+      "meaning": "小心防备",
+      "reference": "24:4"
     },
     {
       "translationId": "cmn-cu89s",
@@ -401,9 +371,8 @@
       "end": 12,
       "word": "患难",
       "partOfSpeech": "名词",
-      "meaning": "患难：困苦危难",
-      "reference": "24:9",
-      "verseText": "那时，人要把你们陷在患难里，也要杀害你们；你们又要为我的名被万民恨恶。"
+      "meaning": "困苦危难",
+      "reference": "24:9"
     },
     {
       "translationId": "cmn-cu89s",
@@ -414,9 +383,8 @@
       "end": 4,
       "word": "忍耐",
       "partOfSpeech": "动词",
-      "meaning": "忍耐：忍受痛苦而不抱怨",
-      "reference": "24:13",
-      "verseText": "惟有忍耐到底的，必然得救。"
+      "meaning": "忍受痛苦而不抱怨",
+      "reference": "24:13"
     },
     {
       "translationId": "cmn-cu89s",
@@ -427,9 +395,8 @@
       "end": 14,
       "word": "基督",
       "partOfSpeech": "名词",
-      "meaning": "基督：受膏者",
-      "reference": "24:23",
-      "verseText": "那时，若有人对你们说：『基督在这里』，或说：『基督在那里』，你们不要信！"
+      "meaning": "受膏者",
+      "reference": "24:23"
     },
     {
       "translationId": "cmn-cu89s",
@@ -440,9 +407,8 @@
       "end": 5,
       "word": "假基督",
       "partOfSpeech": "名词",
-      "meaning": "假基督：冒充基督的人",
-      "reference": "24:24",
-      "verseText": "因为假基督、假先知将要起来，显大神迹、大奇事，倘若能行，连选民也就迷惑了。"
+      "meaning": "冒充基督的人",
+      "reference": "24:24"
     },
     {
       "translationId": "cmn-cu89s",
@@ -453,9 +419,8 @@
       "end": 6,
       "word": "使者",
       "partOfSpeech": "名词",
-      "meaning": "使者：天使",
-      "reference": "24:31",
-      "verseText": "他要差遣使者，用号筒的大声，将他的选民，从四方，从天这边到天那边，都招聚了来。」"
+      "meaning": "天使",
+      "reference": "24:31"
     },
     {
       "translationId": "cmn-cu89s",
@@ -466,9 +431,8 @@
       "end": 9,
       "word": "时辰",
       "partOfSpeech": "名词",
-      "meaning": "时辰：时刻",
-      "reference": "24:36",
-      "verseText": "「但那日子，那时辰，没有人知道，连天上的使者也不知道，子也不知道，惟独父知道。"
+      "meaning": "时刻",
+      "reference": "24:36"
     },
     {
       "translationId": "cmn-cu89s",
@@ -479,9 +443,8 @@
       "end": 9,
       "word": "田里",
       "partOfSpeech": "名词",
-      "meaning": "田里：田野中",
-      "reference": "24:40",
-      "verseText": "那时，两个人在田里，取去一个，撇下一个。"
+      "meaning": "田野中",
+      "reference": "24:40"
     }
   ]
 }
