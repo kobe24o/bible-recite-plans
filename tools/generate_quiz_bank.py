@@ -122,13 +122,41 @@ def query_verses(database: Path, book: str | None, chapter: int | None,
         clauses.append("u.start_verse <= ?")
         values.append(end)
     sql = """
-      SELECT u.osis_book_id AS book_id, u.chapter, u.start_verse AS verse, u.text
-      FROM verse_unit u WHERE %s
-      ORDER BY u.source_order
+      SELECT b.ordinal AS book_ordinal, u.osis_book_id AS book_id, u.chapter,
+             u.start_verse AS verse, u.text
+      FROM verse_unit u JOIN books b ON b.osis_id = u.osis_book_id
+      WHERE %s ORDER BY b.ordinal, u.chapter, u.start_verse
     """ % " AND ".join(clauses)
     with sqlite3.connect(database) as connection:
         connection.row_factory = sqlite3.Row
         return [dict(row) for row in connection.execute(sql, values)]
+
+
+def parse_reference(value: str) -> tuple[str, int, int]:
+    parts = value.upper().split(":")
+    if len(parts) != 3 or not parts[0]:
+        raise argparse.ArgumentTypeError("格式应为卷:章:节，例如 GEN:1:1")
+    try:
+        chapter, verse = int(parts[1]), int(parts[2])
+    except ValueError as error:
+        raise argparse.ArgumentTypeError("章和节必须是正整数") from error
+    if chapter < 1 or verse < 1:
+        raise argparse.ArgumentTypeError("章和节必须是正整数")
+    return parts[0], chapter, verse
+
+
+def filter_from(verses: Iterable[dict[str, Any]], start: tuple[str, int, int]) -> list[dict[str, Any]]:
+    start_book, start_chapter, start_verse = start
+    matched = False
+    result: list[dict[str, Any]] = []
+    for item in verses:
+        if item["book_id"] == start_book and item["chapter"] == start_chapter and item["verse"] == start_verse:
+            matched = True
+        if matched:
+            result.append(item)
+    if not matched:
+        raise ValueError(f"起点 {start_book}:{start_chapter}:{start_verse} 不存在于原文数据库")
+    return result
 
 
 def prompt() -> str:
@@ -208,6 +236,8 @@ def main() -> None:
     parser.add_argument("--base-url", required=True, help="例如 https://open.bigmodel.cn/api/paas/v4")
     parser.add_argument("--model", required=True)
     parser.add_argument("--api-key-env", default="QUIZ_MODEL_API_KEY")
+    parser.add_argument("--from", dest="start_at", type=parse_reference,
+                        help="从此卷:章:节开始，随后按全书顺序处理，例如 GEN:1:1")
     parser.add_argument("--book", help="只处理一个 OSIS 卷名，例如 GEN 或 JHN")
     parser.add_argument("--chapter", type=int)
     parser.add_argument("--start-verse", type=int)
@@ -220,6 +250,8 @@ def main() -> None:
     args = parser.parse_args()
     if args.batch_size < 1 or args.max_per_verse < 1:
         parser.error("batch-size 和 max-per-verse 必须大于 0")
+    if args.start_at and any(value is not None for value in (args.book, args.chapter, args.start_verse, args.end_verse)):
+        parser.error("--from 不能与 --book、--chapter、--start-verse 或 --end-verse 同时使用")
     api_key = os.environ.get(args.api_key_env, "")
     if not args.dry_run and not api_key:
         parser.error(f"未设置环境变量 {args.api_key_env}；不要把 API Key 写进命令、代码或题库。")
@@ -227,7 +259,12 @@ def main() -> None:
     existing = load_bank(args.output)
     counts = Counter((q.get("translationId"), q.get("bookId"), q.get("chapter"), q.get("verse")) for q in existing)
     candidates = []
-    for verse in query_verses(args.scripture, args.book, args.chapter, args.start_verse, args.end_verse):
+    verses = query_verses(
+        args.scripture, args.book, args.chapter, args.start_verse, args.end_verse,
+    )
+    if args.start_at:
+        verses = filter_from(verses, args.start_at)
+    for verse in verses:
         verse["reference"] = f"{verse['chapter']}:{verse['verse']}"
         key = (args.translation_id, verse["book_id"], verse["chapter"], verse["verse"])
         if counts[key] < args.max_per_verse:
