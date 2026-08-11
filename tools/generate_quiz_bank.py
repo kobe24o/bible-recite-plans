@@ -9,6 +9,7 @@ model accounts. It never saves the scripture text in the output bank.
 from __future__ import annotations
 
 import argparse
+import datetime as dt
 import json
 import os
 import re
@@ -21,6 +22,7 @@ from typing import Any, Iterable
 
 FORMAT = "bible-recite-quiz-bank"
 VERSION = 2
+PROGRESS_FORMAT = "bible-recite-generation-progress"
 FUNCTION_WORDS = {
     "的", "了", "着", "过", "吗", "呢", "啊", "呀", "和", "与", "及", "而", "但", "且", "或",
     "在", "把", "被", "给", "从", "向", "对", "以", "于", "是", "有", "就", "都", "也", "又",
@@ -88,7 +90,10 @@ def load_bank(path: Path) -> list[dict[str, Any]]:
             raise ValueError(f"{path} 含有格式不完整的题目")
         word = str(item["word"]).strip()
         start, end = item["start"], item["end"]
-        if not word or not isinstance(start, int) or not isinstance(end, int) or start < 0 or end <= start:
+        if (not word or not isinstance(start, int) or not isinstance(end, int)
+                or start < 0 or end <= start or int(item["chapter"]) < 1
+                or int(item["verse"]) < 1 or not str(item["partOfSpeech"]).strip()
+                or not compact_meaning(word, str(item["meaning"]))):
             raise ValueError(f"{path} 含有无效题目")
         normalized.append({
             "translationId": str(item["translationId"]).strip(), "bookId": str(item["bookId"]).strip(),
@@ -103,6 +108,47 @@ def question_key(question: dict[str, Any]) -> tuple[Any, ...]:
     return tuple(question[name] for name in (
         "translationId", "bookId", "chapter", "verse", "start", "end",
     ))
+
+
+def write_bank(path: Path, questions: Iterable[dict[str, Any]]) -> None:
+    ordered = sorted(questions, key=question_key)
+    payload = json.dumps({"format": FORMAT, "version": VERSION, "questions": ordered}, ensure_ascii=False, indent=2) + "\n"
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    temporary.write_bytes(payload.encode("utf-8"))
+    temporary.replace(path)
+
+
+def load_progress(path: Path, translation_id: str) -> tuple[str, int, int] | None:
+    if not path.exists():
+        return None
+    root = json.loads(path.read_text(encoding="utf-8"))
+    if root.get("format") != PROGRESS_FORMAT or root.get("version") != 1:
+        raise ValueError(f"{path} 进度文件格式无效")
+    if root.get("translationId") != translation_id:
+        return None
+    last = root.get("lastSuccessful")
+    if not isinstance(last, dict):
+        return None
+    book, chapter, verse = last.get("bookId"), last.get("chapter"), last.get("verse")
+    if not isinstance(book, str) or not isinstance(chapter, int) or not isinstance(verse, int):
+        raise ValueError(f"{path} 最后成功位置无效")
+    return book, chapter, verse
+
+
+def write_progress(path: Path, translation_id: str, verse: dict[str, Any]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "format": PROGRESS_FORMAT,
+        "version": 1,
+        "translationId": translation_id,
+        "lastSuccessful": {
+            "bookId": verse["book_id"], "chapter": verse["chapter"], "verse": verse["verse"],
+        },
+        "updatedAt": dt.datetime.now(dt.timezone.utc).isoformat().replace("+00:00", "Z"),
+    }
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    temporary.write_bytes((json.dumps(payload, ensure_ascii=False, indent=2) + "\n").encode("utf-8"))
+    temporary.replace(path)
 
 
 def query_verses(database: Path, book: str | None, chapter: int | None,
@@ -157,6 +203,15 @@ def filter_from(verses: Iterable[dict[str, Any]], start: tuple[str, int, int]) -
     if not matched:
         raise ValueError(f"起点 {start_book}:{start_chapter}:{start_verse} 不存在于原文数据库")
     return result
+
+
+def filter_after(verses: Iterable[dict[str, Any]], last: tuple[str, int, int]) -> list[dict[str, Any]]:
+    book, chapter, verse = last
+    result = list(verses)
+    for index, item in enumerate(result):
+        if item["book_id"] == book and item["chapter"] == chapter and item["verse"] == verse:
+            return result[index + 1 :]
+    raise ValueError(f"进度位置 {book}:{chapter}:{verse} 不存在于原文数据库")
 
 
 def prompt() -> str:
@@ -232,6 +287,8 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="使用 OpenAI 兼容模型批量生成 BibleRecite 题库")
     parser.add_argument("--scripture", type=Path, default=Path("scripture/cmn-cu89s/scripture.sqlite"))
     parser.add_argument("--output", type=Path, default=Path("quiz-bank.json"))
+    parser.add_argument("--progress", type=Path, default=Path("tools/generation_progress.json"),
+                        help="保存最后连续成功位置的本地进度文件")
     parser.add_argument("--translation-id", default="cmn-cu89s")
     parser.add_argument("--base-url", required=True, help="例如 https://open.bigmodel.cn/api/paas/v4")
     parser.add_argument("--model", required=True)
@@ -243,7 +300,8 @@ def main() -> None:
     parser.add_argument("--start-verse", type=int)
     parser.add_argument("--end-verse", type=int)
     parser.add_argument("--batch-size", type=int, default=5)
-    parser.add_argument("--max-per-verse", type=int, default=5)
+    parser.add_argument("--max-per-verse", type=int, default=1,
+                        help="每节达到此题数即跳过；默认先每节一题")
     parser.add_argument("--limit", type=int, help="最多请求多少节")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--timeout", type=int, default=60)
@@ -264,6 +322,12 @@ def main() -> None:
     )
     if args.start_at:
         verses = filter_from(verses, args.start_at)
+        print(f"使用指定起点：{args.start_at[0]}:{args.start_at[1]}:{args.start_at[2]}")
+    elif not args.book and not args.chapter:
+        last = load_progress(args.progress, args.translation_id)
+        if last:
+            verses = filter_after(verses, last)
+            print(f"从上次连续成功位置之后继续：{last[0]}:{last[1]}:{last[2]}")
     for verse in verses:
         verse["reference"] = f"{verse['chapter']}:{verse['verse']}"
         key = (args.translation_id, verse["book_id"], verse["chapter"], verse["verse"])
@@ -274,18 +338,28 @@ def main() -> None:
     print(f"已有 {len(existing)} 道，待处理 {len(candidates)} 节；每次最多 {args.batch_size} 节，串行调用。")
     if args.dry_run:
         return
-    generated: list[dict[str, Any]] = []
+    merged = {question_key(q): q for q in existing}
     for offset in range(0, len(candidates), args.batch_size):
         batch = candidates[offset : offset + args.batch_size]
         raw = call_model(args.base_url, api_key, args.model, batch, args.timeout)
         valid = validate(raw, batch, args.translation_id)
-        generated.extend(valid)
+        for question in valid:
+            merged.setdefault(question_key(question), question)
+        # Persist every successful model response before moving the cursor.
+        write_bank(args.output, merged.values())
+        accepted_refs = {question["reference"] for question in valid}
+        last_contiguous = None
+        for verse in batch:
+            if verse["reference"] not in accepted_refs:
+                break
+            last_contiguous = verse
+        if last_contiguous is not None:
+            write_progress(args.progress, args.translation_id, last_contiguous)
         print(f"{offset + 1}-{offset + len(batch)} 节：模型返回 {len(raw)} 道，通过本机校验 {len(valid)} 道")
-    merged = {question_key(q): q for q in existing}
-    for question in generated:
-        merged.setdefault(question_key(question), question)
+        if last_contiguous is not batch[-1]:
+            print("本批存在未通过校验的节；已保存通过题目，但不越过断点，请下次从进度位置继续。")
+            break
     questions = sorted(merged.values(), key=question_key)
-    args.output.write_text(json.dumps({"format": FORMAT, "version": VERSION, "questions": questions}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"写入 {args.output}：新增 {len(questions) - len(existing)} 道，合计 {len(questions)} 道。随后运行 tools/update_quiz_bank_index.py。")
 
 

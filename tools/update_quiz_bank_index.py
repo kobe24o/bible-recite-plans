@@ -9,6 +9,11 @@ import json
 from pathlib import Path
 
 
+def git_bytes(path: Path) -> bytes:
+    """Use the LF bytes Git publishes, even from a Windows CRLF checkout."""
+    return path.read_bytes().replace(b"\r\n", b"\n")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="更新 BibleRecite 题库索引")
     parser.add_argument("--bank", type=Path, default=Path("quiz-bank.json"))
@@ -16,7 +21,7 @@ def main() -> None:
     parser.add_argument("--revision", type=int, help="显式指定 revision；默认在原值上加一")
     args = parser.parse_args()
 
-    bank_bytes = args.bank.read_bytes()
+    bank_bytes = git_bytes(args.bank)
     root = json.loads(args.index.read_text(encoding="utf-8")) if args.index.exists() else {
         "format": "bible-recite-quiz-bank-index", "version": 1, "revision": 0, "shards": []
     }
@@ -29,7 +34,7 @@ def main() -> None:
     shards.append(shard)
     root["shards"] = sorted(shards, key=lambda item: item["path"])
     root["revision"] = args.revision if args.revision is not None else int(root.get("revision", 0)) + 1
-    args.index.write_text(json.dumps(root, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    args.index.write_bytes((json.dumps(root, ensure_ascii=False, indent=2) + "\n").encode("utf-8"))
     print(f"revision {root['revision']}，{path}：{len(bank_bytes)} bytes，sha256 {digest}")
 
 

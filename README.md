@@ -21,6 +21,7 @@ tools/generate_quiz_bank.py           串行批量调用 OpenAI 兼容模型并�
 tools/merge_quiz_banks.py             合并多个导出题库、按位置去重
 tools/update_quiz_bank_index.py       更新 SHA-256、大小与 revision
 tools/quiz_bank_stats.py              按译本统计节覆盖率与平均题数
+tools/validate_quiz_bank.py           校验格式、重复位置、原文 UTF-16 下标与索引
 ```
 
 原文为 eBible 提供的 `cmn-cu89s`，公共领域；来源、SHA-256 与获取日期记录在同目录的 `LICENSE.txt`、`manifest.json`。SQLite 的 `verse_unit` 表包含卷、章、起止节、经文及状态；工具只使用 `present` 且一节对应一个 unit 的经文。
@@ -45,7 +46,7 @@ python tools/generate_quiz_bank.py --dry-run `
   --from GEN:1:1
 ```
 
-脚本默认使用简体和合本 `cmn-cu89s`，一次发送 5 节、**严格串行**调用，适合只有 1 并发额度的模型账户。`--from 卷:章:节` 可以在每次启动时指定精确断点，随后按圣经全书顺序继续；例如完成创世记一部分后，下次可传 `--from GEN:12:1`。如只想处理固定范围，仍可使用 `--book GEN --chapter 1 --start-verse 1 --end-verse 31`。
+脚本默认使用简体和合本 `cmn-cu89s`，一次发送 5 节、**严格串行**调用，适合只有 1 并发额度的模型账户。每次成功写入连续的一批题目后，会将最后位置记录到本机 `tools/generation_progress.json`（该文件已被 Git 忽略）。下次不传 `--from` 时，会自动从该位置的下一节继续；可随时用 `--from 卷:章:节` 覆盖进度并指定精确断点，例如 `--from GEN:12:1`。如果一批内出现未通过校验的节，脚本会保存已通过题目但停在断点前，防止跳过失败节。如只想处理固定范围，仍可使用 `--book GEN --chapter 1 --start-verse 1 --end-verse 31`。
 
 每节只收一题；模型返回的 UTF-16 下标、答案切片、词性、解释对象和无意义词规则都会在本机原文上重新验证。已有某节 5 题时默认不再请求；可用 `--max-per-verse` 调整。输出为题库格式 v2，不会写入经文文本。
 
@@ -67,10 +68,12 @@ python tools/quiz_bank_stats.py --bank quiz-bank.json `
 
 ```powershell
 python tools/merge_quiz_banks.py -o quiz-bank.json bank-a.json bank-b.json
+python tools/validate_quiz_bank.py --bank quiz-bank.json
 python tools/update_quiz_bank_index.py --bank quiz-bank.json --index quiz-bank.index.json
+python tools/validate_quiz_bank.py --bank quiz-bank.json --index quiz-bank.index.json
 git add quiz-bank.json quiz-bank.index.json
 git commit -m "chore: update quiz bank"
 git push
 ```
 
-合并工具兼容旧版 v1 导出，但会丢弃旧文件中重复的 `verseText`；同一译本、卷、章、节、开始/结束位置视为同一题，按输入顺序保留第一题。索引工具会计算文件字节数与 SHA-256，并自动将 `revision` 加一；App 会先检查小索引，只有哈希改变才下载题库。
+合并工具兼容旧版 v1 导出，但会丢弃旧文件中重复的 `verseText`；同一译本、卷、章、节、开始/结束位置视为同一题，按输入顺序保留第一题。校验工具会拒绝 v1 输出、`verseText`、重复位置、无意义功能词、答案词前缀、原文中不存在的节以及不匹配的 UTF-16 切片；可通过重复的 `--translation` 校验其它译本。索引工具会计算文件字节数与 SHA-256，并自动将 `revision` 加一；App 会先检查小索引，只有哈希改变才下载题库。

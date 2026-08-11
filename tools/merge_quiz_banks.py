@@ -80,11 +80,10 @@ def main() -> None:
         for question in questions:
             merged.setdefault(key(question), question)
     ordered = sorted(merged.values(), key=key)
-    args.output.write_text(
+    args.output.write_bytes((
         json.dumps({"format": FORMAT, "version": VERSION, "questions": ordered}, ensure_ascii=False, indent=2)
-        + "\n",
-        encoding="utf-8",
-    )
+        + "\n"
+    ).encode("utf-8"))
     print(f"输入 {total} 道，保留 {len(ordered)} 道，去重 {total - len(ordered)} 道：{args.output}")
 
 
