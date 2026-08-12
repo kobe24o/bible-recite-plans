@@ -117174,6 +117174,18 @@
       "translationId": "cmn-cu89s",
       "bookId": "JOB",
       "chapter": 10,
+      "verse": 1,
+      "start": 18,
+      "end": 20,
+      "word": "哀情",
+      "partOfSpeech": "名词",
+      "meaning": "哀伤之情",
+      "reference": "10:1"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "JOB",
+      "chapter": 10,
       "verse": 2,
       "start": 14,
       "end": 16,
