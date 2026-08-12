@@ -135474,6 +135474,18 @@
       "translationId": "cmn-cu89s",
       "bookId": "NEH",
       "chapter": 13,
+      "verse": 12,
+      "start": 21,
+      "end": 23,
+      "word": "库房",
+      "partOfSpeech": "名词",
+      "meaning": "仓库",
+      "reference": "13:12"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "NEH",
+      "chapter": 13,
       "verse": 13,
       "start": 22,
       "end": 24,
