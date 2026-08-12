@@ -69738,6 +69738,18 @@
       "translationId": "cmn-cu89s",
       "bookId": "EST",
       "chapter": 5,
+      "verse": 3,
+      "start": 27,
+      "end": 29,
+      "word": "一半",
+      "partOfSpeech": "数量词",
+      "meaning": "二分之一",
+      "reference": "5:3"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "EST",
+      "chapter": 5,
       "verse": 4,
       "start": 27,
       "end": 29,
@@ -69990,6 +70002,18 @@
       "translationId": "cmn-cu89s",
       "bookId": "EST",
       "chapter": 6,
+      "verse": 11,
+      "start": 20,
+      "end": 22,
+      "word": "走遍",
+      "partOfSpeech": "动词",
+      "meaning": "走完各处",
+      "reference": "6:11"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "EST",
+      "chapter": 6,
       "verse": 12,
       "start": 12,
       "end": 16,
@@ -70009,6 +70033,18 @@
       "partOfSpeech": "动词",
       "meaning": "衰败",
       "reference": "6:13"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "EST",
+      "chapter": 6,
+      "verse": 14,
+      "start": 14,
+      "end": 16,
+      "word": "太监",
+      "partOfSpeech": "名词",
+      "meaning": "宦官",
+      "reference": "6:14"
     },
     {
       "translationId": "cmn-cu89s",
