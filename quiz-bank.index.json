@@ -1,12 +1,12 @@
 {
-  "revision": 510,
+  "revision": 511,
   "format": "bible-recite-quiz-bank-index",
   "version": 1,
   "shards": [
     {
       "path": "quiz-bank.json",
-      "sha256": "9c4e598c30c0956b12949a696a03802e4b74623c21388084b0e9aff00e1ad6c6",
-      "bytes": 6009245
+      "sha256": "2caec8866e591dc26b163565cef71212ced04996f15281550d78b470c431ca6b",
+      "bytes": 6011067
     }
   ]
 }
