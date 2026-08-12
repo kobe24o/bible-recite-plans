@@ -116224,6 +116224,18 @@
     },
     {
       "translationId": "cmn-cu89s",
+      "bookId": "JOB",
+      "chapter": 6,
+      "verse": 30,
+      "start": 18,
+      "end": 20,
+      "word": "奸恶",
+      "partOfSpeech": "名词",
+      "meaning": "奸邪罪恶",
+      "reference": "6:30"
+    },
+    {
+      "translationId": "cmn-cu89s",
       "bookId": "JOS",
       "chapter": 1,
       "verse": 1,
