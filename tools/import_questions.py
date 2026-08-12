@@ -105,7 +105,7 @@ def main() -> None:
             added += 1
     write_bank(args.output, merged.values())
 
-    bank_has = set(merged)
+    bank_has = {(k[0], k[1], k[2], k[3]) for k in merged}
     last_contiguous = None
     for verse in verses:
         key = (args.translation_id, verse["book_id"], verse["chapter"], verse["verse"])
