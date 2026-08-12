@@ -47,3 +47,13 @@ Entries discovered by the Agent during task execution should follow this format:
 - Instructions:
   - 远端 https://github.com/kobe24o/bible-recite-plans，默认分支 main；每批提交格式 `feat: add <BOOK> X-Y quiz bank questions and refresh index`，commit 尾附 `Co-authored-by: monkeycode-ai <monkeycode-ai@chaitin.com>`。
   - 用户要求串行逐批生成并追加到主库 quiz-bank.json，从上次结束处继续。
+
+[Project Knowledge Summary]
+- Date: 2026-08-12
+- Context: 手工 LLM 批次推进进度（HOS 10 起至 MAT 4:25）
+- Category: Build Methods
+- Instructions:
+  - 已用 `import_questions.py --batch tools/batch_<book>.json --book <OSIS>` 完成整卷旧约（HOS-JOL-AMO-OBA-JON-MIC-NAM-HAB-ZEP-HAG-ZEC-MAL，另 MAT 1-4 部分）并全部推送；题库 revision 已到 516，总数约 23054，覆盖率 74.4%。
+  - 下一批应从 MAT 5:1 继续，每 2 章一批、一批一 commit 一 push；提交消息 `feat: add <BOOK> X-Y quiz questions`，失败词条单独 `fix:` 提交。
+  - 词首/词尾禁区（BOUNDARY_WORDS = FUNCTION_WORDS + 你我他她它）：以/那/为/还/没/会/把/对/和/但/且/从/便/里/下/上/到/中/能/其/刚/过/着/了/的/等 等均不可作为多字词的第一个或最后一个字；单字答案也不得等于 FUNCTION_WORDS 中任一字。
+  - 选择词前先在原文里 `find` 确认连续子串存在（如「受他的洗」里没有连续「受洗」）。
