@@ -132870,6 +132870,30 @@
       "translationId": "cmn-cu89s",
       "bookId": "NEH",
       "chapter": 7,
+      "verse": 44,
+      "start": 4,
+      "end": 6,
+      "word": "亚萨",
+      "partOfSpeech": "专有名词",
+      "meaning": "歌唱者的先祖",
+      "reference": "7:44"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "NEH",
+      "chapter": 7,
+      "verse": 45,
+      "start": 4,
+      "end": 6,
+      "word": "沙龙",
+      "partOfSpeech": "专有名词",
+      "meaning": "守门者家族",
+      "reference": "7:45"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "NEH",
+      "chapter": 7,
       "verse": 46,
       "start": 0,
       "end": 3,
@@ -133193,6 +133217,18 @@
     {
       "translationId": "cmn-cu89s",
       "bookId": "NEH",
+      "chapter": 7,
+      "verse": 73,
+      "start": 24,
+      "end": 27,
+      "word": "尼提宁",
+      "partOfSpeech": "名词",
+      "meaning": "殿役",
+      "reference": "7:73"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "NEH",
       "chapter": 8,
       "verse": 1,
       "start": 33,
@@ -133261,6 +133297,18 @@
       "partOfSpeech": "动词",
       "meaning": "恭敬礼拜",
       "reference": "8:6"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "NEH",
+      "chapter": 8,
+      "verse": 7,
+      "start": 45,
+      "end": 48,
+      "word": "毗莱雅",
+      "partOfSpeech": "专有名词",
+      "meaning": "利未人",
+      "reference": "8:7"
     },
     {
       "translationId": "cmn-cu89s",
@@ -133381,6 +133429,18 @@
       "partOfSpeech": "专有名词",
       "meaning": "摩西的继承人",
       "reference": "8:17"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "NEH",
+      "chapter": 8,
+      "verse": 18,
+      "start": 25,
+      "end": 27,
+      "word": "守节",
+      "partOfSpeech": "动词",
+      "meaning": "守节日",
+      "reference": "8:18"
     },
     {
       "translationId": "cmn-cu89s",
