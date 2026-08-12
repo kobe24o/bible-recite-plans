@@ -1,0 +1,23 @@
+[
+  {"reference": "3:1", "word": "二次", "partOfSpeech": "数词", "meaning": "二次：第二次"},
+  {"reference": "3:2", "word": "宣告", "partOfSpeech": "动词", "meaning": "宣告：公开宣布"},
+  {"reference": "3:3", "word": "路程", "partOfSpeech": "名词", "meaning": "路程：道路距离"},
+  {"reference": "3:4", "word": "倾覆", "partOfSpeech": "动词", "meaning": "倾覆：颠覆灭亡"},
+  {"reference": "3:5", "word": "信服", "partOfSpeech": "动词", "meaning": "信服：相信佩服"},
+  {"reference": "3:6", "word": "宝座", "partOfSpeech": "名词", "meaning": "宝座：君王的座位"},
+  {"reference": "3:7", "word": "大臣", "partOfSpeech": "名词", "meaning": "大臣：朝廷官员"},
+  {"reference": "3:8", "word": "恶道", "partOfSpeech": "名词", "meaning": "恶道：邪恶的道路"},
+  {"reference": "3:9", "word": "烈怒", "partOfSpeech": "名词", "meaning": "烈怒：强烈的怒气"},
+  {"reference": "3:10", "word": "察看", "partOfSpeech": "动词", "meaning": "察看：仔细查看"},
+  {"reference": "4:1", "word": "发怒", "partOfSpeech": "动词", "meaning": "发怒：生气"},
+  {"reference": "4:2", "word": "恩典", "partOfSpeech": "名词", "meaning": "恩典：恩惠"},
+  {"reference": "4:3", "word": "命", "partOfSpeech": "名词", "meaning": "命：生命"},
+  {"reference": "4:4", "word": "合乎理", "partOfSpeech": "动词", "meaning": "合乎理：合乎道理"},
+  {"reference": "4:5", "word": "东边", "partOfSpeech": "名词", "meaning": "东边：东方"},
+  {"reference": "4:6", "word": "蓖麻", "partOfSpeech": "名词", "meaning": "蓖麻：植物名"},
+  {"reference": "4:7", "word": "枯槁", "partOfSpeech": "动词", "meaning": "枯槁：干枯"},
+  {"reference": "4:8", "word": "曝晒", "partOfSpeech": "动词", "meaning": "曝晒：猛烈晒"},
+  {"reference": "4:9", "word": "死", "partOfSpeech": "名词", "meaning": "死：死亡"},
+  {"reference": "4:10", "word": "培养", "partOfSpeech": "动词", "meaning": "培养：栽培养育"},
+  {"reference": "4:11", "word": "分辨", "partOfSpeech": "动词", "meaning": "分辨：辨别分清"}
+]
