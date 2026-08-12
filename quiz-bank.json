@@ -116706,6 +116706,18 @@
       "translationId": "cmn-cu89s",
       "bookId": "JOB",
       "chapter": 8,
+      "verse": 19,
+      "start": 7,
+      "end": 11,
+      "word": "道中之乐",
+      "partOfSpeech": "名词",
+      "meaning": "道路上的欢乐",
+      "reference": "8:19"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "JOB",
+      "chapter": 8,
       "verse": 20,
       "start": 3,
       "end": 5,
