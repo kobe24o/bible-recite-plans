@@ -4,6 +4,1194 @@
   "questions": [
     {
       "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 1,
+      "start": 5,
+      "end": 7,
+      "word": "老迈",
+      "partOfSpeech": "形容词",
+      "meaning": "年老体衰",
+      "reference": "1:1"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 2,
+      "start": 20,
+      "end": 22,
+      "word": "处女",
+      "partOfSpeech": "名词",
+      "meaning": "未婚女子",
+      "reference": "1:2"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 3,
+      "start": 25,
+      "end": 28,
+      "word": "亚比煞",
+      "partOfSpeech": "专有名词",
+      "meaning": "书念的童女名",
+      "reference": "1:3"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 4,
+      "start": 23,
+      "end": 25,
+      "word": "亲近",
+      "partOfSpeech": "动词",
+      "meaning": "接近",
+      "reference": "1:4"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 5,
+      "start": 30,
+      "end": 32,
+      "word": "车辆",
+      "partOfSpeech": "名词",
+      "meaning": "车子",
+      "reference": "1:5"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 6,
+      "start": 9,
+      "end": 11,
+      "word": "忧闷",
+      "partOfSpeech": "形容词",
+      "meaning": "忧愁烦闷",
+      "reference": "1:6"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 7,
+      "start": 21,
+      "end": 23,
+      "word": "商议",
+      "partOfSpeech": "动词",
+      "meaning": "商量讨论",
+      "reference": "1:7"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 8,
+      "start": 3,
+      "end": 5,
+      "word": "撒督",
+      "partOfSpeech": "专有名词",
+      "meaning": "祭司名",
+      "reference": "1:8"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 9,
+      "start": 26,
+      "end": 28,
+      "word": "肥犊",
+      "partOfSpeech": "名词",
+      "meaning": "肥壮的小牛",
+      "reference": "1:9"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 10,
+      "start": 2,
+      "end": 4,
+      "word": "先知",
+      "partOfSpeech": "名词",
+      "meaning": "预言者",
+      "reference": "1:10"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 11,
+      "start": 9,
+      "end": 12,
+      "word": "拔示巴",
+      "partOfSpeech": "专有名词",
+      "meaning": "所罗门的母亲",
+      "reference": "1:11"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 12,
+      "start": 9,
+      "end": 11,
+      "word": "主意",
+      "partOfSpeech": "名词",
+      "meaning": "办法",
+      "reference": "1:12"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 13,
+      "start": 25,
+      "end": 27,
+      "word": "起誓",
+      "partOfSpeech": "动词",
+      "meaning": "发誓",
+      "reference": "1:13"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 14,
+      "start": 17,
+      "end": 19,
+      "word": "证实",
+      "partOfSpeech": "动词",
+      "meaning": "证明属实",
+      "reference": "1:14"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 15,
+      "start": 5,
+      "end": 7,
+      "word": "内室",
+      "partOfSpeech": "名词",
+      "meaning": "里屋",
+      "reference": "1:15"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 16,
+      "start": 5,
+      "end": 7,
+      "word": "屈身",
+      "partOfSpeech": "动词",
+      "meaning": "弯腰",
+      "reference": "1:16"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 17,
+      "start": 11,
+      "end": 13,
+      "word": "婢女",
+      "partOfSpeech": "名词",
+      "meaning": "女仆",
+      "reference": "1:17"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 18,
+      "start": 6,
+      "end": 8,
+      "word": "作王",
+      "partOfSpeech": "动词",
+      "meaning": "当王",
+      "reference": "1:18"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 19,
+      "start": 26,
+      "end": 28,
+      "word": "元帅",
+      "partOfSpeech": "名词",
+      "meaning": "军队统帅",
+      "reference": "1:19"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 20,
+      "start": 15,
+      "end": 17,
+      "word": "仰望",
+      "partOfSpeech": "动词",
+      "meaning": "抬头期望",
+      "reference": "1:20"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 21,
+      "start": 28,
+      "end": 30,
+      "word": "罪人",
+      "partOfSpeech": "名词",
+      "meaning": "犯罪之人",
+      "reference": "1:21"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 22,
+      "start": 14,
+      "end": 16,
+      "word": "拿单",
+      "partOfSpeech": "专有名词",
+      "meaning": "先知名",
+      "reference": "1:22"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 23,
+      "start": 2,
+      "end": 4,
+      "word": "奏告",
+      "partOfSpeech": "动词",
+      "meaning": "禀报",
+      "reference": "1:23"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 24,
+      "start": 11,
+      "end": 13,
+      "word": "应许",
+      "partOfSpeech": "动词",
+      "meaning": "许诺",
+      "reference": "1:24"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 25,
+      "start": 44,
+      "end": 46,
+      "word": "吃喝",
+      "partOfSpeech": "动词",
+      "meaning": "饮食",
+      "reference": "1:25"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 26,
+      "start": 8,
+      "end": 10,
+      "word": "仆人",
+      "partOfSpeech": "名词",
+      "meaning": "佣人",
+      "reference": "1:26"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 27,
+      "start": 16,
+      "end": 18,
+      "word": "告诉",
+      "partOfSpeech": "动词",
+      "meaning": "告知",
+      "reference": "1:27"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 28,
+      "start": 3,
+      "end": 5,
+      "word": "吩咐",
+      "partOfSpeech": "动词",
+      "meaning": "命令嘱咐",
+      "reference": "1:28"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 29,
+      "start": 17,
+      "end": 19,
+      "word": "苦难",
+      "partOfSpeech": "名词",
+      "meaning": "痛苦灾难",
+      "reference": "1:29"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 30,
+      "start": 28,
+      "end": 30,
+      "word": "接续",
+      "partOfSpeech": "动词",
+      "meaning": "接着继承",
+      "reference": "1:30"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 31,
+      "start": 14,
+      "end": 15,
+      "word": "拜",
+      "partOfSpeech": "动词",
+      "meaning": "跪拜行礼",
+      "reference": "1:31"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 32,
+      "start": 30,
+      "end": 32,
+      "word": "召来",
+      "partOfSpeech": "动词",
+      "meaning": "召唤",
+      "reference": "1:32"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 33,
+      "start": 27,
+      "end": 29,
+      "word": "骡子",
+      "partOfSpeech": "名词",
+      "meaning": "驴与马杂交的牲口",
+      "reference": "1:33"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 34,
+      "start": 27,
+      "end": 29,
+      "word": "吹角",
+      "partOfSpeech": "动词",
+      "meaning": "吹号角",
+      "reference": "1:34"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 35,
+      "start": 36,
+      "end": 37,
+      "word": "君",
+      "partOfSpeech": "名词",
+      "meaning": "君王",
+      "reference": "1:35"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 36,
+      "start": 33,
+      "end": 35,
+      "word": "命定",
+      "partOfSpeech": "动词",
+      "meaning": "注定安排",
+      "reference": "1:36"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 37,
+      "start": 27,
+      "end": 29,
+      "word": "国位",
+      "partOfSpeech": "名词",
+      "meaning": "王位",
+      "reference": "1:37"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 38,
+      "start": 25,
+      "end": 29,
+      "word": "基利提人",
+      "partOfSpeech": "专有名词",
+      "meaning": "大卫的护卫族群",
+      "reference": "1:38"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 39,
+      "start": 12,
+      "end": 14,
+      "word": "膏油",
+      "partOfSpeech": "名词",
+      "meaning": "涂抹用的油",
+      "reference": "1:39"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 40,
+      "start": 9,
+      "end": 11,
+      "word": "吹笛",
+      "partOfSpeech": "动词",
+      "meaning": "吹奏笛子",
+      "reference": "1:40"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 41,
+      "start": 10,
+      "end": 12,
+      "word": "筵宴",
+      "partOfSpeech": "名词",
+      "meaning": "宴席",
+      "reference": "1:41"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 42,
+      "start": 39,
+      "end": 41,
+      "word": "忠义",
+      "partOfSpeech": "形容词",
+      "meaning": "忠诚义气",
+      "reference": "1:42"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 43,
+      "start": 18,
+      "end": 20,
+      "word": "诚然",
+      "partOfSpeech": "副词",
+      "meaning": "确实",
+      "reference": "1:43"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 44,
+      "start": 1,
+      "end": 3,
+      "word": "差遣",
+      "partOfSpeech": "动词",
+      "meaning": "派遣",
+      "reference": "1:44"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 45,
+      "start": 25,
+      "end": 27,
+      "word": "欢呼",
+      "partOfSpeech": "动词",
+      "meaning": "高声欢叫",
+      "reference": "1:45"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 46,
+      "start": 7,
+      "end": 9,
+      "word": "国位",
+      "partOfSpeech": "名词",
+      "meaning": "王位",
+      "reference": "1:46"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 47,
+      "start": 36,
+      "end": 38,
+      "word": "尊荣",
+      "partOfSpeech": "形容词",
+      "meaning": "尊贵荣耀",
+      "reference": "1:47"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 48,
+      "start": 18,
+      "end": 20,
+      "word": "称颂",
+      "partOfSpeech": "动词",
+      "meaning": "赞美颂扬",
+      "reference": "1:48"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 49,
+      "start": 15,
+      "end": 17,
+      "word": "惊惧",
+      "partOfSpeech": "形容词",
+      "meaning": "惊恐害怕",
+      "reference": "1:49"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 50,
+      "start": 17,
+      "end": 19,
+      "word": "祭坛",
+      "partOfSpeech": "名词",
+      "meaning": "献祭用的坛",
+      "reference": "1:50"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 51,
+      "start": 48,
+      "end": 49,
+      "word": "刀",
+      "partOfSpeech": "名词",
+      "meaning": "兵器",
+      "reference": "1:51"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 52,
+      "start": 17,
+      "end": 19,
+      "word": "头发",
+      "partOfSpeech": "名词",
+      "meaning": "毛发",
+      "reference": "1:52"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 1,
+      "verse": 53,
+      "start": 42,
+      "end": 44,
+      "word": "回家",
+      "partOfSpeech": "动词",
+      "meaning": "返回家",
+      "reference": "1:53"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 1,
+      "start": 3,
+      "end": 5,
+      "word": "死期",
+      "partOfSpeech": "名词",
+      "meaning": "死亡之日",
+      "reference": "2:1"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 2,
+      "start": 22,
+      "end": 25,
+      "word": "大丈夫",
+      "partOfSpeech": "名词",
+      "meaning": "刚强男子",
+      "reference": "2:2"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 3,
+      "start": 36,
+      "end": 38,
+      "word": "诫命",
+      "partOfSpeech": "名词",
+      "meaning": "命令",
+      "reference": "2:3"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 4,
+      "start": 18,
+      "end": 20,
+      "word": "子孙",
+      "partOfSpeech": "名词",
+      "meaning": "后代",
+      "reference": "2:4"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 5,
+      "start": 35,
+      "end": 38,
+      "word": "押尼珥",
+      "partOfSpeech": "专有名词",
+      "meaning": "以色列元帅",
+      "reference": "2:5"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 6,
+      "start": 19,
+      "end": 21,
+      "word": "阴间",
+      "partOfSpeech": "名词",
+      "meaning": "地下阴府",
+      "reference": "2:6"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 7,
+      "start": 7,
+      "end": 10,
+      "word": "巴西莱",
+      "partOfSpeech": "专有名词",
+      "meaning": "基列人",
+      "reference": "2:7"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 8,
+      "start": 24,
+      "end": 27,
+      "word": "玛哈念",
+      "partOfSpeech": "专有名词",
+      "meaning": "地名",
+      "reference": "2:8"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 9,
+      "start": 13,
+      "end": 16,
+      "word": "聪明人",
+      "partOfSpeech": "名词",
+      "meaning": "有智慧的人",
+      "reference": "2:9"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 10,
+      "start": 4,
+      "end": 6,
+      "word": "列祖",
+      "partOfSpeech": "名词",
+      "meaning": "历代祖先",
+      "reference": "2:10"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 11,
+      "start": 12,
+      "end": 14,
+      "word": "希伯",
+      "partOfSpeech": "专有名词",
+      "meaning": "地名，希伯仑简称",
+      "reference": "2:11"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 12,
+      "start": 17,
+      "end": 19,
+      "word": "坚固",
+      "partOfSpeech": "形容词",
+      "meaning": "稳固坚实",
+      "reference": "2:12"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 13,
+      "start": 33,
+      "end": 35,
+      "word": "平安",
+      "partOfSpeech": "名词",
+      "meaning": "安宁",
+      "reference": "2:13"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 14,
+      "start": 6,
+      "end": 7,
+      "word": "话",
+      "partOfSpeech": "名词",
+      "meaning": "言语",
+      "reference": "2:14"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 15,
+      "start": 10,
+      "end": 11,
+      "word": "国",
+      "partOfSpeech": "名词",
+      "meaning": "国家王权",
+      "reference": "2:15"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 16,
+      "start": 14,
+      "end": 16,
+      "word": "推辞",
+      "partOfSpeech": "动词",
+      "meaning": "拒绝",
+      "reference": "2:16"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 17,
+      "start": 17,
+      "end": 20,
+      "word": "亚比煞",
+      "partOfSpeech": "专有名词",
+      "meaning": "书念的女子",
+      "reference": "2:17"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 18,
+      "start": 0,
+      "end": 3,
+      "word": "拔示巴",
+      "partOfSpeech": "专有名词",
+      "meaning": "所罗门的母亲",
+      "reference": "2:18"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 19,
+      "start": 25,
+      "end": 27,
+      "word": "迎接",
+      "partOfSpeech": "动词",
+      "meaning": "上前迎接",
+      "reference": "2:19"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 20,
+      "start": 10,
+      "end": 12,
+      "word": "小事",
+      "partOfSpeech": "名词",
+      "meaning": "轻微之事",
+      "reference": "2:20"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 21,
+      "start": 20,
+      "end": 22,
+      "word": "哥哥",
+      "partOfSpeech": "名词",
+      "meaning": "兄长",
+      "reference": "2:21"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 22,
+      "start": 58,
+      "end": 60,
+      "word": "约押",
+      "partOfSpeech": "专有名词",
+      "meaning": "大卫的元帅",
+      "reference": "2:22"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 23,
+      "start": 36,
+      "end": 38,
+      "word": "降罚",
+      "partOfSpeech": "动词",
+      "meaning": "施加惩罚",
+      "reference": "2:23"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 24,
+      "start": 3,
+      "end": 5,
+      "word": "坚立",
+      "partOfSpeech": "动词",
+      "meaning": "坚定树立",
+      "reference": "2:24"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 25,
+      "start": 24,
+      "end": 26,
+      "word": "杀死",
+      "partOfSpeech": "动词",
+      "meaning": "杀掉",
+      "reference": "2:25"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 26,
+      "start": 13,
+      "end": 16,
+      "word": "亚拿突",
+      "partOfSpeech": "专有名词",
+      "meaning": "地名",
+      "reference": "2:26"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 27,
+      "start": 4,
+      "end": 6,
+      "word": "革除",
+      "partOfSpeech": "动词",
+      "meaning": "撤除免职",
+      "reference": "2:27"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 28,
+      "start": 35,
+      "end": 37,
+      "word": "帐幕",
+      "partOfSpeech": "名词",
+      "meaning": "帐篷",
+      "reference": "2:28"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 29,
+      "start": 28,
+      "end": 30,
+      "word": "旁边",
+      "partOfSpeech": "名词",
+      "meaning": "附近",
+      "reference": "2:29"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 30,
+      "start": 51,
+      "end": 53,
+      "word": "回复",
+      "partOfSpeech": "动词",
+      "meaning": "回答报告",
+      "reference": "2:30"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 31,
+      "start": 20,
+      "end": 22,
+      "word": "葬埋",
+      "partOfSpeech": "动词",
+      "meaning": "埋葬",
+      "reference": "2:31"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 32,
+      "start": 64,
+      "end": 67,
+      "word": "亚玛撒",
+      "partOfSpeech": "专有名词",
+      "meaning": "犹大元帅",
+      "reference": "2:32"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 33,
+      "start": 17,
+      "end": 19,
+      "word": "后裔",
+      "partOfSpeech": "名词",
+      "meaning": "后代子孙",
+      "reference": "2:33"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 34,
+      "start": 30,
+      "end": 32,
+      "word": "坟墓",
+      "partOfSpeech": "名词",
+      "meaning": "坟穴",
+      "reference": "2:34"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 35,
+      "start": 14,
+      "end": 16,
+      "word": "元帅",
+      "partOfSpeech": "名词",
+      "meaning": "军队统帅",
+      "reference": "2:35"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 36,
+      "start": 22,
+      "end": 24,
+      "word": "建造",
+      "partOfSpeech": "动词",
+      "meaning": "修建",
+      "reference": "2:36"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 37,
+      "start": 14,
+      "end": 17,
+      "word": "汲沦溪",
+      "partOfSpeech": "专有名词",
+      "meaning": "溪名",
+      "reference": "2:37"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 38,
+      "start": 36,
+      "end": 40,
+      "word": "耶路撒冷",
+      "partOfSpeech": "专有名词",
+      "meaning": "圣城名",
+      "reference": "2:38"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 39,
+      "start": 14,
+      "end": 16,
+      "word": "迦特",
+      "partOfSpeech": "专有名词",
+      "meaning": "地名",
+      "reference": "2:39"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 40,
+      "start": 32,
+      "end": 34,
+      "word": "回来",
+      "partOfSpeech": "动词",
+      "meaning": "返回",
+      "reference": "2:40"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 41,
+      "start": 10,
+      "end": 12,
+      "word": "示每",
+      "partOfSpeech": "专有名词",
+      "meaning": "便雅悯人名",
+      "reference": "2:41"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 42,
+      "start": 33,
+      "end": 35,
+      "word": "警戒",
+      "partOfSpeech": "动词",
+      "meaning": "警告",
+      "reference": "2:42"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 43,
+      "start": 6,
+      "end": 8,
+      "word": "遵守",
+      "partOfSpeech": "动词",
+      "meaning": "遵从实行",
+      "reference": "2:43"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 44,
+      "start": 20,
+      "end": 22,
+      "word": "恶事",
+      "partOfSpeech": "名词",
+      "meaning": "坏事",
+      "reference": "2:44"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 45,
+      "start": 7,
+      "end": 9,
+      "word": "得福",
+      "partOfSpeech": "动词",
+      "meaning": "获得福分",
+      "reference": "2:45"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "1KI",
+      "chapter": 2,
+      "verse": 46,
+      "start": 28,
+      "end": 30,
+      "word": "坚定",
+      "partOfSpeech": "动词",
+      "meaning": "稳固",
+      "reference": "2:46"
+    },
+    {
+      "translationId": "cmn-cu89s",
       "bookId": "1SA",
       "chapter": 1,
       "verse": 1,
@@ -8746,9 +9934,9 @@
       "start": 9,
       "end": 11,
       "word": "军旅",
-      "reference": "28:1",
       "partOfSpeech": "名词",
-      "meaning": "军队"
+      "meaning": "军队",
+      "reference": "28:1"
     },
     {
       "translationId": "cmn-cu89s",
@@ -8758,9 +9946,9 @@
       "start": 41,
       "end": 44,
       "word": "护卫长",
-      "reference": "28:2",
       "partOfSpeech": "名词",
-      "meaning": "侍卫队长"
+      "meaning": "侍卫队长",
+      "reference": "28:2"
     },
     {
       "translationId": "cmn-cu89s",
@@ -8770,9 +9958,9 @@
       "start": 43,
       "end": 45,
       "word": "交鬼",
-      "reference": "28:3",
       "partOfSpeech": "动词",
-      "meaning": "行巫术招鬼魂"
+      "meaning": "行巫术招鬼魂",
+      "reference": "28:3"
     },
     {
       "translationId": "cmn-cu89s",
@@ -8782,9 +9970,9 @@
       "start": 11,
       "end": 13,
       "word": "安营",
-      "reference": "28:4",
       "partOfSpeech": "动词",
-      "meaning": "扎营"
+      "meaning": "扎营",
+      "reference": "28:4"
     },
     {
       "translationId": "cmn-cu89s",
@@ -8794,9 +9982,9 @@
       "start": 16,
       "end": 18,
       "word": "发颤",
-      "reference": "28:5",
       "partOfSpeech": "动词",
-      "meaning": "发抖"
+      "meaning": "发抖",
+      "reference": "28:5"
     },
     {
       "translationId": "cmn-cu89s",
@@ -8806,9 +9994,9 @@
       "start": 2,
       "end": 4,
       "word": "求问",
-      "reference": "28:6",
       "partOfSpeech": "动词",
-      "meaning": "询问求告"
+      "meaning": "询问求告",
+      "reference": "28:6"
     },
     {
       "translationId": "cmn-cu89s",
@@ -8818,9 +10006,9 @@
       "start": 15,
       "end": 20,
       "word": "交鬼的妇人",
-      "reference": "28:7",
       "partOfSpeech": "名词",
-      "meaning": "行巫术的妇人"
+      "meaning": "行巫术的妇人",
+      "reference": "28:7"
     },
     {
       "translationId": "cmn-cu89s",
@@ -8830,9 +10018,9 @@
       "start": 4,
       "end": 7,
       "word": "改了装",
-      "reference": "28:8",
       "partOfSpeech": "动词",
-      "meaning": "换了装束"
+      "meaning": "换了装束",
+      "reference": "28:8"
     },
     {
       "translationId": "cmn-cu89s",
@@ -8842,9 +10030,9 @@
       "start": 29,
       "end": 31,
       "word": "陷害",
-      "reference": "28:9",
       "partOfSpeech": "动词",
-      "meaning": "设计加害"
+      "meaning": "设计加害",
+      "reference": "28:9"
     },
     {
       "translationId": "cmn-cu89s",
@@ -8854,9 +10042,9 @@
       "start": 33,
       "end": 35,
       "word": "受刑",
-      "reference": "28:10",
       "partOfSpeech": "动词",
-      "meaning": "受刑罚"
+      "meaning": "受刑罚",
+      "reference": "28:10"
     },
     {
       "translationId": "cmn-cu89s",
@@ -8866,9 +10054,9 @@
       "start": 8,
       "end": 12,
       "word": "招谁上来",
-      "reference": "28:11",
       "partOfSpeech": "动词",
-      "meaning": "招谁上来"
+      "meaning": "招谁上来",
+      "reference": "28:11"
     },
     {
       "translationId": "cmn-cu89s",
@@ -8878,9 +10066,9 @@
       "start": 9,
       "end": 13,
       "word": "大声呼叫",
-      "reference": "28:12",
       "partOfSpeech": "动词",
-      "meaning": "高声呼喊"
+      "meaning": "高声呼喊",
+      "reference": "28:12"
     },
     {
       "translationId": "cmn-cu89s",
@@ -8890,9 +10078,9 @@
       "start": 13,
       "end": 18,
       "word": "看见了什么",
-      "reference": "28:13",
       "partOfSpeech": "动词",
-      "meaning": "看见了什么"
+      "meaning": "看见了什么",
+      "reference": "28:13"
     },
     {
       "translationId": "cmn-cu89s",
@@ -8902,9 +10090,9 @@
       "start": 29,
       "end": 31,
       "word": "长衣",
-      "reference": "28:14",
       "partOfSpeech": "名词",
-      "meaning": "长袍"
+      "meaning": "长袍",
+      "reference": "28:14"
     },
     {
       "translationId": "cmn-cu89s",
@@ -8914,9 +10102,9 @@
       "start": 13,
       "end": 15,
       "word": "搅扰",
-      "reference": "28:15",
       "partOfSpeech": "动词",
-      "meaning": "打扰"
+      "meaning": "打扰",
+      "reference": "28:15"
     },
     {
       "translationId": "cmn-cu89s",
@@ -8926,9 +10114,9 @@
       "start": 11,
       "end": 13,
       "word": "离开",
-      "reference": "28:16",
       "partOfSpeech": "动词",
-      "meaning": "离去"
+      "meaning": "离去",
+      "reference": "28:16"
     },
     {
       "translationId": "cmn-cu89s",
@@ -8938,9 +10126,9 @@
       "start": 17,
       "end": 21,
       "word": "夺去国权",
-      "reference": "28:17",
       "partOfSpeech": "动词",
-      "meaning": "夺取王权"
+      "meaning": "夺取王权",
+      "reference": "28:17"
     },
     {
       "translationId": "cmn-cu89s",
@@ -8950,9 +10138,9 @@
       "start": 14,
       "end": 16,
       "word": "恼怒",
-      "reference": "28:18",
       "partOfSpeech": "动词",
-      "meaning": "发怒"
+      "meaning": "发怒",
+      "reference": "28:18"
     },
     {
       "translationId": "cmn-cu89s",
@@ -8962,9 +10150,9 @@
       "start": 15,
       "end": 19,
       "word": "非利士人",
-      "reference": "28:19",
       "partOfSpeech": "名词",
-      "meaning": "非利士人"
+      "meaning": "非利士人",
+      "reference": "28:19"
     },
     {
       "translationId": "cmn-cu89s",
@@ -8974,9 +10162,9 @@
       "start": 4,
       "end": 6,
       "word": "仆倒",
-      "reference": "28:20",
       "partOfSpeech": "动词",
-      "meaning": "倒下"
+      "meaning": "倒下",
+      "reference": "28:20"
     },
     {
       "translationId": "cmn-cu89s",
@@ -8986,9 +10174,9 @@
       "start": 12,
       "end": 14,
       "word": "惊恐",
-      "reference": "28:21",
       "partOfSpeech": "形容词",
-      "meaning": "惊慌恐惧"
+      "meaning": "惊慌恐惧",
+      "reference": "28:21"
     },
     {
       "translationId": "cmn-cu89s",
@@ -8998,9 +10186,9 @@
       "start": 30,
       "end": 32,
       "word": "气力",
-      "reference": "28:22",
       "partOfSpeech": "名词",
-      "meaning": "力气"
+      "meaning": "力气",
+      "reference": "28:22"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9010,9 +10198,9 @@
       "start": 23,
       "end": 24,
       "word": "劝",
-      "reference": "28:23",
       "partOfSpeech": "动词",
-      "meaning": "劝导"
+      "meaning": "劝导",
+      "reference": "28:23"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9022,9 +10210,9 @@
       "start": 10,
       "end": 13,
       "word": "肥牛犊",
-      "reference": "28:24",
       "partOfSpeech": "名词",
-      "meaning": "肥壮小牛"
+      "meaning": "肥壮小牛",
+      "reference": "28:24"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9034,9 +10222,9 @@
       "start": 13,
       "end": 15,
       "word": "吃完",
-      "reference": "28:25",
       "partOfSpeech": "动词",
-      "meaning": "吃喝完毕"
+      "meaning": "吃喝完毕",
+      "reference": "28:25"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9046,9 +10234,9 @@
       "start": 10,
       "end": 14,
       "word": "聚到亚弗",
-      "reference": "29:1",
       "partOfSpeech": "动词",
-      "meaning": "聚集到亚弗"
+      "meaning": "聚集到亚弗",
+      "reference": "29:1"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9058,9 +10246,9 @@
       "start": 17,
       "end": 21,
       "word": "挨次前进",
-      "reference": "29:2",
       "partOfSpeech": "动词",
-      "meaning": "依次行进"
+      "meaning": "依次行进",
+      "reference": "29:2"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9070,9 +10258,9 @@
       "start": 12,
       "end": 16,
       "word": "希伯来人",
-      "reference": "29:3",
       "partOfSpeech": "名词",
-      "meaning": "以色列人"
+      "meaning": "以色列人",
+      "reference": "29:3"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9082,9 +10270,9 @@
       "start": 79,
       "end": 81,
       "word": "首级",
-      "reference": "29:4",
       "partOfSpeech": "名词",
-      "meaning": "人头"
+      "meaning": "人头",
+      "reference": "29:4"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9094,9 +10282,9 @@
       "start": 6,
       "end": 8,
       "word": "妇女",
-      "reference": "29:5",
       "partOfSpeech": "名词",
-      "meaning": "女子"
+      "meaning": "女子",
+      "reference": "29:5"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9106,9 +10294,9 @@
       "start": 26,
       "end": 29,
       "word": "正直人",
-      "reference": "29:6",
       "partOfSpeech": "名词",
-      "meaning": "品行端正的人"
+      "meaning": "品行端正的人",
+      "reference": "29:6"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9118,9 +10306,9 @@
       "start": 20,
       "end": 22,
       "word": "首领",
-      "reference": "29:7",
       "partOfSpeech": "名词",
-      "meaning": "头领"
+      "meaning": "头领",
+      "reference": "29:7"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9130,9 +10318,9 @@
       "start": 50,
       "end": 52,
       "word": "仇敌",
-      "reference": "29:8",
       "partOfSpeech": "名词",
-      "meaning": "敌对之人"
+      "meaning": "敌对之人",
+      "reference": "29:8"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9142,9 +10330,9 @@
       "start": 22,
       "end": 24,
       "word": "使者",
-      "reference": "29:9",
       "partOfSpeech": "名词",
-      "meaning": "奉命传信之人"
+      "meaning": "奉命传信之人",
+      "reference": "29:9"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9154,9 +10342,9 @@
       "start": 29,
       "end": 31,
       "word": "天亮",
-      "reference": "29:10",
       "partOfSpeech": "名词",
-      "meaning": "天明"
+      "meaning": "天明",
+      "reference": "29:10"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9166,9 +10354,9 @@
       "start": 15,
       "end": 17,
       "word": "回往",
-      "reference": "29:11",
       "partOfSpeech": "动词",
-      "meaning": "返回前往"
+      "meaning": "返回前往",
+      "reference": "29:11"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9178,9 +10366,9 @@
       "start": 24,
       "end": 26,
       "word": "侵夺",
-      "reference": "30:1",
       "partOfSpeech": "动词",
-      "meaning": "进犯夺取"
+      "meaning": "进犯夺取",
+      "reference": "30:1"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9190,9 +10378,9 @@
       "start": 11,
       "end": 15,
       "word": "大小人口",
-      "reference": "30:2",
       "partOfSpeech": "名词",
-      "meaning": "老老少少"
+      "meaning": "老老少少",
+      "reference": "30:2"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9202,9 +10390,9 @@
       "start": 18,
       "end": 20,
       "word": "烧毁",
-      "reference": "30:3",
       "partOfSpeech": "动词",
-      "meaning": "焚烧毁坏"
+      "meaning": "焚烧毁坏",
+      "reference": "30:3"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9214,9 +10402,9 @@
       "start": 9,
       "end": 13,
       "word": "放声大哭",
-      "reference": "30:4",
       "partOfSpeech": "动词",
-      "meaning": "放声大哭"
+      "meaning": "放声大哭",
+      "reference": "30:4"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9226,9 +10414,9 @@
       "start": 24,
       "end": 27,
       "word": "亚比该",
-      "reference": "30:5",
       "partOfSpeech": "专有名词",
-      "meaning": "拿八的妻，后嫁大卫"
+      "meaning": "拿八的妻，后嫁大卫",
+      "reference": "30:5"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9238,9 +10426,9 @@
       "start": 4,
       "end": 6,
       "word": "焦急",
-      "reference": "30:6",
       "partOfSpeech": "形容词",
-      "meaning": "焦躁着急"
+      "meaning": "焦躁着急",
+      "reference": "30:6"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9250,9 +10438,9 @@
       "start": 25,
       "end": 28,
       "word": "拿过来",
-      "reference": "30:7",
       "partOfSpeech": "动词",
-      "meaning": "拿过来"
+      "meaning": "拿过来",
+      "reference": "30:7"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9262,9 +10450,9 @@
       "start": 11,
       "end": 13,
       "word": "追赶",
-      "reference": "30:8",
       "partOfSpeech": "动词",
-      "meaning": "追逐"
+      "meaning": "追逐",
+      "reference": "30:8"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9274,9 +10462,9 @@
       "start": 15,
       "end": 18,
       "word": "比梭溪",
-      "reference": "30:9",
       "partOfSpeech": "专有名词",
-      "meaning": "溪名"
+      "meaning": "溪名",
+      "reference": "30:9"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9286,9 +10474,9 @@
       "start": 17,
       "end": 19,
       "word": "疲乏",
-      "reference": "30:10",
       "partOfSpeech": "形容词",
-      "meaning": "困乏"
+      "meaning": "困乏",
+      "reference": "30:10"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9298,9 +10486,9 @@
       "start": 11,
       "end": 14,
       "word": "埃及人",
-      "reference": "30:11",
       "partOfSpeech": "名词",
-      "meaning": "埃及国人"
+      "meaning": "埃及国人",
+      "reference": "30:11"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9310,9 +10498,9 @@
       "start": 21,
       "end": 25,
       "word": "精神复原",
-      "reference": "30:12",
       "partOfSpeech": "动词",
-      "meaning": "恢复精神"
+      "meaning": "恢复精神",
+      "reference": "30:12"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9322,9 +10510,9 @@
       "start": 59,
       "end": 61,
       "word": "撇弃",
-      "reference": "30:13",
       "partOfSpeech": "动词",
-      "meaning": "丢弃"
+      "meaning": "丢弃",
+      "reference": "30:13"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9334,9 +10522,9 @@
       "start": 29,
       "end": 34,
       "word": "烧了洗革拉",
-      "reference": "30:14",
       "partOfSpeech": "动词",
-      "meaning": "焚毁洗革拉"
+      "meaning": "焚毁洗革拉",
+      "reference": "30:14"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9346,9 +10534,9 @@
       "start": 35,
       "end": 37,
       "word": "起誓",
-      "reference": "30:15",
       "partOfSpeech": "动词",
-      "meaning": "发誓"
+      "meaning": "发誓",
+      "reference": "30:15"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9358,9 +10546,9 @@
       "start": 16,
       "end": 20,
       "word": "吃喝跳舞",
-      "reference": "30:16",
       "partOfSpeech": "动词",
-      "meaning": "吃喝并舞蹈"
+      "meaning": "吃喝并舞蹈",
+      "reference": "30:16"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9370,9 +10558,9 @@
       "start": 12,
       "end": 14,
       "word": "击杀",
-      "reference": "30:17",
       "partOfSpeech": "动词",
-      "meaning": "杀死"
+      "meaning": "杀死",
+      "reference": "30:17"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9382,9 +10570,9 @@
       "start": 15,
       "end": 17,
       "word": "夺回",
-      "reference": "30:18",
       "partOfSpeech": "动词",
-      "meaning": "夺回来"
+      "meaning": "夺回来",
+      "reference": "30:18"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9394,9 +10582,9 @@
       "start": 30,
       "end": 32,
       "word": "失落",
-      "reference": "30:19",
       "partOfSpeech": "动词",
-      "meaning": "丢失"
+      "meaning": "丢失",
+      "reference": "30:19"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9406,9 +10594,9 @@
       "start": 36,
       "end": 38,
       "word": "掠物",
-      "reference": "30:20",
       "partOfSpeech": "名词",
-      "meaning": "抢来的物品"
+      "meaning": "抢来的物品",
+      "reference": "30:20"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9418,9 +10606,9 @@
       "start": 28,
       "end": 30,
       "word": "迎接",
-      "reference": "30:21",
       "partOfSpeech": "动词",
-      "meaning": "迎候"
+      "meaning": "迎候",
+      "reference": "30:21"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9430,9 +10618,9 @@
       "start": 10,
       "end": 12,
       "word": "匪类",
-      "reference": "30:22",
       "partOfSpeech": "名词",
-      "meaning": "坏人"
+      "meaning": "坏人",
+      "reference": "30:22"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9442,9 +10630,9 @@
       "start": 30,
       "end": 32,
       "word": "保佑",
-      "reference": "30:23",
       "partOfSpeech": "动词",
-      "meaning": "护佑"
+      "meaning": "护佑",
+      "reference": "30:23"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9454,9 +10642,9 @@
       "start": 31,
       "end": 33,
       "word": "平分",
-      "reference": "30:24",
       "partOfSpeech": "动词",
-      "meaning": "平均分配"
+      "meaning": "平均分配",
+      "reference": "30:24"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9466,9 +10654,9 @@
       "start": 9,
       "end": 13,
       "word": "律例典章",
-      "reference": "30:25",
       "partOfSpeech": "名词",
-      "meaning": "法规条例"
+      "meaning": "法规条例",
+      "reference": "30:25"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9478,9 +10666,9 @@
       "start": 22,
       "end": 24,
       "word": "长老",
-      "reference": "30:26",
       "partOfSpeech": "名词",
-      "meaning": "年长者"
+      "meaning": "年长者",
+      "reference": "30:26"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9490,9 +10678,9 @@
       "start": 2,
       "end": 4,
       "word": "礼物",
-      "reference": "30:27",
       "partOfSpeech": "名词",
-      "meaning": "馈赠物品"
+      "meaning": "馈赠物品",
+      "reference": "30:27"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9502,9 +10690,9 @@
       "start": 6,
       "end": 8,
       "word": "息末",
-      "reference": "30:28",
       "partOfSpeech": "专有名词",
-      "meaning": "地名"
+      "meaning": "地名",
+      "reference": "30:28"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9514,9 +10702,9 @@
       "start": 1,
       "end": 4,
       "word": "拉哈勒",
-      "reference": "30:29",
       "partOfSpeech": "专有名词",
-      "meaning": "地名"
+      "meaning": "地名",
+      "reference": "30:29"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9526,9 +10714,9 @@
       "start": 1,
       "end": 4,
       "word": "何珥玛",
-      "reference": "30:30",
       "partOfSpeech": "专有名词",
-      "meaning": "地名"
+      "meaning": "地名",
+      "reference": "30:30"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9538,9 +10726,9 @@
       "start": 1,
       "end": 3,
       "word": "希伯",
-      "reference": "30:31",
       "partOfSpeech": "专有名词",
-      "meaning": "地名"
+      "meaning": "地名",
+      "reference": "30:31"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9550,9 +10738,9 @@
       "start": 27,
       "end": 30,
       "word": "基利波",
-      "reference": "31:1",
       "partOfSpeech": "专有名词",
-      "meaning": "山名"
+      "meaning": "山名",
+      "reference": "31:1"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9562,9 +10750,9 @@
       "start": 4,
       "end": 6,
       "word": "紧追",
-      "reference": "31:2",
       "partOfSpeech": "动词",
-      "meaning": "紧紧追赶"
+      "meaning": "紧紧追赶",
+      "reference": "31:2"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9574,9 +10762,9 @@
       "start": 14,
       "end": 16,
       "word": "射伤",
-      "reference": "31:3",
       "partOfSpeech": "动词",
-      "meaning": "射中受伤"
+      "meaning": "射中受伤",
+      "reference": "31:3"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9586,9 +10774,9 @@
       "start": 37,
       "end": 39,
       "word": "凌辱",
-      "reference": "31:4",
       "partOfSpeech": "动词",
-      "meaning": "侮辱"
+      "meaning": "侮辱",
+      "reference": "31:4"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9598,9 +10786,9 @@
       "start": 5,
       "end": 10,
       "word": "见扫罗已死",
-      "reference": "31:5",
       "partOfSpeech": "动词",
-      "meaning": "见扫罗已死"
+      "meaning": "见扫罗已死",
+      "reference": "31:5"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9610,9 +10798,9 @@
       "start": 29,
       "end": 33,
       "word": "一同死亡",
-      "reference": "31:6",
       "partOfSpeech": "动词",
-      "meaning": "同归于尽"
+      "meaning": "同归于尽",
+      "reference": "31:6"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9622,9 +10810,9 @@
       "start": 37,
       "end": 41,
       "word": "弃城逃跑",
-      "reference": "31:7",
       "partOfSpeech": "动词",
-      "meaning": "弃城逃走"
+      "meaning": "弃城逃走",
+      "reference": "31:7"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9634,9 +10822,9 @@
       "start": 8,
       "end": 9,
       "word": "剥",
-      "reference": "31:8",
       "partOfSpeech": "动词",
-      "meaning": "剥取"
+      "meaning": "剥取",
+      "reference": "31:8"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9646,9 +10834,9 @@
       "start": 5,
       "end": 7,
       "word": "首级",
-      "reference": "31:9",
       "partOfSpeech": "名词",
-      "meaning": "人头"
+      "meaning": "人头",
+      "reference": "31:9"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9658,9 +10846,9 @@
       "start": 19,
       "end": 21,
       "word": "尸身",
-      "reference": "31:10",
       "partOfSpeech": "名词",
-      "meaning": "尸体"
+      "meaning": "尸体",
+      "reference": "31:10"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9670,9 +10858,9 @@
       "start": 3,
       "end": 5,
       "word": "雅比",
-      "reference": "31:11",
       "partOfSpeech": "专有名词",
-      "meaning": "地名"
+      "meaning": "地名",
+      "reference": "31:11"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9682,9 +10870,9 @@
       "start": 7,
       "end": 9,
       "word": "勇士",
-      "reference": "31:12",
       "partOfSpeech": "名词",
-      "meaning": "勇武之人"
+      "meaning": "勇武之人",
+      "reference": "31:12"
     },
     {
       "translationId": "cmn-cu89s",
@@ -9694,9 +10882,9 @@
       "start": 3,
       "end": 5,
       "word": "骸骨",
-      "reference": "31:13",
       "partOfSpeech": "名词",
-      "meaning": "尸骨"
+      "meaning": "尸骨",
+      "reference": "31:13"
     },
     {
       "translationId": "cmn-cu89s",
