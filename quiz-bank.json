@@ -69198,6 +69198,18 @@
       "translationId": "cmn-cu89s",
       "bookId": "EST",
       "chapter": 2,
+      "verse": 13,
+      "start": 14,
+      "end": 16,
+      "word": "王宫",
+      "partOfSpeech": "名词",
+      "meaning": "王的宫殿",
+      "reference": "2:13"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "EST",
+      "chapter": 2,
       "verse": 14,
       "start": 19,
       "end": 21,
