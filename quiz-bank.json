@@ -32370,6 +32370,30 @@
       "translationId": "cmn-cu89s",
       "bookId": "2CH",
       "chapter": 7,
+      "verse": 8,
+      "start": 40,
+      "end": 42,
+      "word": "守节",
+      "partOfSpeech": "动词",
+      "meaning": "守节期",
+      "reference": "7:8"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "2CH",
+      "chapter": 7,
+      "verse": 9,
+      "start": 3,
+      "end": 5,
+      "word": "设立",
+      "partOfSpeech": "动词",
+      "meaning": "设置建立",
+      "reference": "7:9"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "2CH",
+      "chapter": 7,
       "verse": 10,
       "start": 8,
       "end": 10,
@@ -32713,6 +32737,18 @@
       "partOfSpeech": "名词",
       "meaning": "人工与材料",
       "reference": "8:16"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "2CH",
+      "chapter": 8,
+      "verse": 17,
+      "start": 10,
+      "end": 12,
+      "word": "靠海",
+      "partOfSpeech": "动词",
+      "meaning": "临近海边",
+      "reference": "8:17"
     },
     {
       "translationId": "cmn-cu89s",
