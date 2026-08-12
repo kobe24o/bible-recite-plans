@@ -32814,6 +32814,18 @@
       "translationId": "cmn-cu89s",
       "bookId": "2CH",
       "chapter": 9,
+      "verse": 5,
+      "start": 7,
+      "end": 9,
+      "word": "本国",
+      "partOfSpeech": "名词",
+      "meaning": "自己的国家",
+      "reference": "9:5"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "2CH",
+      "chapter": 9,
       "verse": 6,
       "start": 12,
       "end": 14,
@@ -32821,6 +32833,18 @@
       "partOfSpeech": "副词",
       "meaning": "亲自看见",
       "reference": "9:6"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "2CH",
+      "chapter": 9,
+      "verse": 7,
+      "start": 2,
+      "end": 4,
+      "word": "群臣",
+      "partOfSpeech": "名词",
+      "meaning": "众位大臣",
+      "reference": "9:7"
     },
     {
       "translationId": "cmn-cu89s",
@@ -33001,6 +33025,18 @@
       "partOfSpeech": "名词",
       "meaning": "钱财珍宝",
       "reference": "9:22"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "2CH",
+      "chapter": 9,
+      "verse": 23,
+      "start": 6,
+      "end": 8,
+      "word": "求见",
+      "partOfSpeech": "动词",
+      "meaning": "请求拜见",
+      "reference": "9:23"
     },
     {
       "translationId": "cmn-cu89s",
