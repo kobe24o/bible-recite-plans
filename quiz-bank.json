@@ -115014,6 +115014,18 @@
       "translationId": "cmn-cu89s",
       "bookId": "JOB",
       "chapter": 3,
+      "verse": 3,
+      "start": 11,
+      "end": 13,
+      "word": "男胎",
+      "partOfSpeech": "名词",
+      "meaning": "男性胎儿",
+      "reference": "3:3"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "JOB",
+      "chapter": 3,
       "verse": 4,
       "start": 22,
       "end": 24,
@@ -115381,6 +115393,18 @@
       "partOfSpeech": "动词",
       "meaning": "收获",
       "reference": "4:8"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "JOB",
+      "chapter": 4,
+      "verse": 9,
+      "start": 8,
+      "end": 10,
+      "word": "灭亡",
+      "partOfSpeech": "动词",
+      "meaning": "消失绝灭",
+      "reference": "4:9"
     },
     {
       "translationId": "cmn-cu89s",
