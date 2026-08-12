@@ -132138,6 +132138,18 @@
       "translationId": "cmn-cu89s",
       "bookId": "NEH",
       "chapter": 6,
+      "verse": 2,
+      "start": 24,
+      "end": 26,
+      "word": "阿挪",
+      "partOfSpeech": "专有名词",
+      "meaning": "城名，位于便雅悯地",
+      "reference": "6:2"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "NEH",
+      "chapter": 6,
       "verse": 3,
       "start": 29,
       "end": 31,
