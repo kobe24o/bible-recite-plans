@@ -1,0 +1,1352 @@
+[
+ {
+  "reference": "1:1",
+  "word": "福音",
+  "partOfSpeech": "名词",
+  "meaning": "福音：好消息"
+ },
+ {
+  "reference": "1:2",
+  "word": "先知",
+  "partOfSpeech": "名词",
+  "meaning": "先知：传达神旨意的人"
+ },
+ {
+  "reference": "1:3",
+  "word": "后裔",
+  "partOfSpeech": "名词",
+  "meaning": "后裔：子孙后代"
+ },
+ {
+  "reference": "1:4",
+  "word": "复活",
+  "partOfSpeech": "动词",
+  "meaning": "复活：从死里活过来"
+ },
+ {
+  "reference": "1:5",
+  "word": "真道",
+  "partOfSpeech": "名词",
+  "meaning": "真道：真实的道理"
+ },
+ {
+  "reference": "1:6",
+  "word": "蒙召",
+  "partOfSpeech": "动词",
+  "meaning": "蒙召：被神呼召拣选"
+ },
+ {
+  "reference": "1:7",
+  "word": "圣徒",
+  "partOfSpeech": "名词",
+  "meaning": "圣徒：被神分别归圣的人"
+ },
+ {
+  "reference": "1:8",
+  "word": "信德",
+  "partOfSpeech": "名词",
+  "meaning": "信德：信心与品德"
+ },
+ {
+  "reference": "1:9",
+  "word": "见证",
+  "partOfSpeech": "动词",
+  "meaning": "见证：作证、证明"
+ },
+ {
+  "reference": "1:10",
+  "word": "祷告",
+  "partOfSpeech": "动词",
+  "meaning": "祷告：向神祈求交谈"
+ },
+ {
+  "reference": "1:11",
+  "word": "恩赐",
+  "partOfSpeech": "名词",
+  "meaning": "恩赐：神所赐的恩惠"
+ },
+ {
+  "reference": "1:12",
+  "word": "安慰",
+  "partOfSpeech": "名词",
+  "meaning": "安慰：使人心得安舒"
+ },
+ {
+  "reference": "1:13",
+  "word": "外邦人",
+  "partOfSpeech": "名词",
+  "meaning": "外邦人：非犹太民族的人"
+ },
+ {
+  "reference": "1:14",
+  "word": "希腊人",
+  "partOfSpeech": "专有名词",
+  "meaning": "希腊人：希腊民族的人"
+ },
+ {
+  "reference": "1:15",
+  "word": "福音",
+  "partOfSpeech": "名词",
+  "meaning": "福音：好消息"
+ },
+ {
+  "reference": "1:16",
+  "word": "犹太人",
+  "partOfSpeech": "专有名词",
+  "meaning": "犹太人：犹太民族的人"
+ },
+ {
+  "reference": "1:17",
+  "word": "义人",
+  "partOfSpeech": "名词",
+  "meaning": "义人：被称为义的人"
+ },
+ {
+  "reference": "1:18",
+  "word": "忿怒",
+  "partOfSpeech": "名词",
+  "meaning": "忿怒：愤怒、怒气"
+ },
+ {
+  "reference": "1:19",
+  "word": "显明",
+  "partOfSpeech": "动词",
+  "meaning": "显明：显现出来、表明"
+ },
+ {
+  "reference": "1:20",
+  "word": "神性",
+  "partOfSpeech": "名词",
+  "meaning": "神性：神的本性"
+ },
+ {
+  "reference": "1:21",
+  "word": "虚妄",
+  "partOfSpeech": "形容词",
+  "meaning": "虚妄：空虚不实"
+ },
+ {
+  "reference": "1:22",
+  "word": "愚拙",
+  "partOfSpeech": "形容词",
+  "meaning": "愚拙：愚昧笨拙"
+ },
+ {
+  "reference": "1:23",
+  "word": "偶像",
+  "partOfSpeech": "名词",
+  "meaning": "偶像：人所制造敬拜的假神"
+ },
+ {
+  "reference": "1:24",
+  "word": "情欲",
+  "partOfSpeech": "名词",
+  "meaning": "情欲：肉体的欲望"
+ },
+ {
+  "reference": "1:25",
+  "word": "敬拜",
+  "partOfSpeech": "动词",
+  "meaning": "敬拜：恭敬地崇拜"
+ },
+ {
+  "reference": "1:26",
+  "word": "放纵",
+  "partOfSpeech": "动词",
+  "meaning": "放纵：不加约束"
+ },
+ {
+  "reference": "1:27",
+  "word": "报应",
+  "partOfSpeech": "名词",
+  "meaning": "报应：善恶所得的应得结果"
+ },
+ {
+  "reference": "1:28",
+  "word": "邪僻",
+  "partOfSpeech": "形容词",
+  "meaning": "邪僻：邪恶不正"
+ },
+ {
+  "reference": "1:29",
+  "word": "贪婪",
+  "partOfSpeech": "形容词",
+  "meaning": "贪婪：贪得无厌"
+ },
+ {
+  "reference": "1:30",
+  "word": "狂傲",
+  "partOfSpeech": "形容词",
+  "meaning": "狂傲：狂妄骄傲"
+ },
+ {
+  "reference": "1:31",
+  "word": "背约",
+  "partOfSpeech": "动词",
+  "meaning": "背约：违背约定"
+ },
+ {
+  "reference": "1:32",
+  "word": "判定",
+  "partOfSpeech": "动词",
+  "meaning": "判定：断定、判决"
+ },
+ {
+  "reference": "2:1",
+  "word": "论断",
+  "partOfSpeech": "动词",
+  "meaning": "论断：评判指责"
+ },
+ {
+  "reference": "2:2",
+  "word": "审判",
+  "partOfSpeech": "动词",
+  "meaning": "审判：审问判决"
+ },
+ {
+  "reference": "2:3",
+  "word": "逃脱",
+  "partOfSpeech": "动词",
+  "meaning": "逃脱：逃离摆脱"
+ },
+ {
+  "reference": "2:4",
+  "word": "恩慈",
+  "partOfSpeech": "名词",
+  "meaning": "恩慈：恩惠慈爱"
+ },
+ {
+  "reference": "2:5",
+  "word": "刚硬",
+  "partOfSpeech": "形容词",
+  "meaning": "刚硬：固执不变"
+ },
+ {
+  "reference": "2:6",
+  "word": "报应",
+  "partOfSpeech": "动词",
+  "meaning": "报应：按行为施予相应结果"
+ },
+ {
+  "reference": "2:7",
+  "word": "永生",
+  "partOfSpeech": "名词",
+  "meaning": "永生：永恒的生命"
+ },
+ {
+  "reference": "2:8",
+  "word": "结党",
+  "partOfSpeech": "动词",
+  "meaning": "结党：拉帮结派"
+ },
+ {
+  "reference": "2:9",
+  "word": "患难",
+  "partOfSpeech": "名词",
+  "meaning": "患难：灾难困苦"
+ },
+ {
+  "reference": "2:10",
+  "word": "尊贵",
+  "partOfSpeech": "形容词",
+  "meaning": "尊贵：地位高贵"
+ },
+ {
+  "reference": "2:11",
+  "word": "偏待",
+  "partOfSpeech": "动词",
+  "meaning": "偏待：偏袒待人"
+ },
+ {
+  "reference": "2:12",
+  "word": "律法",
+  "partOfSpeech": "名词",
+  "meaning": "律法：法律、神的律例"
+ },
+ {
+  "reference": "2:13",
+  "word": "称义",
+  "partOfSpeech": "动词",
+  "meaning": "称义：算为义、宣告无罪"
+ },
+ {
+  "reference": "2:14",
+  "word": "本性",
+  "partOfSpeech": "名词",
+  "meaning": "本性：天生的性情"
+ },
+ {
+  "reference": "2:15",
+  "word": "功用",
+  "partOfSpeech": "名词",
+  "meaning": "功用：功能、作用"
+ },
+ {
+  "reference": "2:16",
+  "word": "隐秘",
+  "partOfSpeech": "形容词",
+  "meaning": "隐秘：隐蔽不公开"
+ },
+ {
+  "reference": "2:17",
+  "word": "夸口",
+  "partOfSpeech": "动词",
+  "meaning": "夸口：自夸炫耀"
+ },
+ {
+  "reference": "2:18",
+  "word": "旨意",
+  "partOfSpeech": "名词",
+  "meaning": "旨意：神的心意、计划"
+ },
+ {
+  "reference": "2:19",
+  "word": "瞎子",
+  "partOfSpeech": "名词",
+  "meaning": "瞎子：失明的人"
+ },
+ {
+  "reference": "2:20",
+  "word": "模范",
+  "partOfSpeech": "名词",
+  "meaning": "模范：榜样、典范"
+ },
+ {
+  "reference": "2:21",
+  "word": "教导",
+  "partOfSpeech": "动词",
+  "meaning": "教导：教育引导"
+ },
+ {
+  "reference": "2:22",
+  "word": "奸淫",
+  "partOfSpeech": "动词",
+  "meaning": "奸淫：淫乱通奸"
+ },
+ {
+  "reference": "2:23",
+  "word": "玷辱",
+  "partOfSpeech": "动词",
+  "meaning": "玷辱：玷污羞辱"
+ },
+ {
+  "reference": "2:24",
+  "word": "亵渎",
+  "partOfSpeech": "动词",
+  "meaning": "亵渎：轻慢不敬"
+ },
+ {
+  "reference": "2:25",
+  "word": "割礼",
+  "partOfSpeech": "名词",
+  "meaning": "割礼：犹太人行割礼的记号"
+ },
+ {
+  "reference": "2:26",
+  "word": "条例",
+  "partOfSpeech": "名词",
+  "meaning": "条例：规定、规条"
+ },
+ {
+  "reference": "2:27",
+  "word": "仪文",
+  "partOfSpeech": "名词",
+  "meaning": "仪文：外表的形式规矩"
+ },
+ {
+  "reference": "2:28",
+  "word": "肉身",
+  "partOfSpeech": "名词",
+  "meaning": "肉身：肉体、身体"
+ },
+ {
+  "reference": "2:29",
+  "word": "称赞",
+  "partOfSpeech": "名词",
+  "meaning": "称赞：表扬、夸奖"
+ },
+ {
+  "reference": "3:1",
+  "word": "益处",
+  "partOfSpeech": "名词",
+  "meaning": "益处：好处、利益"
+ },
+ {
+  "reference": "3:2",
+  "word": "圣言",
+  "partOfSpeech": "名词",
+  "meaning": "圣言：神圣的话语"
+ },
+ {
+  "reference": "3:3",
+  "word": "废掉",
+  "partOfSpeech": "动词",
+  "meaning": "废掉：废弃、取消"
+ },
+ {
+  "reference": "3:4",
+  "word": "真实",
+  "partOfSpeech": "形容词",
+  "meaning": "真实：确实可信"
+ },
+ {
+  "reference": "3:5",
+  "word": "降怒",
+  "partOfSpeech": "动词",
+  "meaning": "降怒：发怒、降下怒气"
+ },
+ {
+  "reference": "3:6",
+  "word": "审判",
+  "partOfSpeech": "动词",
+  "meaning": "审判：审问裁决"
+ },
+ {
+  "reference": "3:7",
+  "word": "罪人",
+  "partOfSpeech": "名词",
+  "meaning": "罪人：犯罪的人"
+ },
+ {
+  "reference": "3:8",
+  "word": "毁谤",
+  "partOfSpeech": "动词",
+  "meaning": "毁谤：诽谤中伤"
+ },
+ {
+  "reference": "3:9",
+  "word": "罪恶",
+  "partOfSpeech": "名词",
+  "meaning": "罪恶：罪孽恶行"
+ },
+ {
+  "reference": "3:10",
+  "word": "义人",
+  "partOfSpeech": "名词",
+  "meaning": "义人：被称为义的人"
+ },
+ {
+  "reference": "3:11",
+  "word": "寻求",
+  "partOfSpeech": "动词",
+  "meaning": "寻求：寻找追求"
+ },
+ {
+  "reference": "3:12",
+  "word": "偏离",
+  "partOfSpeech": "动词",
+  "meaning": "偏离：离开正道"
+ },
+ {
+  "reference": "3:13",
+  "word": "诡诈",
+  "partOfSpeech": "形容词",
+  "meaning": "诡诈：狡诈不诚实"
+ },
+ {
+  "reference": "3:14",
+  "word": "咒骂",
+  "partOfSpeech": "动词",
+  "meaning": "咒骂：诅咒辱骂"
+ },
+ {
+  "reference": "3:15",
+  "word": "飞跑",
+  "partOfSpeech": "动词",
+  "meaning": "飞跑：飞快奔跑"
+ },
+ {
+  "reference": "3:16",
+  "word": "残害",
+  "partOfSpeech": "动词",
+  "meaning": "残害：残暴杀害"
+ },
+ {
+  "reference": "3:17",
+  "word": "平安",
+  "partOfSpeech": "名词",
+  "meaning": "平安：安全平静"
+ },
+ {
+  "reference": "3:18",
+  "word": "怕",
+  "partOfSpeech": "动词",
+  "meaning": "怕：害怕、畏惧"
+ },
+ {
+  "reference": "3:19",
+  "word": "普世",
+  "partOfSpeech": "形容词",
+  "meaning": "普世：整个世界"
+ },
+ {
+  "reference": "3:20",
+  "word": "血气",
+  "partOfSpeech": "名词",
+  "meaning": "血气：血肉之躯、人性"
+ },
+ {
+  "reference": "3:21",
+  "word": "先知",
+  "partOfSpeech": "名词",
+  "meaning": "先知：传达神旨意的人"
+ },
+ {
+  "reference": "3:22",
+  "word": "相信",
+  "partOfSpeech": "动词",
+  "meaning": "相信：信服、信任"
+ },
+ {
+  "reference": "3:23",
+  "word": "亏缺",
+  "partOfSpeech": "动词",
+  "meaning": "亏缺：欠缺不足"
+ },
+ {
+  "reference": "3:24",
+  "word": "救赎",
+  "partOfSpeech": "名词",
+  "meaning": "救赎：赎回拯救"
+ },
+ {
+  "reference": "3:25",
+  "word": "挽回祭",
+  "partOfSpeech": "名词",
+  "meaning": "挽回祭：挽回神怒气的祭物"
+ },
+ {
+  "reference": "3:26",
+  "word": "显明",
+  "partOfSpeech": "动词",
+  "meaning": "显明：显现出来"
+ },
+ {
+  "reference": "3:27",
+  "word": "夸口",
+  "partOfSpeech": "动词",
+  "meaning": "夸口：自夸炫耀"
+ },
+ {
+  "reference": "3:28",
+  "word": "遵行",
+  "partOfSpeech": "动词",
+  "meaning": "遵行：遵守实行"
+ },
+ {
+  "reference": "3:29",
+  "word": "外邦人",
+  "partOfSpeech": "名词",
+  "meaning": "外邦人：非犹太人"
+ },
+ {
+  "reference": "3:30",
+  "word": "受割礼",
+  "partOfSpeech": "动词",
+  "meaning": "受割礼：接受割礼仪式"
+ },
+ {
+  "reference": "3:31",
+  "word": "坚固",
+  "partOfSpeech": "动词",
+  "meaning": "坚固：使坚定牢固"
+ },
+ {
+  "reference": "4:1",
+  "word": "祖宗",
+  "partOfSpeech": "名词",
+  "meaning": "祖宗：祖先"
+ },
+ {
+  "reference": "4:2",
+  "word": "亚伯拉罕",
+  "partOfSpeech": "专有名词",
+  "meaning": "亚伯拉罕：以色列人的先祖"
+ },
+ {
+  "reference": "4:3",
+  "word": "信",
+  "partOfSpeech": "动词",
+  "meaning": "信：相信、信靠"
+ },
+ {
+  "reference": "4:4",
+  "word": "工价",
+  "partOfSpeech": "名词",
+  "meaning": "工价：劳动的报酬"
+ },
+ {
+  "reference": "4:5",
+  "word": "罪人",
+  "partOfSpeech": "名词",
+  "meaning": "罪人：犯罪的人"
+ },
+ {
+  "reference": "4:6",
+  "word": "大卫",
+  "partOfSpeech": "专有名词",
+  "meaning": "大卫：以色列的君王"
+ },
+ {
+  "reference": "4:7",
+  "word": "赦免",
+  "partOfSpeech": "动词",
+  "meaning": "赦免：免除罪责"
+ },
+ {
+  "reference": "4:8",
+  "word": "福",
+  "partOfSpeech": "名词",
+  "meaning": "福：福气、蒙福"
+ },
+ {
+  "reference": "4:9",
+  "word": "割礼",
+  "partOfSpeech": "名词",
+  "meaning": "割礼：犹太人行割礼的记号"
+ },
+ {
+  "reference": "4:10",
+  "word": "受割礼",
+  "partOfSpeech": "动词",
+  "meaning": "受割礼：接受割礼"
+ },
+ {
+  "reference": "4:11",
+  "word": "印证",
+  "partOfSpeech": "名词",
+  "meaning": "印证：证明、凭据"
+ },
+ {
+  "reference": "4:12",
+  "word": "踪迹",
+  "partOfSpeech": "名词",
+  "meaning": "踪迹：行踪、路径"
+ },
+ {
+  "reference": "4:13",
+  "word": "应许",
+  "partOfSpeech": "动词",
+  "meaning": "应许：答应承诺"
+ },
+ {
+  "reference": "4:14",
+  "word": "后嗣",
+  "partOfSpeech": "名词",
+  "meaning": "后嗣：继承人"
+ },
+ {
+  "reference": "4:15",
+  "word": "惹动",
+  "partOfSpeech": "动词",
+  "meaning": "惹动：引发、激起"
+ },
+ {
+  "reference": "4:16",
+  "word": "后裔",
+  "partOfSpeech": "名词",
+  "meaning": "后裔：子孙后代"
+ },
+ {
+  "reference": "4:17",
+  "word": "世人",
+  "partOfSpeech": "名词",
+  "meaning": "世人：世界上的人"
+ },
+ {
+  "reference": "4:18",
+  "word": "指望",
+  "partOfSpeech": "名词",
+  "meaning": "指望：盼望、希望"
+ },
+ {
+  "reference": "4:19",
+  "word": "撒拉",
+  "partOfSpeech": "专有名词",
+  "meaning": "撒拉：亚伯拉罕的妻子"
+ },
+ {
+  "reference": "4:20",
+  "word": "仰望",
+  "partOfSpeech": "动词",
+  "meaning": "仰望：抬头依靠、指望"
+ },
+ {
+  "reference": "4:21",
+  "word": "做成",
+  "partOfSpeech": "动词",
+  "meaning": "做成：完成实现"
+ },
+ {
+  "reference": "4:22",
+  "word": "义",
+  "partOfSpeech": "名词",
+  "meaning": "义：被神算为无罪的地位"
+ },
+ {
+  "reference": "4:23",
+  "word": "写",
+  "partOfSpeech": "动词",
+  "meaning": "写：书写、记录"
+ },
+ {
+  "reference": "4:24",
+  "word": "复活",
+  "partOfSpeech": "动词",
+  "meaning": "复活：从死里活过来"
+ },
+ {
+  "reference": "4:25",
+  "word": "耶稣",
+  "partOfSpeech": "专有名词",
+  "meaning": "耶稣：基督教所信奉的救主"
+ },
+ {
+  "reference": "5:1",
+  "word": "称义",
+  "partOfSpeech": "动词",
+  "meaning": "称义：算为义、宣告无罪"
+ },
+ {
+  "reference": "5:2",
+  "word": "恩典",
+  "partOfSpeech": "名词",
+  "meaning": "恩典：神的恩惠"
+ },
+ {
+  "reference": "5:3",
+  "word": "忍耐",
+  "partOfSpeech": "名词",
+  "meaning": "忍耐：忍受克制"
+ },
+ {
+  "reference": "5:4",
+  "word": "老练",
+  "partOfSpeech": "名词",
+  "meaning": "老练：历练成熟"
+ },
+ {
+  "reference": "5:5",
+  "word": "圣灵",
+  "partOfSpeech": "专有名词",
+  "meaning": "圣灵：三位一体中的神"
+ },
+ {
+  "reference": "5:6",
+  "word": "软弱",
+  "partOfSpeech": "形容词",
+  "meaning": "软弱：力量不足"
+ },
+ {
+  "reference": "5:7",
+  "word": "仁人",
+  "partOfSpeech": "名词",
+  "meaning": "仁人：有仁德的人"
+ },
+ {
+  "reference": "5:8",
+  "word": "显明",
+  "partOfSpeech": "动词",
+  "meaning": "显明：显现出来"
+ },
+ {
+  "reference": "5:9",
+  "word": "忿怒",
+  "partOfSpeech": "名词",
+  "meaning": "忿怒：愤怒、怒气"
+ },
+ {
+  "reference": "5:10",
+  "word": "仇敌",
+  "partOfSpeech": "名词",
+  "meaning": "仇敌：敌人"
+ },
+ {
+  "reference": "5:11",
+  "word": "耶稣基督",
+  "partOfSpeech": "专有名词",
+  "meaning": "耶稣基督：基督教所信奉的救主"
+ },
+ {
+  "reference": "5:12",
+  "word": "世界",
+  "partOfSpeech": "名词",
+  "meaning": "世界：人类所在的世界"
+ },
+ {
+  "reference": "5:13",
+  "word": "律法",
+  "partOfSpeech": "名词",
+  "meaning": "律法：神的律例法规"
+ },
+ {
+  "reference": "5:14",
+  "word": "预像",
+  "partOfSpeech": "名词",
+  "meaning": "预像：预先的象征"
+ },
+ {
+  "reference": "5:15",
+  "word": "恩赐",
+  "partOfSpeech": "名词",
+  "meaning": "恩赐：神所赐的恩惠"
+ },
+ {
+  "reference": "5:16",
+  "word": "定罪",
+  "partOfSpeech": "动词",
+  "meaning": "定罪：判定有罪"
+ },
+ {
+  "reference": "5:17",
+  "word": "洪恩",
+  "partOfSpeech": "名词",
+  "meaning": "洪恩：浩大的恩典"
+ },
+ {
+  "reference": "5:18",
+  "word": "义行",
+  "partOfSpeech": "名词",
+  "meaning": "义行：公义的作为"
+ },
+ {
+  "reference": "5:19",
+  "word": "悖逆",
+  "partOfSpeech": "名词",
+  "meaning": "悖逆：悖抗不服"
+ },
+ {
+  "reference": "5:20",
+  "word": "外添",
+  "partOfSpeech": "动词",
+  "meaning": "外添：从外面添加"
+ },
+ {
+  "reference": "5:21",
+  "word": "永生",
+  "partOfSpeech": "名词",
+  "meaning": "永生：永恒的生命"
+ },
+ {
+  "reference": "6:1",
+  "word": "恩典",
+  "partOfSpeech": "名词",
+  "meaning": "恩典：神的恩惠"
+ },
+ {
+  "reference": "6:2",
+  "word": "罪",
+  "partOfSpeech": "名词",
+  "meaning": "罪：违背神律法的过犯"
+ },
+ {
+  "reference": "6:3",
+  "word": "受洗",
+  "partOfSpeech": "动词",
+  "meaning": "受洗：接受洗礼"
+ },
+ {
+  "reference": "6:4",
+  "word": "埋葬",
+  "partOfSpeech": "动词",
+  "meaning": "埋葬：掩埋尸体"
+ },
+ {
+  "reference": "6:5",
+  "word": "联合",
+  "partOfSpeech": "动词",
+  "meaning": "联合：连结合一"
+ },
+ {
+  "reference": "6:6",
+  "word": "十字架",
+  "partOfSpeech": "名词",
+  "meaning": "十字架：钉死耶稣的刑具"
+ },
+ {
+  "reference": "6:7",
+  "word": "脱离",
+  "partOfSpeech": "动词",
+  "meaning": "脱离：离开摆脱"
+ },
+ {
+  "reference": "6:8",
+  "word": "同活",
+  "partOfSpeech": "动词",
+  "meaning": "同活：一同存活"
+ },
+ {
+  "reference": "6:9",
+  "word": "复活",
+  "partOfSpeech": "动词",
+  "meaning": "复活：从死里活过来"
+ },
+ {
+  "reference": "6:10",
+  "word": "一次",
+  "partOfSpeech": "数量词",
+  "meaning": "一次：一回、仅此一回"
+ },
+ {
+  "reference": "6:11",
+  "word": "基督",
+  "partOfSpeech": "专有名词",
+  "meaning": "基督：弥赛亚、受膏者"
+ },
+ {
+  "reference": "6:12",
+  "word": "私欲",
+  "partOfSpeech": "名词",
+  "meaning": "私欲：个人的欲望"
+ },
+ {
+  "reference": "6:13",
+  "word": "肢体",
+  "partOfSpeech": "名词",
+  "meaning": "肢体：身体的各部分"
+ },
+ {
+  "reference": "6:14",
+  "word": "恩典",
+  "partOfSpeech": "名词",
+  "meaning": "恩典：神的恩惠"
+ },
+ {
+  "reference": "6:15",
+  "word": "犯罪",
+  "partOfSpeech": "动词",
+  "meaning": "犯罪：做违背律法的事"
+ },
+ {
+  "reference": "6:16",
+  "word": "奴仆",
+  "partOfSpeech": "名词",
+  "meaning": "奴仆：奴隶、仆人"
+ },
+ {
+  "reference": "6:17",
+  "word": "顺服",
+  "partOfSpeech": "动词",
+  "meaning": "顺服：顺从服从"
+ },
+ {
+  "reference": "6:18",
+  "word": "释放",
+  "partOfSpeech": "名词",
+  "meaning": "释放：解脱自由"
+ },
+ {
+  "reference": "6:19",
+  "word": "成圣",
+  "partOfSpeech": "动词",
+  "meaning": "成圣：成为圣洁"
+ },
+ {
+  "reference": "6:20",
+  "word": "约束",
+  "partOfSpeech": "动词",
+  "meaning": "约束：管束限制"
+ },
+ {
+  "reference": "6:21",
+  "word": "羞耻",
+  "partOfSpeech": "形容词",
+  "meaning": "羞耻：羞愧耻辱"
+ },
+ {
+  "reference": "6:22",
+  "word": "结局",
+  "partOfSpeech": "名词",
+  "meaning": "结局：最终的结果"
+ },
+ {
+  "reference": "6:23",
+  "word": "工价",
+  "partOfSpeech": "名词",
+  "meaning": "工价：劳动的报酬"
+ },
+ {
+  "reference": "7:1",
+  "word": "晓得",
+  "partOfSpeech": "动词",
+  "meaning": "晓得：知道了解"
+ },
+ {
+  "reference": "7:2",
+  "word": "丈夫",
+  "partOfSpeech": "名词",
+  "meaning": "丈夫：已婚的男子"
+ },
+ {
+  "reference": "7:3",
+  "word": "淫妇",
+  "partOfSpeech": "名词",
+  "meaning": "淫妇：犯淫乱罪的妇人"
+ },
+ {
+  "reference": "7:4",
+  "word": "结果子",
+  "partOfSpeech": "动词",
+  "meaning": "结果子：结出果实"
+ },
+ {
+  "reference": "7:5",
+  "word": "恶欲",
+  "partOfSpeech": "名词",
+  "meaning": "恶欲：邪恶的欲望"
+ },
+ {
+  "reference": "7:6",
+  "word": "心灵",
+  "partOfSpeech": "名词",
+  "meaning": "心灵：内心、精神"
+ },
+ {
+  "reference": "7:7",
+  "word": "贪心",
+  "partOfSpeech": "名词",
+  "meaning": "贪心：贪得的念头"
+ },
+ {
+  "reference": "7:8",
+  "word": "诫命",
+  "partOfSpeech": "名词",
+  "meaning": "诫命：神的命令"
+ },
+ {
+  "reference": "7:9",
+  "word": "诫命",
+  "partOfSpeech": "名词",
+  "meaning": "诫命：神的命令"
+ },
+ {
+  "reference": "7:10",
+  "word": "诫命",
+  "partOfSpeech": "名词",
+  "meaning": "诫命：神的命令"
+ },
+ {
+  "reference": "7:11",
+  "word": "引诱",
+  "partOfSpeech": "动词",
+  "meaning": "引诱：诱惑"
+ },
+ {
+  "reference": "7:12",
+  "word": "圣洁",
+  "partOfSpeech": "形容词",
+  "meaning": "圣洁：神圣纯洁"
+ },
+ {
+  "reference": "7:13",
+  "word": "良善",
+  "partOfSpeech": "形容词",
+  "meaning": "良善：善良美好"
+ },
+ {
+  "reference": "7:14",
+  "word": "肉体",
+  "partOfSpeech": "名词",
+  "meaning": "肉体：人的肉身"
+ },
+ {
+  "reference": "7:15",
+  "word": "愿意",
+  "partOfSpeech": "动词",
+  "meaning": "愿意：心里想要"
+ },
+ {
+  "reference": "7:16",
+  "word": "应承",
+  "partOfSpeech": "动词",
+  "meaning": "应承：承认、同意"
+ },
+ {
+  "reference": "7:17",
+  "word": "住",
+  "partOfSpeech": "动词",
+  "meaning": "住：居住、停留"
+ },
+ {
+  "reference": "7:18",
+  "word": "立志",
+  "partOfSpeech": "动词",
+  "meaning": "立志：立定志向"
+ },
+ {
+  "reference": "7:19",
+  "word": "恶",
+  "partOfSpeech": "名词",
+  "meaning": "恶：恶事、罪恶"
+ },
+ {
+  "reference": "7:20",
+  "word": "罪",
+  "partOfSpeech": "名词",
+  "meaning": "罪：违背神律法的过犯"
+ },
+ {
+  "reference": "7:21",
+  "word": "觉得",
+  "partOfSpeech": "动词",
+  "meaning": "觉得：感觉、认为"
+ },
+ {
+  "reference": "7:22",
+  "word": "喜欢",
+  "partOfSpeech": "动词",
+  "meaning": "喜欢：喜爱"
+ },
+ {
+  "reference": "7:23",
+  "word": "交战",
+  "partOfSpeech": "动词",
+  "meaning": "交战：互相争斗"
+ },
+ {
+  "reference": "7:24",
+  "word": "取死",
+  "partOfSpeech": "动词",
+  "meaning": "取死：导致死亡"
+ },
+ {
+  "reference": "7:25",
+  "word": "内心",
+  "partOfSpeech": "名词",
+  "meaning": "内心：心里、内心"
+ },
+ {
+  "reference": "8:1",
+  "word": "定罪",
+  "partOfSpeech": "动词",
+  "meaning": "定罪：判定有罪"
+ },
+ {
+  "reference": "8:2",
+  "word": "释放",
+  "partOfSpeech": "动词",
+  "meaning": "释放：解脱松开"
+ },
+ {
+  "reference": "8:3",
+  "word": "赎罪祭",
+  "partOfSpeech": "名词",
+  "meaning": "赎罪祭：为赎罪献的祭"
+ },
+ {
+  "reference": "8:4",
+  "word": "肉体",
+  "partOfSpeech": "名词",
+  "meaning": "肉体：人的肉身"
+ },
+ {
+  "reference": "8:5",
+  "word": "体贴",
+  "partOfSpeech": "动词",
+  "meaning": "体贴：体贴思念"
+ },
+ {
+  "reference": "8:6",
+  "word": "生命",
+  "partOfSpeech": "名词",
+  "meaning": "生命：活着的状态"
+ },
+ {
+  "reference": "8:7",
+  "word": "律法",
+  "partOfSpeech": "名词",
+  "meaning": "律法：神的律例法规"
+ },
+ {
+  "reference": "8:8",
+  "word": "喜欢",
+  "partOfSpeech": "名词",
+  "meaning": "喜欢：喜悦、欢喜"
+ },
+ {
+  "reference": "8:9",
+  "word": "基督",
+  "partOfSpeech": "专有名词",
+  "meaning": "基督：弥赛亚、受膏者"
+ },
+ {
+  "reference": "8:10",
+  "word": "心灵",
+  "partOfSpeech": "名词",
+  "meaning": "心灵：内心"
+ },
+ {
+  "reference": "8:11",
+  "word": "活过来",
+  "partOfSpeech": "动词",
+  "meaning": "活过来：恢复生命"
+ },
+ {
+  "reference": "8:12",
+  "word": "弟兄",
+  "partOfSpeech": "名词",
+  "meaning": "弟兄：同信仰的兄弟"
+ },
+ {
+  "reference": "8:13",
+  "word": "治死",
+  "partOfSpeech": "动词",
+  "meaning": "治死：克制致死"
+ },
+ {
+  "reference": "8:14",
+  "word": "引导",
+  "partOfSpeech": "动词",
+  "meaning": "引导：带领指引"
+ },
+ {
+  "reference": "8:15",
+  "word": "阿爸",
+  "partOfSpeech": "专有名词",
+  "meaning": "阿爸：对父亲的亲密称呼"
+ },
+ {
+  "reference": "8:16",
+  "word": "儿女",
+  "partOfSpeech": "名词",
+  "meaning": "儿女：儿子女儿、子女"
+ },
+ {
+  "reference": "8:17",
+  "word": "后嗣",
+  "partOfSpeech": "名词",
+  "meaning": "后嗣：继承人"
+ },
+ {
+  "reference": "8:18",
+  "word": "苦楚",
+  "partOfSpeech": "名词",
+  "meaning": "苦楚：痛苦患难"
+ },
+ {
+  "reference": "8:19",
+  "word": "受造",
+  "partOfSpeech": "动词",
+  "meaning": "受造：被创造"
+ },
+ {
+  "reference": "8:20",
+  "word": "虚空",
+  "partOfSpeech": "名词",
+  "meaning": "虚空：空虚无益"
+ },
+ {
+  "reference": "8:21",
+  "word": "败坏",
+  "partOfSpeech": "名词",
+  "meaning": "败坏：朽坏堕落"
+ },
+ {
+  "reference": "8:22",
+  "word": "叹息",
+  "partOfSpeech": "动词",
+  "meaning": "叹息：叹气流露"
+ },
+ {
+  "reference": "8:23",
+  "word": "名分",
+  "partOfSpeech": "名词",
+  "meaning": "名分：应有的地位身份"
+ },
+ {
+  "reference": "8:24",
+  "word": "得救",
+  "partOfSpeech": "动词",
+  "meaning": "得救：获得拯救"
+ },
+ {
+  "reference": "8:25",
+  "word": "盼望",
+  "partOfSpeech": "动词",
+  "meaning": "盼望：期望、希冀"
+ },
+ {
+  "reference": "8:26",
+  "word": "软弱",
+  "partOfSpeech": "名词",
+  "meaning": "软弱：力量不足"
+ },
+ {
+  "reference": "8:27",
+  "word": "鉴察",
+  "partOfSpeech": "动词",
+  "meaning": "鉴察：察看审视"
+ },
+ {
+  "reference": "8:28",
+  "word": "效力",
+  "partOfSpeech": "动词",
+  "meaning": "效力：协同做工"
+ },
+ {
+  "reference": "8:29",
+  "word": "效法",
+  "partOfSpeech": "动词",
+  "meaning": "效法：仿效学习"
+ },
+ {
+  "reference": "8:30",
+  "word": "荣耀",
+  "partOfSpeech": "名词",
+  "meaning": "荣耀：光辉尊荣"
+ },
+ {
+  "reference": "8:31",
+  "word": "敌挡",
+  "partOfSpeech": "动词",
+  "meaning": "敌挡：对抗抵挡"
+ },
+ {
+  "reference": "8:32",
+  "word": "爱惜",
+  "partOfSpeech": "动词",
+  "meaning": "爱惜：爱护珍惜"
+ },
+ {
+  "reference": "8:33",
+  "word": "控告",
+  "partOfSpeech": "动词",
+  "meaning": "控告：告发指控"
+ },
+ {
+  "reference": "8:34",
+  "word": "祈求",
+  "partOfSpeech": "动词",
+  "meaning": "祈求：恳求祷告"
+ },
+ {
+  "reference": "8:35",
+  "word": "隔绝",
+  "partOfSpeech": "动词",
+  "meaning": "隔绝：隔开断绝"
+ },
+ {
+  "reference": "8:36",
+  "word": "终日",
+  "partOfSpeech": "副词",
+  "meaning": "终日：整天、一天到晚"
+ },
+ {
+  "reference": "8:37",
+  "word": "得胜",
+  "partOfSpeech": "动词",
+  "meaning": "得胜：取得胜利"
+ },
+ {
+  "reference": "8:38",
+  "word": "天使",
+  "partOfSpeech": "名词",
+  "meaning": "天使：神差遣的使者"
+ },
+ {
+  "reference": "8:39",
+  "word": "高处",
+  "partOfSpeech": "名词",
+  "meaning": "高处：高的地方"
+ }
+]
