@@ -1,0 +1,560 @@
+[
+  {
+    "reference": "1:1",
+    "word": "保罗",
+    "partOfSpeech": "专有名词",
+    "meaning": "保罗：使徒之名"
+  },
+  {
+    "reference": "1:2",
+    "word": "歌罗西",
+    "partOfSpeech": "专有名词",
+    "meaning": "歌罗西：地名"
+  },
+  {
+    "reference": "1:3",
+    "word": "祷告",
+    "partOfSpeech": "动词",
+    "meaning": "祷告：向上帝祈求"
+  },
+  {
+    "reference": "1:4",
+    "word": "信心",
+    "partOfSpeech": "名词",
+    "meaning": "信心：信靠之心"
+  },
+  {
+    "reference": "1:5",
+    "word": "盼望",
+    "partOfSpeech": "名词",
+    "meaning": "盼望：期望希望"
+  },
+  {
+    "reference": "1:6",
+    "word": "福音",
+    "partOfSpeech": "名词",
+    "meaning": "福音：好消息"
+  },
+  {
+    "reference": "1:7",
+    "word": "仆人",
+    "partOfSpeech": "名词",
+    "meaning": "仆人：侍奉的人"
+  },
+  {
+    "reference": "1:8",
+    "word": "爱心",
+    "partOfSpeech": "名词",
+    "meaning": "爱心：仁爱的心"
+  },
+  {
+    "reference": "1:9",
+    "word": "悟性",
+    "partOfSpeech": "名词",
+    "meaning": "悟性：领悟能力"
+  },
+  {
+    "reference": "1:10",
+    "word": "喜悦",
+    "partOfSpeech": "名词",
+    "meaning": "喜悦：欢欣愉快"
+  },
+  {
+    "reference": "1:11",
+    "word": "宽容",
+    "partOfSpeech": "动词",
+    "meaning": "宽容：宽恕容忍"
+  },
+  {
+    "reference": "1:12",
+    "word": "基业",
+    "partOfSpeech": "名词",
+    "meaning": "基业：产业家业"
+  },
+  {
+    "reference": "1:13",
+    "word": "权势",
+    "partOfSpeech": "名词",
+    "meaning": "权势：权力威势"
+  },
+  {
+    "reference": "1:14",
+    "word": "救赎",
+    "partOfSpeech": "动词",
+    "meaning": "救赎：拯救赎免"
+  },
+  {
+    "reference": "1:15",
+    "word": "首生",
+    "partOfSpeech": "名词",
+    "meaning": "首生：最先出生者"
+  },
+  {
+    "reference": "1:16",
+    "word": "执政",
+    "partOfSpeech": "名词",
+    "meaning": "执政：掌理政务"
+  },
+  {
+    "reference": "1:17",
+    "word": "万有之先",
+    "partOfSpeech": "名词",
+    "meaning": "万有之先：万物存在之先"
+  },
+  {
+    "reference": "1:18",
+    "word": "元始",
+    "partOfSpeech": "名词",
+    "meaning": "元始：起初本源"
+  },
+  {
+    "reference": "1:19",
+    "word": "丰盛",
+    "partOfSpeech": "名词",
+    "meaning": "丰盛：丰富充足"
+  },
+  {
+    "reference": "1:20",
+    "word": "十字架",
+    "partOfSpeech": "名词",
+    "meaning": "十字架：处刑的木架"
+  },
+  {
+    "reference": "1:21",
+    "word": "隔绝",
+    "partOfSpeech": "动词",
+    "meaning": "隔绝：隔断分离"
+  },
+  {
+    "reference": "1:22",
+    "word": "瑕疵",
+    "partOfSpeech": "名词",
+    "meaning": "瑕疵：微小的缺点"
+  },
+  {
+    "reference": "1:23",
+    "word": "根基",
+    "partOfSpeech": "名词",
+    "meaning": "根基：基础根本"
+  },
+  {
+    "reference": "1:24",
+    "word": "缺欠",
+    "partOfSpeech": "名词",
+    "meaning": "缺欠：缺少不足"
+  },
+  {
+    "reference": "1:25",
+    "word": "职分",
+    "partOfSpeech": "名词",
+    "meaning": "职分：职责本分"
+  },
+  {
+    "reference": "1:26",
+    "word": "奥秘",
+    "partOfSpeech": "名词",
+    "meaning": "奥秘：深奥的秘密"
+  },
+  {
+    "reference": "1:27",
+    "word": "外邦人",
+    "partOfSpeech": "名词",
+    "meaning": "外邦人：非本族的人"
+  },
+  {
+    "reference": "1:28",
+    "word": "传扬",
+    "partOfSpeech": "动词",
+    "meaning": "传扬：传播宣扬"
+  },
+  {
+    "reference": "1:29",
+    "word": "劳苦",
+    "partOfSpeech": "动词",
+    "meaning": "劳苦：辛勤劳累"
+  },
+  {
+    "reference": "2:1",
+    "word": "老底嘉",
+    "partOfSpeech": "专有名词",
+    "meaning": "老底嘉：地名"
+  },
+  {
+    "reference": "2:2",
+    "word": "联络",
+    "partOfSpeech": "动词",
+    "meaning": "联络：联系结合"
+  },
+  {
+    "reference": "2:3",
+    "word": "积蓄",
+    "partOfSpeech": "动词",
+    "meaning": "积蓄：积累储存"
+  },
+  {
+    "reference": "2:4",
+    "word": "迷惑",
+    "partOfSpeech": "动词",
+    "meaning": "迷惑：蒙蔽诱骗"
+  },
+  {
+    "reference": "2:5",
+    "word": "坚固",
+    "partOfSpeech": "形容词",
+    "meaning": "坚固：牢固坚定"
+  },
+  {
+    "reference": "2:6",
+    "word": "接受",
+    "partOfSpeech": "动词",
+    "meaning": "接受：领受认同"
+  },
+  {
+    "reference": "2:7",
+    "word": "建造",
+    "partOfSpeech": "动词",
+    "meaning": "建造：建筑建立"
+  },
+  {
+    "reference": "2:8",
+    "word": "掳去",
+    "partOfSpeech": "动词",
+    "meaning": "掳去：掠走俘获"
+  },
+  {
+    "reference": "2:9",
+    "word": "本性",
+    "partOfSpeech": "名词",
+    "meaning": "本性：固有的性质"
+  },
+  {
+    "reference": "2:10",
+    "word": "元首",
+    "partOfSpeech": "名词",
+    "meaning": "元首：首领头目"
+  },
+  {
+    "reference": "2:11",
+    "word": "割礼",
+    "partOfSpeech": "名词",
+    "meaning": "割礼：犹太礼仪"
+  },
+  {
+    "reference": "2:12",
+    "word": "受洗",
+    "partOfSpeech": "动词",
+    "meaning": "受洗：领受洗礼"
+  },
+  {
+    "reference": "2:13",
+    "word": "赦免",
+    "partOfSpeech": "动词",
+    "meaning": "赦免：饶恕免罪"
+  },
+  {
+    "reference": "2:14",
+    "word": "字据",
+    "partOfSpeech": "名词",
+    "meaning": "字据：文字凭据"
+  },
+  {
+    "reference": "2:15",
+    "word": "夸胜",
+    "partOfSpeech": "动词",
+    "meaning": "夸胜：夸耀胜利"
+  },
+  {
+    "reference": "2:16",
+    "word": "安息日",
+    "partOfSpeech": "名词",
+    "meaning": "安息日：休息的圣日"
+  },
+  {
+    "reference": "2:17",
+    "word": "影儿",
+    "partOfSpeech": "名词",
+    "meaning": "影儿：影子预象"
+  },
+  {
+    "reference": "2:18",
+    "word": "天使",
+    "partOfSpeech": "名词",
+    "meaning": "天使：神的使者"
+  },
+  {
+    "reference": "2:19",
+    "word": "筋节",
+    "partOfSpeech": "名词",
+    "meaning": "筋节：筋骨关节"
+  },
+  {
+    "reference": "2:22",
+    "word": "败坏",
+    "partOfSpeech": "动词",
+    "meaning": "败坏：衰败朽坏"
+  },
+  {
+    "reference": "2:23",
+    "word": "情欲",
+    "partOfSpeech": "名词",
+    "meaning": "情欲：肉体的欲望"
+  },
+  {
+    "reference": "3:1",
+    "word": "复活",
+    "partOfSpeech": "动词",
+    "meaning": "复活：死而复生"
+  },
+  {
+    "reference": "3:2",
+    "word": "思念",
+    "partOfSpeech": "动词",
+    "meaning": "思念：想念牵挂"
+  },
+  {
+    "reference": "3:3",
+    "word": "生命",
+    "partOfSpeech": "名词",
+    "meaning": "生命：性命生机"
+  },
+  {
+    "reference": "3:4",
+    "word": "显现",
+    "partOfSpeech": "动词",
+    "meaning": "显现：显明出现"
+  },
+  {
+    "reference": "3:5",
+    "word": "贪婪",
+    "partOfSpeech": "形容词",
+    "meaning": "贪婪：贪得无厌"
+  },
+  {
+    "reference": "3:6",
+    "word": "忿怒",
+    "partOfSpeech": "名词",
+    "meaning": "忿怒：愤怒怒气"
+  },
+  {
+    "reference": "3:7",
+    "word": "时候",
+    "partOfSpeech": "名词",
+    "meaning": "时候：时间时段"
+  },
+  {
+    "reference": "3:8",
+    "word": "弃绝",
+    "partOfSpeech": "动词",
+    "meaning": "弃绝：抛弃拒绝"
+  },
+  {
+    "reference": "3:9",
+    "word": "说谎",
+    "partOfSpeech": "动词",
+    "meaning": "说谎：讲假话"
+  },
+  {
+    "reference": "3:10",
+    "word": "新人",
+    "partOfSpeech": "名词",
+    "meaning": "新人：新造的人"
+  },
+  {
+    "reference": "3:11",
+    "word": "西古提人",
+    "partOfSpeech": "专有名词",
+    "meaning": "西古提人：古民族名"
+  },
+  {
+    "reference": "3:12",
+    "word": "恩慈",
+    "partOfSpeech": "名词",
+    "meaning": "恩慈：恩典慈爱"
+  },
+  {
+    "reference": "3:13",
+    "word": "饶恕",
+    "partOfSpeech": "动词",
+    "meaning": "饶恕：宽恕原谅"
+  },
+  {
+    "reference": "3:14",
+    "word": "爱心",
+    "partOfSpeech": "名词",
+    "meaning": "爱心：仁爱的心"
+  },
+  {
+    "reference": "3:15",
+    "word": "蒙召",
+    "partOfSpeech": "动词",
+    "meaning": "蒙召：蒙神呼召"
+  },
+  {
+    "reference": "3:16",
+    "word": "灵歌",
+    "partOfSpeech": "名词",
+    "meaning": "灵歌：属灵的诗歌"
+  },
+  {
+    "reference": "3:17",
+    "word": "行事",
+    "partOfSpeech": "动词",
+    "meaning": "行事：做事行动"
+  },
+  {
+    "reference": "3:18",
+    "word": "顺服",
+    "partOfSpeech": "动词",
+    "meaning": "顺服：顺从服从"
+  },
+  {
+    "reference": "3:19",
+    "word": "丈夫",
+    "partOfSpeech": "名词",
+    "meaning": "丈夫：男子的配偶"
+  },
+  {
+    "reference": "3:20",
+    "word": "儿女",
+    "partOfSpeech": "名词",
+    "meaning": "儿女：儿子女儿"
+  },
+  {
+    "reference": "3:21",
+    "word": "志气",
+    "partOfSpeech": "名词",
+    "meaning": "志气：志趣气节"
+  },
+  {
+    "reference": "3:22",
+    "word": "敬畏",
+    "partOfSpeech": "动词",
+    "meaning": "敬畏：敬重畏惧"
+  },
+  {
+    "reference": "3:23",
+    "word": "主",
+    "partOfSpeech": "名词",
+    "meaning": "主：主人主宰"
+  },
+  {
+    "reference": "3:24",
+    "word": "事奉",
+    "partOfSpeech": "动词",
+    "meaning": "事奉：服事敬奉"
+  },
+  {
+    "reference": "3:25",
+    "word": "报应",
+    "partOfSpeech": "名词",
+    "meaning": "报应：善恶的回报"
+  },
+  {
+    "reference": "4:1",
+    "word": "公平",
+    "partOfSpeech": "形容词",
+    "meaning": "公平：不偏不倚"
+  },
+  {
+    "reference": "4:2",
+    "word": "警醒",
+    "partOfSpeech": "动词",
+    "meaning": "警醒：警惕醒悟"
+  },
+  {
+    "reference": "4:3",
+    "word": "奥秘",
+    "partOfSpeech": "名词",
+    "meaning": "奥秘：深奥的秘密"
+  },
+  {
+    "reference": "4:4",
+    "word": "发明",
+    "partOfSpeech": "动词",
+    "meaning": "发明：阐发表明"
+  },
+  {
+    "reference": "4:5",
+    "word": "爱惜",
+    "partOfSpeech": "动词",
+    "meaning": "爱惜：珍惜重视"
+  },
+  {
+    "reference": "4:6",
+    "word": "言语",
+    "partOfSpeech": "名词",
+    "meaning": "言语：所说的话"
+  },
+  {
+    "reference": "4:7",
+    "word": "推基古",
+    "partOfSpeech": "专有名词",
+    "meaning": "推基古：人名"
+  },
+  {
+    "reference": "4:8",
+    "word": "特意",
+    "partOfSpeech": "副词",
+    "meaning": "特意：专门特地"
+  },
+  {
+    "reference": "4:9",
+    "word": "阿尼西谋",
+    "partOfSpeech": "专有名词",
+    "meaning": "阿尼西谋：人名"
+  },
+  {
+    "reference": "4:10",
+    "word": "巴拿巴",
+    "partOfSpeech": "专有名词",
+    "meaning": "巴拿巴：人名"
+  },
+  {
+    "reference": "4:11",
+    "word": "做工",
+    "partOfSpeech": "动词",
+    "meaning": "做工：工作劳动"
+  },
+  {
+    "reference": "4:12",
+    "word": "旨意",
+    "partOfSpeech": "名词",
+    "meaning": "旨意：神的意旨"
+  },
+  {
+    "reference": "4:13",
+    "word": "老底嘉",
+    "partOfSpeech": "专有名词",
+    "meaning": "老底嘉：地名"
+  },
+  {
+    "reference": "4:14",
+    "word": "路加",
+    "partOfSpeech": "专有名词",
+    "meaning": "路加：人名"
+  },
+  {
+    "reference": "4:15",
+    "word": "宁法",
+    "partOfSpeech": "专有名词",
+    "meaning": "宁法：人名"
+  },
+  {
+    "reference": "4:16",
+    "word": "书信",
+    "partOfSpeech": "名词",
+    "meaning": "书信：信件"
+  },
+  {
+    "reference": "4:17",
+    "word": "亚基布",
+    "partOfSpeech": "专有名词",
+    "meaning": "亚基布：人名"
+  },
+  {
+    "reference": "4:18",
+    "word": "捆锁",
+    "partOfSpeech": "名词",
+    "meaning": "捆锁：牢狱束缚"
+  }
+]
