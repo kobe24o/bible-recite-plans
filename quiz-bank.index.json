@@ -5,8 +5,8 @@
   "shards": [
     {
       "path": "quiz-bank.json",
-      "sha256": "ddf7ef868bc36c250909e49129a6e2e8948cc757a6f2249b4f525e12dafb9900",
-      "bytes": 27049
+      "sha256": "1c6df0741b4866dab7db59927627f019aeb8b59140ff506fd52af5a10b294ce7",
+      "bytes": 8977175
     }
   ]
 }
