@@ -1,7 +1,7 @@
 {
   "format": "bible-recite-quiz-bank-index",
   "version": 1,
-  "revision": 79,
+  "revision": 80,
   "shards": [
     {
       "path": "/tmp/merged_quiz_bank.json",
