@@ -4,11 +4,6 @@
   "revision": 131,
   "shards": [
     {
-      "path": "/tmp/merged_quiz_bank.json",
-      "sha256": "f332aaf5c6a92a626bb81e349b453a6a41ff4561f6930862e22bfd0c21d95bf6",
-      "bytes": 10560325
-    },
-    {
       "path": "quiz-bank.json",
       "sha256": "878cc1be07c329a57db940ca876c455a8b21648a7a0d9f9acf80abee28fb7082",
       "bytes": 16444005
