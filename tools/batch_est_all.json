@@ -1,0 +1,114 @@
+{
+  "format": "bible-recite-quiz-bank",
+  "version": 2,
+  "questions": [
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "EST",
+      "chapter": 2,
+      "verse": 14,
+      "start": 2,
+      "end": 4,
+      "word": "进去",
+      "partOfSpeech": "名词",
+      "meaning": "进去：（圣经中的人名/地名/事物）",
+      "reference": "2:14"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "EST",
+      "chapter": 4,
+      "verse": 8,
+      "start": 13,
+      "end": 15,
+      "word": "犹大",
+      "partOfSpeech": "名词",
+      "meaning": "犹大：雅各第四子",
+      "reference": "4:8"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "EST",
+      "chapter": 5,
+      "verse": 5,
+      "start": 6,
+      "end": 8,
+      "word": "曼速",
+      "partOfSpeech": "名词",
+      "meaning": "曼速：（圣经中的人名/地名/事物）",
+      "reference": "5:5"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "EST",
+      "chapter": 6,
+      "verse": 3,
+      "start": 24,
+      "end": 26,
+      "word": "伺候",
+      "partOfSpeech": "名词",
+      "meaning": "伺候：服侍照料",
+      "reference": "6:3"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "EST",
+      "chapter": 6,
+      "verse": 4,
+      "start": 6,
+      "end": 8,
+      "word": "院子",
+      "partOfSpeech": "名词",
+      "meaning": "院子：（圣经中的人名/地名/事物）",
+      "reference": "6:4"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "EST",
+      "chapter": 7,
+      "verse": 7,
+      "start": 2,
+      "end": 4,
+      "word": "大怒",
+      "partOfSpeech": "名词",
+      "meaning": "大怒：（圣经中的人名/地名/事物）",
+      "reference": "7:7"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "EST",
+      "chapter": 9,
+      "verse": 7,
+      "start": 1,
+      "end": 3,
+      "word": "杀巴",
+      "partOfSpeech": "名词",
+      "meaning": "杀巴：（圣经中的人名/地名/事物）",
+      "reference": "9:7"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "EST",
+      "chapter": 9,
+      "verse": 14,
+      "start": 3,
+      "end": 5,
+      "word": "准如",
+      "partOfSpeech": "名词",
+      "meaning": "准如：（圣经中的人名/地名/事物）",
+      "reference": "9:14"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "EST",
+      "chapter": 10,
+      "verse": 2,
+      "start": 5,
+      "end": 7,
+      "word": "力所",
+      "partOfSpeech": "名词",
+      "meaning": "力所：（圣经中的人名/地名/事物）",
+      "reference": "10:2"
+    }
+  ]
+}

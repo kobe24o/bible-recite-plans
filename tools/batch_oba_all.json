@@ -1,0 +1,30 @@
+{
+  "format": "bible-recite-quiz-bank",
+  "version": 2,
+  "questions": [
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "OBA",
+      "chapter": 1,
+      "verse": 7,
+      "start": 13,
+      "end": 15,
+      "word": "交界",
+      "partOfSpeech": "名词",
+      "meaning": "交界：（圣经中的人名/地名/事物）",
+      "reference": "1:7"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "OBA",
+      "chapter": 1,
+      "verse": 8,
+      "start": 15,
+      "end": 17,
+      "word": "东除",
+      "partOfSpeech": "名词",
+      "meaning": "东除：（圣经中的人名/地名/事物）",
+      "reference": "1:8"
+    }
+  ]
+}

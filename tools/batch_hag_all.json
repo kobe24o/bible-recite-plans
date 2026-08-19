@@ -1,0 +1,66 @@
+{
+  "format": "bible-recite-quiz-bank",
+  "version": 2,
+  "questions": [
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "HAG",
+      "chapter": 1,
+      "verse": 8,
+      "start": 23,
+      "end": 25,
+      "word": "荣耀",
+      "partOfSpeech": "名词",
+      "meaning": "荣耀：尊贵光荣",
+      "reference": "1:8"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "HAG",
+      "chapter": 2,
+      "verse": 3,
+      "start": 17,
+      "end": 19,
+      "word": "荣耀",
+      "partOfSpeech": "名词",
+      "meaning": "荣耀：尊贵光荣",
+      "reference": "2:3"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "HAG",
+      "chapter": 2,
+      "verse": 4,
+      "start": 6,
+      "end": 8,
+      "word": "所罗",
+      "partOfSpeech": "名词",
+      "meaning": "所罗：（圣经中的人名/地名/事物）",
+      "reference": "2:4"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "HAG",
+      "chapter": 2,
+      "verse": 17,
+      "start": 2,
+      "end": 4,
+      "word": "们手",
+      "partOfSpeech": "名词",
+      "meaning": "们手：（圣经中的人名/地名/事物）",
+      "reference": "2:17"
+    },
+    {
+      "translationId": "cmn-cu89s",
+      "bookId": "HAG",
+      "chapter": 2,
+      "verse": 19,
+      "start": 27,
+      "end": 29,
+      "word": "果子",
+      "partOfSpeech": "名词",
+      "meaning": "果子：果实成果",
+      "reference": "2:19"
+    }
+  ]
+}
