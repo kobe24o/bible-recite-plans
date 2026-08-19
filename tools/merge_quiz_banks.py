@@ -45,6 +45,9 @@ def read_bank(path: Path) -> list[dict[str, Any]]:
         word = str(item["word"]).strip()
         if not word:
             raise ValueError(f"{path} 含有空答案")
+        meaning = compact_meaning(word, str(item["meaning"]))
+        if not meaning or word in meaning:
+            raise ValueError(f"{path} 的 meaning 不得包含答案词：{word}")
         result.append({
             "translationId": str(item["translationId"]).strip(),
             "bookId": str(item["bookId"]).strip(),
@@ -54,7 +57,7 @@ def read_bank(path: Path) -> list[dict[str, Any]]:
             "end": end,
             "word": word,
             "partOfSpeech": str(item["partOfSpeech"]).strip(),
-            "meaning": compact_meaning(word, str(item["meaning"])),
+            "meaning": meaning,
             "reference": str(item["reference"]).strip(),
         })
     return result

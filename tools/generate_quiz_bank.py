@@ -56,8 +56,9 @@ def compact_meaning(word: str, meaning: str) -> str:
 
 
 def is_meaning_for_word(word: str, meaning: str) -> bool:
-    value = meaning.strip()
-    return value.startswith(f"{word}：") or value.startswith(f"{word}:")
+    """Return whether a hint describes a word without exposing the answer."""
+    value = compact_meaning(word, meaning)
+    return bool(value) and word not in value
 
 
 def is_valid_word(word: str) -> bool:
@@ -220,7 +221,8 @@ def prompt() -> str:
 reference 必须一字不差来自输入；word 必须等于原文从 start 到 end 的 UTF-16 切片；start 含、end 不含，length=end-start。
 只选择人物、地点、具体事物、重要事件、核心动词或形容词等可独立表达具体意义、适合朗读回答的实词。
 绝不选择连接词、介词、助词、语气词、代词、标点、数字、无完整意义的片段，也不要选择“某人说”“某人回答”“某人吩咐/告诉”这类发话标签或整句。
-meaning 必须严格为“word：简短字面解释”，且只能解释 word 本身，不能解释相邻经文、动作或上下文。
+meaning 必须是简短、独立的释义；不得包含或重复 word 的任何文字，不得写“word：…”，不得引用、复述或改写本节原文，也不能用上下文直接泄露答案。
+释义只能说明这个词本身；人名、地名或专名不确定时，可写不含答案的类别提示，例如“经文中的人物、地点或具体事物”。
 先核验下标、长度和解释对象；不准确就不返回该项。只输出 JSON。"""
 
 

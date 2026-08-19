@@ -6,7 +6,7 @@ For each verse in a book/chapter range that already has fewer than
 position that does NOT overlap any already-used span. Offsets are resolved
 locally against the bundled scripture (UTF-16 aware); every existing rule from
 generate_quiz_bank.py is re-applied. Writes a v2 bank-format batch file with
-prefixed meanings, ready for tools/merge_quiz_banks.py.
+non-leaking meanings, ready for tools/merge_quiz_banks.py.
 
 Usage:
   QUIZ_MODEL_API_KEY=... python3 tools/_gen_second.py \
@@ -63,7 +63,7 @@ def build_prompt() -> str:
 reference 必须一字不差来自输入；word 必须是该节原文里真实存在的一个连续片段，且不能与输入中标注的“已选词”所在位置重叠（不能是同一个词，也不能包含已选词）。
 只选择人物、地点、具体事物、重要事件、核心动词或形容词等可独立表达具体意义、适合朗读回答的实词。
 绝不选择连接词、介词、助词、语气词、代词、标点、数字、无完整意义的片段，也不要选择“某人说”“某人回答”“某人吩咐/告诉”这类发话标签或整句；不要选择以“你/我/他/她/它/的/了/着/上/下/里/中/不/以/为/那/这/和/与/从/对/把/被/给/到/在/是/有/就/都/也/又/会/能/要/等”等虚词开头或结尾的词，也不要选单个虚词。
-meaning 必须严格为“word：简短字面解释”，且只能解释 word 本身，不能解释相邻经文、动作或上下文。
+meaning 必须是简短、独立的释义，不得包含 word，不得写“word：…”，不得引用、复述或改写本节原文，也不能用上下文直接泄露答案。
 如果该节确实没有合适的第二词可选，就跳过该节，不要返回该项。先核验词是否真实存在于原文；不准确就不返回该项。只输出 JSON。"""
 
 
@@ -160,7 +160,7 @@ def main() -> None:
         pos = str(item.get("partOfSpeech", "")).strip()
         meaning = str(item.get("meaning", "")).strip()
         if not word or not pos or not is_meaning_for_word(word, meaning):
-            skipped.append((reference, f"字段不完整/释义无前缀 word:{word}"))
+            skipped.append((reference, f"字段不完整或释义泄露答案 word:{word}"))
             continue
         used = {(s, e) for s, e, _ in source["used_spans"]}
         offsets = find_free_offsets(source["text"], word, used)

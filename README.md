@@ -22,6 +22,8 @@ tools/merge_quiz_banks.py             合并多个导出题库、按位置去重
 tools/update_quiz_bank_index.py       更新 SHA-256、大小与 revision
 tools/quiz_bank_stats.py              按译本统计节覆盖率与平均题数
 tools/validate_quiz_bank.py           校验格式、重复位置、原文 UTF-16 下标与索引
+tools/sanitize_quiz_meanings.py       清理会泄露答案词的既有释义
+tools/prune_unimportable_quiz_questions.py 移除本机原文无法导入的题目
 ```
 
 原文为 eBible 提供的 `cmn-cu89s`，公共领域；来源、SHA-256 与获取日期记录在同目录的 `LICENSE.txt`、`manifest.json`。SQLite 的 `verse_unit` 表包含卷、章、起止节、经文及状态；工具只使用 `present` 且一节对应一个 unit 的经文。
@@ -49,6 +51,15 @@ python tools/generate_quiz_bank.py --dry-run `
 脚本默认使用简体和合本 `cmn-cu89s`，一次发送 5 节、**严格串行**调用，适合只有 1 并发额度的模型账户。每次成功写入连续的一批题目后，会将最后位置记录到本机 `tools/generation_progress.json`（该文件已被 Git 忽略）。下次不传 `--from` 时，会自动从该位置的下一节继续；可随时用 `--from 卷:章:节` 覆盖进度并指定精确断点，例如 `--from GEN:12:1`。如果一批内出现未通过校验的节，脚本会保存已通过题目但停在断点前，防止跳过失败节。如只想处理固定范围，仍可使用 `--book GEN --chapter 1 --start-verse 1 --end-verse 31`。
 
 每节只收一题；模型返回的 UTF-16 下标、答案切片、词性、解释对象和无意义词规则都会在本机原文上重新验证。已有某节 5 题时默认不再请求；可用 `--max-per-verse` 调整。输出为题库格式 v2，不会写入经文文本。
+
+### AI 生成与发布规则（必须遵守）
+
+- 选词必须是与该节原文精确匹配、可独立回答的实词；优先人物、地名、专名、具体事物、核心动词和形容词。补题时必须选取与该节已有题目**不同且不重叠**的位置。
+- 不得选虚词、代词、数字、标点、残缺字串，也不得选“某人说/回答/吩咐”等发话标签。无法选到合适词时宁可跳过该节。
+- `start`、`end` 使用 UTF-16 下标（起始含、结束不含）；写入前必须以 `scripture/cmn-cu89s/scripture.sqlite` 重新切片验证，绝不能相信模型给出的下标或原文。
+- `meaning` 只能给出简短、独立的释义，**不得出现答案词本身**，不得使用“答案词：释义”的格式，不得引用、复述或改写该节原文，也不得以相邻语句或情节直接泄露答案。专名不确定时可使用不含答案的类别提示。
+- 题库中不得保存 `verseText`、API Key、答题记录或其他个人数据。任何新增题目都须通过 `tools/validate_quiz_bank.py`；必要时先运行 `tools/sanitize_quiz_meanings.py` 清理旧释义，或运行 `tools/prune_unimportable_quiz_questions.py` 移除无法被 App 本机原文校验通过的题目。
+- 发布前只能用 `tools/update_quiz_bank_index.py` 更新索引。`revision` 是全局单调递增的发布序号，**绝不可回退、重置或复用**；索引只引用仓库内的相对 JSON 分片，禁止 `/tmp`、绝对路径或未提交文件。发布后必须再次校验 SHA-256、字节数和 revision。
 
 ### 覆盖率与平均题数
 

@@ -170,9 +170,9 @@ def is_content_word(word: str) -> bool:
 def get_meaning(word: str) -> str:
     """Get a meaning for a word, using dictionary or generating a basic one."""
     if word in WORD_HINTS:
-        return f"{word}：{WORD_HINTS[word]}"
+        return WORD_HINTS[word]
     # For names or unknown words, provide a basic meaning
-    return f"{word}：（圣经中的人名/地名/事物）"
+    return "经文中的人物、地点或具体事物"
 
 
 def main():
@@ -185,6 +185,11 @@ def main():
     parser.add_argument("--start-ch", required=True, type=int)
     parser.add_argument("--end-ch", required=True, type=int)
     parser.add_argument("--max-per-verse", type=int, default=2)
+    parser.add_argument(
+        "--dictionary-only",
+        action="store_true",
+        help="仅使用已有释义词典中的词，避免自动切分产生低质量字串",
+    )
     args = parser.parse_args()
 
     existing = load_bank(args.bank)
@@ -231,6 +236,9 @@ def main():
             dict_words = [(w, o) for w, o in candidates if w in WORD_HINTS]
             if dict_words:
                 word, offsets = dict_words[0]
+            elif args.dictionary_only:
+                skipped.append((verse["reference"], "no dictionary-backed candidate"))
+                continue
             else:
                 word, offsets = candidates[0]
             meaning = get_meaning(word)

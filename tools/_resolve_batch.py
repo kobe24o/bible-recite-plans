@@ -2,7 +2,7 @@
 """Local helper (not committed): resolve authored entries into a v2 batch.
 
 Input JSON: a list of {"reference": "13:1", "word": "晓谕", "partOfSpeech":
-"动词", "meaning": "晓谕：明白地告诉"}.  For each entry the word is located in
+"动词", "meaning": "明白地告诉"}.  For each entry the word is located in
 the bundled scripture at the first UTF-16 span that is NOT already used by
 quiz-bank.json for that verse, then every rule from generate_quiz_bank.py is
 applied.  Output: a v2 bank-format batch file ready for merge_quiz_banks.py.
@@ -90,7 +90,7 @@ def main() -> None:
             skipped.append((reference, "重复"))
             continue
         if not word or not pos or not is_meaning_for_word(word, meaning):
-            skipped.append((reference, f"字段不完整/释义无前缀 word:{word}"))
+            skipped.append((reference, f"字段不完整或释义泄露答案 word:{word}"))
             continue
         used_set = set(used.get((source["chapter"], source["verse"]), []))
         offsets = find_free_offsets(source["text"], word, used_set)

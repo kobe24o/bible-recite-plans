@@ -93,8 +93,8 @@ def main() -> None:
             errors.append(f"{prefix} 含空的答案、词性、解释或引用")
         if word.strip() in FUNCTION_WORDS:
             errors.append(f"{prefix} 答案是无意义功能词：{word}")
-        if meaning.strip().startswith((f"{word}：", f"{word}:")):
-            errors.append(f"{prefix} meaning 不得重复答案词前缀")
+        if word.strip() in meaning.strip():
+            errors.append(f"{prefix} meaning 不得包含答案词或重复原文")
         source = sources.get(translation)
         if source is not None:
             text = source.get((book, chapter, verse))
