@@ -1,32 +1,32 @@
 {
   "format": "bible-recite-quiz-bank-index",
   "version": 1,
-  "revision": 713,
+  "revision": 714,
   "shards": [
     {
       "path": "quiz-bank-01.json",
-      "sha256": "c229faa91744991ebaa2a812f44c47de5a59794dbe0f0f31d2c9de2fb2d7e66e",
-      "bytes": 8337364
+      "sha256": "d7f99a0b0914886a349d73b5a7d085070798098a6e52c59f5495226779b63c9b",
+      "bytes": 8336514
     },
     {
       "path": "quiz-bank-02.json",
-      "sha256": "c0c6d3fd05075927167e0096e2d938881a7c1fcf8d43a183f910ccfa12494973",
-      "bytes": 8380855
+      "sha256": "04749796c43e92d907e2e8ced4133bb182c50093c9ef72d3be547ef7a4939eae",
+      "bytes": 8384272
     },
     {
       "path": "quiz-bank-03.json",
-      "sha256": "a38c4d144949d60ed4776e3f0d69f9485482a685525c816e3d7d9dbfb7529e49",
-      "bytes": 8393049
+      "sha256": "87b5a8a99366f514ff58d0ccbe423ba4b5abf564bb8902bed4f5445b854b5dd2",
+      "bytes": 8390120
     },
     {
       "path": "quiz-bank-04.json",
-      "sha256": "45a1c33a0d5cf6f92febd4c5f9e7fe0d010b5055e2bde9c95fff06556cb2ed38",
-      "bytes": 8411105
+      "sha256": "b58866005a97d22b9ebeaaaf63a3085d0894d5b657fa0b35c48258750a0f8f05",
+      "bytes": 8413846
     },
     {
       "path": "quiz-bank-05.json",
-      "sha256": "c88fad4b583a1a74165d08410b65197009019a6145d0b25fa164fba539218340",
-      "bytes": 7549219
+      "sha256": "e14199c30a767d76f2eabd53a65d4d2ac5b3f945626d2edd8a7fdf88fce6451b",
+      "bytes": 7673473
     }
   ]
 }
