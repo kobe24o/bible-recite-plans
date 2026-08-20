@@ -1,0 +1,15 @@
+{
+  "format": "bible-recite-meaning-rules",
+  "version": 1,
+  "forbiddenExactMeanings": [
+    "人名",
+    "地名",
+    "专名",
+    "人物",
+    "地点",
+    "事物",
+    "相关对象",
+    "某个人",
+    "某个地方"
+  ]
+}
