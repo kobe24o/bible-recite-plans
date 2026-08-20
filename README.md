@@ -12,13 +12,14 @@ App 只导入 `push: true` 的计划。已导入手机的计划不会因为后�
 
 ## 答题题库工具
 
-`quiz-bank.json` 只保存题目元数据，**不保存经文原文、答题记录或 API Key**；App 与批量工具都以本仓库的本地原文 SQLite 为唯一经文来源。
+题库文件（`quiz-bank-*.json`）只保存题目元数据，**不保存经文原文、答题记录或 API Key**；App 与批量工具都以本仓库的本地原文 SQLite 为唯一经文来源。题库必须拆分成小于 10MB 的分片（参见「分片规则」）。
 
 ```text
 scripture/cmn-cu89s/scripture.sqlite  新标点和合本（简体）原文数据库
 scripture/cmn-cu89s/LICENSE.txt       上游授权与来源
 tools/generate_quiz_bank.py           串行批量调用 OpenAI 兼容模型并严格校验
 tools/merge_quiz_banks.py             合并多个导出题库、按位置去重
+tools/split_quiz_bank.py              将题库拆分为小于 10MB 的分片并更新索引
 tools/update_quiz_bank_index.py       更新 SHA-256、大小与 revision
 tools/quiz_bank_stats.py              按译本统计节覆盖率与平均题数
 tools/validate_quiz_bank.py           校验格式、重复位置、原文 UTF-16 下标与索引
@@ -75,14 +76,34 @@ python tools/quiz_bank_stats.py --bank quiz-bank.json `
   --translation cmn-cu89t=scripture/cmn-cu89t/scripture.sqlite
 ```
 
+### 分片规则
+
+题库文件（`quiz-bank-*.json`）**每个分片必须小于 10MB**。当单个题库文件超过 10MB 时，必须拆分成多个分片：
+
+```powershell
+# 自动拆分（输入单个文件，输出多个分片并更新索引）
+python tools/split_quiz_bank.py --input quiz-bank.json --output-dir . --index quiz-bank.index.json
+```
+
+拆分后的文件命名为 `quiz-bank-01.json`、`quiz-bank-02.json`、...，索引 `quiz-bank.index.json` 会列出所有分片的路径、SHA-256 和字节数。App 会先下载小索引，然后按需下载各分片。
+
 ### 合并与发布索引
 
 ```powershell
+# 合并多个题库文件
 python tools/merge_quiz_banks.py -o quiz-bank.json bank-a.json bank-b.json
-python tools/validate_quiz_bank.py --bank quiz-bank.json
-python tools/update_quiz_bank_index.py --bank quiz-bank.json --index quiz-bank.index.json
-python tools/validate_quiz_bank.py --bank quiz-bank.json --index quiz-bank.index.json
-git add quiz-bank.json quiz-bank.index.json
+
+# 如果合并后超过 10MB，必须拆分
+python tools/split_quiz_bank.py --input quiz-bank.json --output-dir . --index quiz-bank.index.json
+
+# 校验所有分片
+python tools/validate_quiz_bank.py --bank quiz-bank-01.json
+python tools/validate_quiz_bank.py --bank quiz-bank-02.json
+python tools/validate_quiz_bank.py --index quiz-bank.index.json
+
+# 提交
+rm quiz-bank.json  # 删除合并用的临时文件
+git add quiz-bank-*.json quiz-bank.index.json
 git commit -m "chore: update quiz bank"
 git push
 ```
