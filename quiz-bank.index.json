@@ -15,13 +15,13 @@
     },
     {
       "path": "quiz-bank-03.json",
-      "sha256": "78aca4eb962acdad0f44c3dfcbd4bfdad69231c41213039c2b43397c0862fe53",
-      "bytes": 8433587
+      "sha256": "cdd2daeebaed9298edd314d9bd45fe1781fa18631be04981f0cf5c86926e34a9",
+      "bytes": 8431470
     },
     {
       "path": "quiz-bank-04.json",
-      "sha256": "3184b5f77b5052918600698d8fd5ac13f0ab48108f41e5b3810a693a6c704f20",
-      "bytes": 3676608
+      "sha256": "9f2699d8c69365b2fa91b5dc35380e7ac444058590f831c746e496f32d5eff95",
+      "bytes": 3797850
     }
   ]
 }
