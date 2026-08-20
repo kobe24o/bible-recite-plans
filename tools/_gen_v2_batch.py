@@ -32,7 +32,7 @@ BIBLE_NAMES = {
     "以扫": "雅各的双胞胎兄弟", "约瑟": "雅各之子", "犹大": "雅各第四子",
     "利未": "雅各之子", "便雅悯": "雅各幼子", "流便": "雅各长子",
     "西缅": "雅各之子", "西布伦": "雅各之子", "以萨迦": "雅各之子",
-    "但": "雅各之子", "迦得": "雅各之子", "亚设": "雅各之子",
+    "迦得": "雅各之子", "亚设": "雅各之子",
     "拿弗他利": "雅各之子", "玛拿西": "约瑟之子", "以法莲": "约瑟之子",
     "他拉": "亚伯兰之父", "哈兰": "他拉之子", "罗得": "亚伯兰侄子",
     "麦基洗德": "撒冷王", "以利以谢": "亚伯拉罕的仆人",
@@ -393,8 +393,8 @@ def find_best_word(text: str, used_words: set[str], used_positions: set[tuple[in
                 continue
             if not is_valid_word(word):
                 continue
-            # Skip single character function words
-            if len(word) == 1 and word in FUNCTION_WORDS:
+            # Skip all single character words (they are almost always function words)
+            if len(word) == 1:
                 continue
             pos = find_free_position(text, word, used_positions)
             if pos:
