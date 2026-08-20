@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Split a single quiz-bank.json into multiple shards smaller than 10MB.
 
+Strategy: Fill earlier shards first. This minimizes the number of files that
+change when new questions are added - typically only the last shard grows.
+
 Usage:
   python tools/split_quiz_bank.py --input quiz-bank.json --output-dir . --max-bytes 10000000
 """
@@ -23,39 +26,48 @@ def file_sha256(path: Path) -> str:
 
 
 def split_quiz_bank(input_path: Path, output_dir: Path, max_bytes: int) -> list[dict]:
-    """Split the quiz bank into shards and return index entries."""
+    """Split the quiz bank into shards and return index entries.
+    
+    Strategy: Fill shard 01 first, then shard 02, etc. This minimizes
+    file changes when new questions are added - only the last shard grows.
+    """
     root = json.loads(input_path.read_text(encoding="utf-8"))
     questions = root.get("questions", [])
     
     if not questions:
         raise SystemExit("No questions to split")
     
-    # Try to split evenly across multiple shards
-    # Estimate: we need ceil(total_bytes / max_bytes) shards
+    # Calculate average bytes per question for estimation
     total_bytes = len(json.dumps(root, ensure_ascii=False, indent=2).encode("utf-8"))
-    num_shards = max(1, (total_bytes + max_bytes - 1) // max_bytes)
-    questions_per_shard = (len(questions) + num_shards - 1) // num_shards
+    avg_bytes_per_q = total_bytes / len(questions)
     
-    shards = []
-    shard_index = 1
+    # Use 80% of max as target to leave safety margin
+    target_bytes = int(max_bytes * 0.8)
+    questions_per_shard = max(1, int(target_bytes / avg_bytes_per_q))
+    
+    # Build shards by filling earlier ones first
+    shards_data: list[list[dict]] = []
     
     for i in range(0, len(questions), questions_per_shard):
         shard_questions = questions[i:i + questions_per_shard]
+        shards_data.append(shard_questions)
+    
+    # Write shards
+    shards = []
+    for i, shard_questions in enumerate(shards_data, 1):
         shard_root = {
             "format": FORMAT,
             "version": VERSION,
             "questions": shard_questions,
         }
         
-        # Write shard
-        shard_name = f"quiz-bank-{shard_index:02d}.json"
+        shard_name = f"quiz-bank-{i:02d}.json"
         shard_path = output_dir / shard_name
         shard_path.write_text(
             json.dumps(shard_root, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
         
-        # Check actual size
         actual_bytes = shard_path.stat().st_size
         if actual_bytes > max_bytes:
             print(f"Warning: {shard_name} is {actual_bytes} bytes (>{max_bytes})")
@@ -67,7 +79,6 @@ def split_quiz_bank(input_path: Path, output_dir: Path, max_bytes: int) -> list[
         })
         
         print(f"  {shard_name}: {len(shard_questions)} questions, {actual_bytes} bytes")
-        shard_index += 1
     
     return shards
 

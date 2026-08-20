@@ -85,6 +85,11 @@ python tools/quiz_bank_stats.py --bank quiz-bank.json `
 python tools/split_quiz_bank.py --input quiz-bank.json --output-dir . --index quiz-bank.index.json
 ```
 
+**分片策略**：优先填满序号小的分片。当新增题目时，只有最后的分片会增长，减少 git 中变更的文件数量。例如：
+- 初始拆分为 `quiz-bank-01.json` (10MB) 和 `quiz-bank-02.json` (5MB)
+- 新增题目后可能变为 `quiz-bank-01.json` (10MB)、`quiz-bank-02.json` (10MB) 和 `quiz-bank-03.json` (3MB)
+- 此时只有 `quiz-bank-02.json` 和 `quiz-bank-03.json` 发生变化
+
 拆分后的文件命名为 `quiz-bank-01.json`、`quiz-bank-02.json`、...，索引 `quiz-bank.index.json` 会列出所有分片的路径、SHA-256 和字节数。App 会先下载小索引，然后按需下载各分片。
 
 ### 合并与发布索引

@@ -5,18 +5,23 @@
   "shards": [
     {
       "path": "quiz-bank-01.json",
-      "sha256": "37af94568213a5cd8b976ff0069f801cfa4de175c64343e37f1ed61f8d6472c1",
-      "bytes": 9332663
+      "sha256": "032ef1f45712e43dc80c60b25a6c55a3aaa96ab7e73dbb257196369e5474aa0b",
+      "bytes": 8352886
     },
     {
       "path": "quiz-bank-02.json",
-      "sha256": "e072b88a4ed2c873a742fc91dfce1b88fd92823e4078c270a5abf9836fa88d1c",
-      "bytes": 9373811
+      "sha256": "8c049cf0cb31e692443ecdc4d241dd9d018b70d846ec91c30e57a3ba11d80205",
+      "bytes": 8381300
     },
     {
       "path": "quiz-bank-03.json",
-      "sha256": "a193607a4eb3eca29fdfdb8b326c3003b1955fde6c24ceb3db41273f6686699f",
-      "bytes": 9399327
+      "sha256": "f08042e618af0591d8e4b7bb5bba975632f857e4e567541137f416bdc830756c",
+      "bytes": 8427181
+    },
+    {
+      "path": "quiz-bank-04.json",
+      "sha256": "96702be4998ee1e7bdb513ef8ecc076bb82e2830a32854ff0b33065d2644af37",
+      "bytes": 2944512
     }
   ]
 }
