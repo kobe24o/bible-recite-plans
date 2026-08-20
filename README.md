@@ -19,10 +19,14 @@ scripture/cmn-cu89s/scripture.sqlite  新标点和合本（简体）原文数据
 scripture/cmn-cu89s/LICENSE.txt       上游授权与来源
 tools/generate_quiz_bank.py           串行批量调用 OpenAI 兼容模型并严格校验
 tools/merge_quiz_banks.py             合并多个导出题库、按位置去重
-tools/split_quiz_bank.py              将题库拆分为小于 10MB 的分片并更新索引
+tools/publish_quiz_snapshot.py        暂存整套 replace 分片后一次发布稳定快照
+tools/split_quiz_bank.py              兼容旧命令名，转发至稳定快照发布器
 tools/update_quiz_bank_index.py       更新 SHA-256、大小与 revision
 tools/quiz_bank_stats.py              按译本统计节覆盖率与平均题数
-tools/validate_quiz_bank.py           校验格式、重复位置、原文 UTF-16 下标与索引
+tools/quiz_lexicon.py                 发布端词典、完整词条边界与每节长度配额
+tools/audit_quiz_bank_quality.py      审计残词、释义泄漏和笼统释义并输出 JSON/Markdown
+tools/repair_quiz_bank_quality.py     仅确定性修复唯一词典词条，其余问题题目剔除
+tools/validate_quiz_bank.py           校验格式、重复位置、原文 UTF-16 下标、索引和质量规则
 tools/sanitize_quiz_meanings.py       清理会泄露答案词的既有释义
 tools/prune_unimportable_quiz_questions.py 移除本机原文无法导入的题目
 ```
@@ -51,16 +55,16 @@ python tools/generate_quiz_bank.py --dry-run `
 
 脚本默认使用简体和合本 `cmn-cu89s`，一次发送 5 节、**严格串行**调用，适合只有 1 并发额度的模型账户。每次成功写入连续的一批题目后，会将最后位置记录到本机 `tools/generation_progress.json`（该文件已被 Git 忽略）。下次不传 `--from` 时，会自动从该位置的下一节继续；可随时用 `--from 卷:章:节` 覆盖进度并指定精确断点，例如 `--from GEN:12:1`。如果一批内出现未通过校验的节，脚本会保存已通过题目但停在断点前，防止跳过失败节。如只想处理固定范围，仍可使用 `--book GEN --chapter 1 --start-verse 1 --end-verse 31`。
 
-每节只收一题；模型返回的 UTF-16 下标、答案切片、词性、解释对象和无意义词规则都会在本机原文上重新验证。已有某节 5 题时默认不再请求；可用 `--max-per-verse` 调整。输出为题库格式 v2，不会写入经文文本。
+模型批处理可以为同一节提供多题，但最终发布只保留完整、不重叠的合格词条：少于 20 个汉字的经文最多 1 题，20–39 最多 2 题，40–69 最多 3 题，70–99 最多 4 题，100 字及以上最多 5 题。短节可以为 0 题；绝不为达到上限而填充残词。输出为题库格式 v2，不会写入经文文本。
 
 ### AI 生成与发布规则（必须遵守）
 
 - 选词必须是与该节原文精确匹配、可独立回答的实词；优先人物、地名、专名、具体事物、核心动词和形容词。补题时必须选取与该节已有题目**不同且不重叠**的位置。
 - 不得选虚词、代词、数字、标点、残缺字串，也不得选“某人说/回答/吩咐”等发话标签。无法选到合适词时宁可跳过该节。
 - `start`、`end` 使用 UTF-16 下标（起始含、结束不含）；写入前必须以 `scripture/cmn-cu89s/scripture.sqlite` 重新切片验证，绝不能相信模型给出的下标或原文。
-- `meaning` 只能给出简短、独立的释义，**不得出现答案词本身**，不得使用“答案词：释义”的格式，不得引用、复述或改写该节原文，也不得以相邻语句或情节直接泄露答案。专名不确定时可使用不含答案的类别提示。
+- `meaning` 必须是具体、独立且不含答案词的释义；不得使用“人名”“地名”“专名”“人物”“地点”等笼统类别，也不得引用、复述或改写该节原文。已收录的词典条目必须采用词典释义。
 - 题库中不得保存 `verseText`、API Key、答题记录或其他个人数据。任何新增题目都须通过 `tools/validate_quiz_bank.py`；必要时先运行 `tools/sanitize_quiz_meanings.py` 清理旧释义，或运行 `tools/prune_unimportable_quiz_questions.py` 移除无法被 App 本机原文校验通过的题目。
-- 发布前只能用 `tools/update_quiz_bank_index.py` 更新索引。`revision` 是全局单调递增的发布序号，**绝不可回退、重置或复用**；索引只引用仓库内的相对 JSON 分片，禁止 `/tmp`、绝对路径或未提交文件。发布后必须再次校验 SHA-256、字节数和 revision。
+- 发布前必须先冻结生成任务，运行质量审计、确定性修复和带 `--lexicon`、`--meaning-rules` 的校验。`revision` 是全局单调递增的发布序号，**绝不可回退、重置或复用**；索引只引用仓库内的相对 JSON 分片，禁止 `/tmp`、绝对路径或未提交文件。发布后必须再次校验 SHA-256、字节数和 revision。
 
 ### 覆盖率与平均题数
 
@@ -81,8 +85,9 @@ python tools/quiz_bank_stats.py --bank quiz-bank.json `
 题库文件（`quiz-bank-*.json`）**每个分片必须小于 10MB**。当单个题库文件超过 10MB 时，必须拆分成多个分片：
 
 ```powershell
-# 自动拆分（输入单个文件，输出多个分片并更新索引）
-python tools/split_quiz_bank.py --input quiz-bank.json --output-dir . --index quiz-bank.index.json
+# 发布质量 v3 稳定快照（revision 必须显式且严格递增）
+python tools/publish_quiz_snapshot.py --input quiz-bank.json --output-dir . `
+  --index quiz-bank.index.json --revision 702
 ```
 
 **分片策略**：优先填满序号小的分片。当新增题目时，只有最后的分片会增长，减少 git 中变更的文件数量。例如：
@@ -92,7 +97,7 @@ python tools/split_quiz_bank.py --input quiz-bank.json --output-dir . --index qu
 
 拆分后的文件命名为 `quiz-bank-01.json`、`quiz-bank-02.json`、...，索引 `quiz-bank.index.json` 会列出所有分片的路径、SHA-256 和字节数。App 会先下载小索引，然后按需下载各分片。
 
-**重要**：每次调用 `split_quiz_bank.py` 或 `update_quiz_bank_index.py` 时，`revision` 会自动递增。`revision` 是全局单调递增的发布序号，**绝不可回退、重置或复用**。
+**重要**：质量 v3 发布必须显式传入新的 `revision`；发布器拒绝复用或回退的 revision。它先在临时目录写完并实际计算每个 UTF-8 分片的大小和 SHA-256，再切换分片和索引。索引写入 `snapshotMode: "replace"`、`qualityVersion: 3`，让 App 在全部下载并校验完成后替换本地活动题库。
 
 ### 合并与发布索引
 
@@ -100,8 +105,16 @@ python tools/split_quiz_bank.py --input quiz-bank.json --output-dir . --index qu
 # 合并多个题库文件
 python tools/merge_quiz_banks.py -o quiz-bank.json bank-a.json bank-b.json
 
-# 如果合并后超过 10MB，必须拆分
-python tools/split_quiz_bank.py --input quiz-bank.json --output-dir . --index quiz-bank.index.json
+# 冻结生成后：审计、修复并发布一个完整 replace 快照
+python tools/audit_quiz_bank_quality.py --bank quiz-bank.json `
+  --quality-report reports/audit.json
+python tools/repair_quiz_bank_quality.py --input quiz-bank.json --output quiz-bank-v3.json `
+  --quality-report reports/repair.json
+python tools/validate_quiz_bank.py --bank quiz-bank-v3.json `
+  --lexicon lexicon/bible_terms.v1.json --meaning-rules lexicon/meaning_rules.v1.json `
+  --quality-report reports/final-audit.json
+python tools/publish_quiz_snapshot.py --input quiz-bank-v3.json --output-dir . `
+  --index quiz-bank.index.json --revision 702
 
 # 校验所有分片
 python tools/validate_quiz_bank.py --bank quiz-bank-01.json
