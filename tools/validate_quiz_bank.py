@@ -55,7 +55,14 @@ def main() -> None:
     parser.add_argument("--bank", type=Path, default=Path("quiz-bank.json"))
     parser.add_argument("--index", type=Path, help="同时校验索引中的大小与 SHA-256")
     parser.add_argument("--translation", type=parse_translation, action="append", help="可重复指定：译本ID=原文SQLite路径")
+    parser.add_argument("--lexicon", type=Path, help="词典 JSON；与 --meaning-rules 一起启用质量校验")
+    parser.add_argument("--meaning-rules", type=Path, help="释义规则 JSON；与 --lexicon 一起启用质量校验")
+    parser.add_argument("--quality-report", type=Path, help="质量审计 JSON 输出路径，同时生成 Markdown")
     args = parser.parse_args()
+    if bool(args.lexicon) != bool(args.meaning_rules):
+        parser.error("--lexicon 与 --meaning-rules 必须同时指定")
+    if args.quality_report and not args.lexicon:
+        parser.error("--quality-report 需要同时指定 --lexicon 和 --meaning-rules")
     root = json.loads(args.bank.read_text(encoding="utf-8"))
     errors: list[str] = []
     if root.get("format") != FORMAT or root.get("version") != 2:
@@ -112,6 +119,21 @@ def main() -> None:
             digest = hashlib.sha256(bank_bytes).hexdigest()
             if expected.get("bytes") != len(bank_bytes) or expected.get("sha256") != digest:
                 errors.append("索引的 bytes 或 SHA-256 与题库不一致")
+    if args.lexicon:
+        from audit_quiz_bank_quality import audit_questions, load_rules, write_quality_report
+        from quiz_lexicon import load_terms
+
+        scripture = {
+            f"{book}:{chapter}:{verse}": text
+            for verses in sources.values()
+            for (book, chapter, verse), text in verses.items()
+        }
+        findings = audit_questions(questions, scripture, load_terms(args.lexicon), load_rules(args.meaning_rules))
+        if args.quality_report:
+            write_quality_report(findings, args.quality_report)
+        for finding in findings:
+            if finding.severity == "critical":
+                errors.append(f"质量问题 {finding.code}：{finding.key}")
     if errors:
         for error in errors:
             print(f"错误：{error}")
