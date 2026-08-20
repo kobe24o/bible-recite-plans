@@ -92,6 +92,8 @@ python tools/split_quiz_bank.py --input quiz-bank.json --output-dir . --index qu
 
 拆分后的文件命名为 `quiz-bank-01.json`、`quiz-bank-02.json`、...，索引 `quiz-bank.index.json` 会列出所有分片的路径、SHA-256 和字节数。App 会先下载小索引，然后按需下载各分片。
 
+**重要**：每次调用 `split_quiz_bank.py` 或 `update_quiz_bank_index.py` 时，`revision` 会自动递增。`revision` 是全局单调递增的发布序号，**绝不可回退、重置或复用**。
+
 ### 合并与发布索引
 
 ```powershell

@@ -94,12 +94,12 @@ def main():
     print(f"Splitting {args.input} into shards (max {args.max_bytes} bytes)...")
     shards = split_quiz_bank(args.input, args.output_dir, args.max_bytes)
     
-    # Read existing index to get current revision
+    # Read existing index to get current revision and increment it
     if args.index.exists():
         index_root = json.loads(args.index.read_text(encoding="utf-8"))
-        revision = index_root.get("revision", 0)
+        revision = index_root.get("revision", 0) + 1
     else:
-        revision = 0
+        revision = 1
     
     # Write index
     index_root = {
