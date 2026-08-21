@@ -73,10 +73,15 @@ def _write_staged_shards(questions: list[dict[str, Any]], staging: Path, max_byt
     limit = max_bytes - SAFETY_MARGIN_BYTES
     shards: list[dict[str, Any]] = []
     current: list[dict[str, Any]] = []
+    current_estimate = len(_shard_bytes([]))
     for question in questions:
-        candidate = [*current, question]
-        if len(_shard_bytes(candidate)) <= limit:
-            current = candidate
+        # Serializing every growing candidate turns a large publication into
+        # quadratic work. This conservative per-question estimate keeps the
+        # final exact serialization to once per completed shard.
+        estimate = _question_estimate(question)
+        if current_estimate + estimate <= limit:
+            current.append(question)
+            current_estimate += estimate
             continue
         if not current:
             raise ValueError("a single question exceeds the shard size limit")
@@ -84,6 +89,7 @@ def _write_staged_shards(questions: list[dict[str, Any]], staging: Path, max_byt
         if len(_shard_bytes([question])) > limit:
             raise ValueError("a single question exceeds the shard size limit")
         current = [question]
+        current_estimate = len(_shard_bytes([])) + estimate
     if current:
         shards.append(_write_shard(staging, len(shards) + 1, current, max_bytes))
     if not shards:
@@ -103,6 +109,11 @@ def _write_shard(staging: Path, number: int, questions: list[dict[str, Any]], ma
 
 def _shard_bytes(questions: list[dict[str, Any]]) -> bytes:
     return _json_bytes({"format": FORMAT, "version": VERSION, "questions": questions})
+
+
+def _question_estimate(question: dict[str, Any]) -> int:
+    # Includes indentation/comma headroom in addition to compact JSON bytes.
+    return len(json.dumps(question, ensure_ascii=False, separators=(",", ":")).encode("utf-8")) + 512
 
 
 def _json_bytes(value: object) -> bytes:
