@@ -70,6 +70,29 @@ class AuditQuizBankQualityTest(unittest.TestCase):
             [("critical", "answer_leaking_meaning")],
         )
 
+    def test_jieba_detects_a_fragment_without_a_dictionary_entry(self) -> None:
+        findings = audit_questions(
+            [question("色列", 1, 3)],
+            {"GEN:1:1": "以色列人出埃及"},
+            (),
+            RULES,
+        )
+
+        self.assertEqual(
+            [(item.severity, item.code) for item in findings],
+            [("critical", "partial_segmented_term")],
+        )
+
+    def test_jieba_does_not_reject_a_full_name_for_overlapping_short_tokens(self) -> None:
+        findings = audit_questions(
+            [question("玛土撒拉", 0, 4)],
+            {"GEN:1:1": "玛土撒拉"},
+            (),
+            RULES,
+        )
+
+        self.assertEqual(findings, [])
+
 
 if __name__ == "__main__":
     unittest.main()

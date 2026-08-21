@@ -75,6 +75,9 @@ def audit_questions(
         if overlaps and not is_full_term:
             findings.append(QualityFinding(index, key, "critical", "partial_lexicon_term", "答案只覆盖已知词条的一部分"))
             continue
+        if _is_partial_segmented_term(text, start, end, word):
+            findings.append(QualityFinding(index, key, "critical", "partial_segmented_term", "答案只覆盖结巴识别词语的一部分"))
+            continue
         if word.strip() and word.strip() in str(question.get("meaning", "")).strip():
             findings.append(QualityFinding(index, key, "critical", "answer_leaking_meaning", "释义直接包含答案词"))
             continue
@@ -92,6 +95,23 @@ def write_quality_report(findings: Iterable[QualityFinding], path: Path) -> None
     for item in entries:
         lines.append(f"- `{item['severity']}` `{item['code']}` {item['key']}：{item['message']}")
     markdown.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def _is_partial_segmented_term(text: str, start: int, end: int, word: str) -> bool:
+    """Use Jieba only as a conservative fragment detector, never as a repair source."""
+    import jieba
+
+    boundaries = [0]
+    for character in text:
+        boundaries.append(boundaries[-1] + len(character.encode("utf-16-le")) // 2)
+    for token, code_start, code_end in jieba.tokenize(text):
+        token_start, token_end = boundaries[code_start], boundaries[code_end]
+        if len(token.strip()) < 2 or not (token_start <= start and end <= token_end):
+            continue
+        if token_start == start and token_end == end and token == word:
+            continue
+        return True
+    return False
 
 
 def load_rules(path: Path) -> dict[str, object]:
