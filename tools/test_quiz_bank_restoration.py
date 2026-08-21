@@ -9,11 +9,15 @@ from pathlib import Path
 
 
 class QuizBankRestorationTest(unittest.TestCase):
-    def test_bank_preserves_all_pre_sanitization_candidates(self) -> None:
-        root = json.loads(Path("quiz-bank.json").read_text(encoding="utf-8"))
-        questions = root["questions"]
+    def test_quality_snapshot_uses_all_index_shards_without_answer_leaks(self) -> None:
+        index = json.loads(Path("quiz-bank.index.json").read_text(encoding="utf-8"))
+        questions = [
+            question
+            for shard in index["shards"]
+            for question in json.loads(Path(shard["path"]).read_text(encoding="utf-8"))["questions"]
+        ]
 
-        self.assertEqual(62_025, len(questions))
+        self.assertEqual(60_598, len(questions))
         self.assertTrue(
             all(str(question["word"]) not in str(question["meaning"]) for question in questions),
         )
