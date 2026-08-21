@@ -85,7 +85,6 @@ git commit -m "feat: classify historical quiz word candidates"
 
 **Files:**
 - Create: `lexicon/bible_context.v1.json`
-- Modify: `lexicon/meaning_rules.v1.json`
 - Create: `tools/bible_context.py`
 - Create: `tools/test_bible_context.py`
 
@@ -180,6 +179,7 @@ git commit -m "feat: rewrite meanings with Bible context"
 **Files:**
 - Create: `tools/audit_rewritten_meanings.py`
 - Create: `tools/test_audit_rewritten_meanings.py`
+- Modify: `lexicon/meaning_rules.v1.json`
 
 **Interfaces:**
 - Consumes: `RewriteDraft`、`CandidateDecision`、`meaning_rules.v1.json`、`ContextFact`。

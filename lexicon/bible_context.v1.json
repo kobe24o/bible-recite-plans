@@ -1,0 +1,46 @@
+{
+  "format": "bible-recite-bible-context",
+  "version": 1,
+  "entries": [
+    {
+      "term": "以色列",
+      "aliases": ["以色列人"],
+      "kind": "nation",
+      "facts": ["雅各改名后所代表的后裔群体及其民族称谓"],
+      "references": ["GEN:32:28"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "耶路撒冷",
+      "aliases": [],
+      "kind": "place",
+      "facts": ["犹大地区的圣城，所罗门曾在此建造圣殿"],
+      "references": ["1KI:6:1"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "法利赛人",
+      "aliases": ["法利赛派"],
+      "kind": "group",
+      "facts": ["新约中重视口传传统的犹太宗教群体"],
+      "references": ["MRK:7:3"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "保罗",
+      "aliases": ["扫罗"],
+      "kind": "person",
+      "facts": ["由逼迫教会者转为传讲基督福音的使徒"],
+      "references": ["ACT:9:20"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "摩西",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["带领以色列人离开埃及的神的仆人"],
+      "references": ["EXO:14:31"],
+      "source": "project-curated-scripture"
+    }
+  ]
+}
