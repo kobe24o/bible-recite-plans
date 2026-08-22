@@ -93,6 +93,37 @@ class AuditQuizBankQualityTest(unittest.TestCase):
 
         self.assertEqual(findings, [])
 
+    def test_jieba_does_not_reject_a_full_dictionary_term_before_a_particle(self) -> None:
+        findings = audit_questions(
+            [question("以色列", 0, 3)],
+            {"GEN:1:1": "以色列的国"},
+            TERMS,
+            RULES,
+        )
+
+        self.assertEqual(findings, [])
+
+    def test_jieba_rejects_a_word_crossing_token_boundaries(self) -> None:
+        second = question("们厌", 1, 3)
+        second["verse"] = 2
+        findings = audit_questions(
+            [
+                question("谷之", 1, 3),
+                second,
+            ],
+            {"GEN:1:1": "荒谷之间", "GEN:1:2": "他们厌恶我"},
+            (),
+            RULES,
+        )
+
+        self.assertEqual(
+            [(item.severity, item.code) for item in findings],
+            [
+                ("critical", "partial_segmented_term"),
+                ("critical", "partial_segmented_term"),
+            ],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

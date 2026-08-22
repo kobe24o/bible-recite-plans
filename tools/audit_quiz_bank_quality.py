@@ -75,7 +75,7 @@ def audit_questions(
         if overlaps and not is_full_term:
             findings.append(QualityFinding(index, key, "critical", "partial_lexicon_term", "答案只覆盖已知词条的一部分"))
             continue
-        if _is_partial_segmented_term(text, start, end, word):
+        if not is_full_term and _is_partial_segmented_term(text, start, end, word):
             findings.append(QualityFinding(index, key, "critical", "partial_segmented_term", "答案只覆盖结巴识别词语的一部分"))
             continue
         if word.strip() and word.strip() in str(question.get("meaning", "")).strip():
@@ -107,6 +107,13 @@ def _is_partial_segmented_term(text: str, start: int, end: int, word: str) -> bo
     for token, code_start, code_end in jieba.tokenize(text):
         token_start, token_end = boundaries[code_start], boundaries[code_end]
         if len(token.strip()) < 2 or not (token_start <= start and end <= token_end):
+            # A candidate that begins or ends inside a Jieba token is a
+            # cross-boundary fragment even when it is not wholly contained in
+            # that token (for example ``谷之`` in ``荒谷之间``).
+            if len(token.strip()) >= 2 and (
+                token_start < start < token_end or token_start < end < token_end
+            ):
+                return True
             continue
         if token_start == start and token_end == end and token == word:
             continue

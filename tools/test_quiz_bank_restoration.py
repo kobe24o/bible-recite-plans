@@ -17,7 +17,7 @@ class QuizBankRestorationTest(unittest.TestCase):
             for question in json.loads(Path(shard["path"]).read_text(encoding="utf-8"))["questions"]
         ]
 
-        self.assertEqual(60_598, len(questions))
+        self.assertEqual(102_781, len(questions))
         self.assertTrue(
             all(str(question["word"]) not in str(question["meaning"]) for question in questions),
         )
