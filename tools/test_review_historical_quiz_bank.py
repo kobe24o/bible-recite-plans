@@ -49,6 +49,18 @@ class ReviewHistoricalQuizBankTest(unittest.TestCase):
         self.assertEqual(result.quarantine_count, 1)
         self.assertEqual(result.quarantine[0]["reasons"], ["partial_lexicon_term"])
 
+    def test_quarantines_a_later_duplicate_position(self) -> None:
+        result = review_candidates(
+            [question("以色列", 0, 3), question("以色列", 0, 3)],
+            {"GEN:1:1": "以色列人"},
+            TERMS,
+            RULES,
+        )
+
+        self.assertEqual(result.accepted_count, 1)
+        self.assertEqual(result.quarantine_count, 1)
+        self.assertEqual(result.quarantine[0]["reasons"], ["duplicate_position"])
+
 
 if __name__ == "__main__":
     unittest.main()

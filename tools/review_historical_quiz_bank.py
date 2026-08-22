@@ -50,9 +50,19 @@ def review_candidates(
     """Assign every input question once to accepted candidates or quarantine."""
     accepted: list[dict[str, object]] = []
     quarantine: list[dict[str, object]] = []
+    accepted_keys: set[str] = set()
     for question in questions:
         decision = classify_question(question, scripture, terms, rules)
-        (accepted if decision.accepted else quarantine).append(_record(decision))
+        if decision.accepted and decision.key in accepted_keys:
+            quarantine.append(
+                _record(CandidateDecision(decision.key, False, ("duplicate_position",), decision.question))
+            )
+            continue
+        if decision.accepted:
+            accepted_keys.add(decision.key)
+            accepted.append(_record(decision))
+        else:
+            quarantine.append(_record(decision))
     return CandidateReview(accepted, quarantine)
 
 
