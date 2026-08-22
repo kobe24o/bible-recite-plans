@@ -358,7 +358,7 @@
       "term": "受膏",
       "aliases": [],
       "kind": "ritual",
-      "facts": ["以油礼表示某人被分别承担君王、祭司或先知职分"],
+      "facts": ["以油礼表示某位受礼者被分别承担君王、祭司或先知职分"],
       "references": ["1SA:16:13"],
       "source": "project-curated-scripture"
     },
@@ -472,6 +472,1006 @@
       "kind": "symbol",
       "facts": ["祭牲中的幼羊，新约也以此象征基督的牺牲"],
       "references": ["JHN:1:29"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "以利亚",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["在北国事奉并责备拜巴力之风的先知"],
+      "references": ["1KI:18:21"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "以利沙",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["承接前任先知职分并在北国行神迹的先知"],
+      "references": ["2KI:2:9"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "撒母耳",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["兼具先知和士师身分并膏立以色列王的领袖"],
+      "references": ["1SA:3:20"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "便雅悯",
+      "aliases": [],
+      "kind": "tribe",
+      "facts": ["雅各幼子所代表的以色列十二支派之一"],
+      "references": ["GEN:35:18"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "以萨迦",
+      "aliases": [],
+      "kind": "tribe",
+      "facts": ["雅各儿子所代表的以色列支派之一"],
+      "references": ["GEN:30:18"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "西布伦",
+      "aliases": [],
+      "kind": "tribe",
+      "facts": ["雅各儿子所代表并在加利利北部得地的支派"],
+      "references": ["JOS:19:10"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "拿弗他利",
+      "aliases": [],
+      "kind": "tribe",
+      "facts": ["雅各儿子所代表并在北方承受产业的支派"],
+      "references": ["JOS:19:34"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "亚设",
+      "aliases": [],
+      "kind": "tribe",
+      "facts": ["雅各儿子所代表并在迦南北部承受产业的支派"],
+      "references": ["JOS:19:24"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "西缅",
+      "aliases": [],
+      "kind": "tribe",
+      "facts": ["雅各儿子所代表并在犹大境内得城邑的支派"],
+      "references": ["JOS:19:1"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "流便",
+      "aliases": [],
+      "kind": "tribe",
+      "facts": ["雅各长子所代表并在约旦河东承受产业的支派"],
+      "references": ["JOS:13:8"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "迦得",
+      "aliases": [],
+      "kind": "tribe",
+      "facts": ["雅各儿子所代表并在约旦河东得地的支派"],
+      "references": ["JOS:13:24"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "迦勒",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["在窥探迦南时坚持信靠神并后来承受希伯仑的勇士"],
+      "references": ["JOS:14:13"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "罗波安",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["所罗门之后继位并使王国分裂的南国君王"],
+      "references": ["1KI:12:19"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "耶罗波安",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["带领北方支派脱离大卫王朝并在北国立金牛犊的君王"],
+      "references": ["1KI:12:28"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "希西家",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["在耶路撒冷除掉偶像并倚靠神抵抗亚述的南国君王"],
+      "references": ["2KI:18:5"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "约西亚",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["听见律法书后推动圣殿改革并守逾越节的南国君王"],
+      "references": ["2KI:23:21"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "约沙法",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["在犹大推行教导律法并寻求神的南国君王"],
+      "references": ["2CH:17:7"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "亚哈斯",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["在亚述压力下背弃神并关闭圣殿的南国君王"],
+      "references": ["2KI:16:10"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "尼布甲尼撒",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["攻陷耶路撒冷并把犹大人掳到巴比伦的帝国君王"],
+      "references": ["2KI:24:10"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "以斯帖",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["在波斯王宫中为拯救本族而冒死进见君王的犹太女子"],
+      "references": ["EST:4:16"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "以斯拉",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["归回耶路撒冷并专心讲解摩西律法的文士祭司"],
+      "references": ["EZR:7:10"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "尼希米",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["带领归回者重建耶路撒冷城墙并治理百姓的省长"],
+      "references": ["NEH:2:17"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "但以理",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["被掳到巴比伦仍持守信仰并蒙神启示的先知"],
+      "references": ["DAN:6:10"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "约拿",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["奉差遣向尼尼微宣告警告却曾逃往他施的先知"],
+      "references": ["JON:1:2"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "以赛亚",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["在犹大君王时期宣告审判与弥赛亚盼望的先知"],
+      "references": ["ISA:1:1"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "耶利米",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["在耶路撒冷陷落前呼吁悔改并宣告新约盼望的先知"],
+      "references": ["JER:31:31"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "以西结",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["在巴比伦被掳之地看见异象并传达复兴盼望的先知"],
+      "references": ["EZK:1:1"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "撒玛利亚",
+      "aliases": [],
+      "kind": "place",
+      "facts": ["北国以色列的首都，后来成为该地区的中心"],
+      "references": ["1KI:16:24"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "加利利",
+      "aliases": [],
+      "kind": "place",
+      "facts": ["耶稣在世事奉的重要地区，位于以色列北部"],
+      "references": ["MAT:4:23"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "伯利恒",
+      "aliases": [],
+      "kind": "place",
+      "facts": ["大卫的城，也是弥赛亚降生预言所指的犹大城镇"],
+      "references": ["MIC:5:2"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "拿撒勒",
+      "aliases": [],
+      "kind": "place",
+      "facts": ["耶稣成长的加利利城镇"],
+      "references": ["MAT:2:23"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "罗马",
+      "aliases": [],
+      "kind": "place",
+      "facts": ["保罗书信所面向的帝国首都教会所在地"],
+      "references": ["ROM:1:7"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "哥林多",
+      "aliases": [],
+      "kind": "place",
+      "facts": ["保罗建立教会并写信教导其信徒的希腊城市"],
+      "references": ["1CO:1:2"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "以弗所",
+      "aliases": [],
+      "kind": "place",
+      "facts": ["保罗长期传道并建立教会的亚细亚城市"],
+      "references": ["ACT:19:10"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "安提阿",
+      "aliases": [],
+      "kind": "place",
+      "facts": ["门徒首次被称为基督徒并差派宣教士的城市教会"],
+      "references": ["ACT:11:26"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "摩押",
+      "aliases": [],
+      "kind": "nation",
+      "facts": ["罗得后代形成、位于死海东面的邻近民族"],
+      "references": ["GEN:19:37"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "亚扪",
+      "aliases": [],
+      "kind": "nation",
+      "facts": ["罗得后代形成、常与以色列争战的约旦河东民族"],
+      "references": ["GEN:19:38"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "亚兰",
+      "aliases": [],
+      "kind": "nation",
+      "facts": ["以色列北方的古代民族和地区，首都曾在大马士革"],
+      "references": ["1KI:11:25"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "以法莲",
+      "aliases": [],
+      "kind": "tribe",
+      "facts": ["约瑟幼子所代表并在北方拥有重要地位的以色列支派"],
+      "references": ["GEN:48:19"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "亚伯",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["亚当次子，因信献上蒙悦纳的祭而被记念的义人"],
+      "references": ["HEB:11:4"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "以撒",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["亚伯拉罕和撒拉所生、承受应许的族长"],
+      "references": ["GEN:21:3"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "利未",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["雅各的儿子，后来祭司家族所出支派的祖先"],
+      "references": ["GEN:29:34"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "押沙龙",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["大卫的儿子，曾发动叛乱争夺王位的王子"],
+      "references": ["2SA:15:10"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "约押",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["大卫军队的元帅，参与统一王国的战争"],
+      "references": ["2SA:8:16"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "儿子",
+      "aliases": [],
+      "kind": "relationship",
+      "facts": ["圣经家谱和叙事中指父亲所生的男性后代"],
+      "references": ["MAT:1:1"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "子孙",
+      "aliases": [],
+      "kind": "relationship",
+      "facts": ["圣经家谱中由先祖延续而来的后代群体"],
+      "references": ["GEN:12:7"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "弟兄",
+      "aliases": [],
+      "kind": "relationship",
+      "facts": ["圣经中可指同胞兄弟，也用于信仰群体彼此相称"],
+      "references": ["MAT:23:8"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "仆人",
+      "aliases": [],
+      "kind": "office",
+      "facts": ["受主人差遣服事，在圣经中也指甘心事奉神的人"],
+      "references": ["JOS:24:15"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "百姓",
+      "aliases": [],
+      "kind": "group",
+      "facts": ["在圣经叙事中受君王治理或归属于神的民众"],
+      "references": ["EXO:19:5"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "列祖",
+      "aliases": [],
+      "kind": "relationship",
+      "facts": ["以色列家族历史中被后代尊为先祖的前代人"],
+      "references": ["ACT:3:13"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "君王",
+      "aliases": [],
+      "kind": "office",
+      "facts": ["治理国家和百姓、在圣经历史中承担王权的统治者"],
+      "references": ["DEU:17:14"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "首领",
+      "aliases": [],
+      "kind": "office",
+      "facts": ["在以色列支派或军队中承担治理和带领责任的人"],
+      "references": ["NUM:1:16"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "使者",
+      "aliases": [],
+      "kind": "office",
+      "facts": ["奉差遣传达君王、先知或神命令的代表"],
+      "references": ["MAL:3:1"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "洁净",
+      "aliases": [],
+      "kind": "practice",
+      "facts": ["按律法从礼仪不洁或罪污状态中恢复分别为圣"],
+      "references": ["LEV:14:19"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "敬畏",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["面对神的圣洁而存敬重，并以顺服回应的态度"],
+      "references": ["PRO:1:7"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "知识",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["认识神的作为并能按真理分辨善恶的理解"],
+      "references": ["HOS:4:6"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "能力",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["完成神所托之事或胜过患难所需的力量"],
+      "references": ["ZEC:4:6"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "平安祭",
+      "aliases": [],
+      "kind": "offering",
+      "facts": ["献给神并可与献祭者共享筵席、表达和好感恩的祭"],
+      "references": ["LEV:7:11"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "赎罪祭",
+      "aliases": [],
+      "kind": "offering",
+      "facts": ["为过犯带来到神面前的洁净和赎罪而献上的祭"],
+      "references": ["LEV:4:20"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "素祭",
+      "aliases": [],
+      "kind": "offering",
+      "facts": ["以细面、油和乳香献上的无血祭礼"],
+      "references": ["LEV:2:1"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "自己",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["指叙事中所述主体本身，强调其亲自承担行动或责任"],
+      "references": ["GAL:6:5"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "一个",
+      "aliases": [],
+      "kind": "quantity",
+      "facts": ["圣经叙事中表示单一对象的数量词"],
+      "references": ["MAT:18:12"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "时候",
+      "aliases": [],
+      "kind": "time",
+      "facts": ["圣经叙事中指某件应许、审判或事件发生的时段"],
+      "references": ["GAL:4:4"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "一切",
+      "aliases": [],
+      "kind": "quantity",
+      "facts": ["指所涉及的全部人事物，强调神权柄所覆盖的完整范围"],
+      "references": ["COL:1:16"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "知道",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["从启示、教导或经历中明白某件事的认识状态"],
+      "references": ["JHN:17:3"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "看见",
+      "aliases": [],
+      "kind": "perception",
+      "facts": ["用眼睛或异象察觉，也可指神使人明白属灵事实"],
+      "references": ["JHN:9:39"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "吩咐",
+      "aliases": [],
+      "kind": "speech-act",
+      "facts": ["有权柄者向人发出应当遵行的命令或安排"],
+      "references": ["DEU:5:31"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "听见",
+      "aliases": [],
+      "kind": "perception",
+      "facts": ["听到声音或领受宣告，在圣经中常指领受神的话"],
+      "references": ["ROM:10:17"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "告诉",
+      "aliases": [],
+      "kind": "speech-act",
+      "facts": ["把所知道的信息、见证或神的吩咐传达给别人"],
+      "references": ["JHN:1:18"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "众人",
+      "aliases": [],
+      "kind": "group",
+      "facts": ["叙事中被合称的一群人，通常共同听见、看见或回应事件"],
+      "references": ["ACT:2:6"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "日子",
+      "aliases": [],
+      "kind": "time",
+      "facts": ["指事件发生或神所安排的一段日期与时期"],
+      "references": ["EPH:5:16"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "回答",
+      "aliases": [],
+      "kind": "speech-act",
+      "facts": ["对问题、呼唤或神的吩咐作出言语或行动回应"],
+      "references": ["1SA:3:10"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "仇敌",
+      "aliases": [],
+      "kind": "group",
+      "facts": ["与神或神的百姓敌对、施行攻击的一方"],
+      "references": ["PSA:110:1"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "妇人",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["圣经叙事中对成年女性或已婚女性的称谓"],
+      "references": ["GEN:2:23"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "如此",
+      "aliases": [],
+      "kind": "reference",
+      "facts": ["指向前文所述的方式、状态或神已经说过的安排"],
+      "references": ["GEN:1:7"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "起誓",
+      "aliases": [],
+      "kind": "practice",
+      "facts": ["在神或见证者面前用誓言确认承诺和所说的话"],
+      "references": ["HEB:6:13"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "预备",
+      "aliases": [],
+      "kind": "action",
+      "facts": ["为神的工作、敬拜或将要发生的事件先行作准备"],
+      "references": ["MAT:3:3"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "记念",
+      "aliases": [],
+      "kind": "practice",
+      "facts": ["借着宣讲、节期或行动持续记住神的作为和约"],
+      "references": ["EXO:12:14"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "脱离",
+      "aliases": [],
+      "kind": "salvation",
+      "facts": ["从奴役、患难、仇敌或罪恶的辖制中被救出"],
+      "references": ["EXO:14:13"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "永远",
+      "aliases": [],
+      "kind": "time",
+      "facts": ["指神的信实、国度或应许没有终止的持续状态"],
+      "references": ["PSA:90:2"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "平安",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["与神和好并在祂保守中得安稳的状态"],
+      "references": ["JHN:14:27"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "彼此",
+      "aliases": [],
+      "kind": "relationship",
+      "facts": ["指群体成员之间互相发生的关系、行动或责任"],
+      "references": ["JHN:13:34"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "说话",
+      "aliases": [],
+      "kind": "speech-act",
+      "facts": ["以言语传达信息、见证或从神而来的宣告"],
+      "references": ["HEB:1:1"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "迦南",
+      "aliases": [],
+      "kind": "place",
+      "facts": ["神应许给亚伯拉罕后裔居住的土地"],
+      "references": ["GEN:12:7"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "帐幕",
+      "aliases": [],
+      "kind": "worship-place",
+      "facts": ["以色列人在旷野中敬拜神的可移动圣所"],
+      "references": ["EXO:25:8"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "父亲",
+      "aliases": [],
+      "kind": "relationship",
+      "facts": ["家族中承担父职的男性，圣经也以此称呼天父"],
+      "references": ["MAT:6:9"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "恶人",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["背逆神、行不义并拒绝悔改的人"],
+      "references": ["PSA:1:6"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "长老",
+      "aliases": [],
+      "kind": "office",
+      "facts": ["在家族、支派或教会中因资历承担治理和教导责任的人"],
+      "references": ["1TI:5:17"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "万军",
+      "aliases": [],
+      "kind": "title",
+      "facts": ["指天上和地上的众军旅，常见于神作统帅的尊称语境"],
+      "references": ["ISA:6:3"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "锡安",
+      "aliases": [],
+      "kind": "place",
+      "facts": ["耶路撒冷的圣山，也象征神与祂百姓同在的居所"],
+      "references": ["PSA:132:13"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "亚哈",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["在王后耶洗别影响下推广巴力崇拜的北国君王"],
+      "references": ["1KI:16:31"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "基列",
+      "aliases": [],
+      "kind": "place",
+      "facts": ["约旦河东的山地和地区，以色列支派在那里承受产业"],
+      "references": ["NUM:32:1"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "惧怕",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["面对危险、审判或神的威严而产生的战兢，也可指敬畏"],
+      "references": ["PRO:9:10"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "晓谕",
+      "aliases": [],
+      "kind": "speech-act",
+      "facts": ["神借先知或使者向人公开宣告祂的旨意"],
+      "references": ["JER:1:7"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "义人",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["因信靠神并按祂公义生活、蒙神称许的人"],
+      "references": ["ROM:1:17"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "离开",
+      "aliases": [],
+      "kind": "action",
+      "facts": ["从原处、旧有生活或罪恶辖制中出来，走向神所指示的道路"],
+      "references": ["GEN:12:1"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "声音",
+      "aliases": [],
+      "kind": "perception",
+      "facts": ["可被听见的言语或声响，圣经也用来指神的呼唤"],
+      "references": ["JHN:10:27"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "支派",
+      "aliases": [],
+      "kind": "group",
+      "facts": ["由共同祖先形成的以色列宗族分支"],
+      "references": ["GEN:49:28"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "聪明",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["能按神所赐智慧分辨事理并作合宜判断的能力"],
+      "references": ["1KI:3:12"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "石头",
+      "aliases": [],
+      "kind": "symbol",
+      "facts": ["可作建筑材料或记号，圣经也以此比喻基督和属神的群体"],
+      "references": ["1PE:2:4"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "欢喜",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["因神的拯救、同在或应许而产生的喜乐回应"],
+      "references": ["PHP:4:4"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "言语",
+      "aliases": [],
+      "kind": "speech-act",
+      "facts": ["从口中发出的信息、教导或见证，圣经强调其应当诚实"],
+      "references": ["EPH:4:29"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "食物",
+      "aliases": [],
+      "kind": "material",
+      "facts": ["维持身体生命的饮食，圣经也常借饮食教导感恩和节制"],
+      "references": ["1TI:4:4"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "聚集",
+      "aliases": [],
+      "kind": "action",
+      "facts": ["人们聚到一处敬拜、听教导或共同面对事件的行动"],
+      "references": ["HEB:10:25"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "救赎",
+      "aliases": [],
+      "kind": "salvation",
+      "facts": ["神付出代价把人从罪和死亡的辖制中释放出来"],
+      "references": ["EPH:1:7"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "认识",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["不只获得信息，也在关系中真实明白神和祂的道路"],
+      "references": ["JER:9:24"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "拣选",
+      "aliases": [],
+      "kind": "theology",
+      "facts": ["神按自己的旨意从人或群体中呼召承担祂的使命者"],
+      "references": ["EPH:1:4"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "攻击",
+      "aliases": [],
+      "kind": "action",
+      "facts": ["敌对者以武力或行动伤害神的百姓或夺取城邑"],
+      "references": ["JOS:6:20"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "丈夫",
+      "aliases": [],
+      "kind": "relationship",
+      "facts": ["婚约中与妻子相连并承担家庭责任的男性"],
+      "references": ["EPH:5:25"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "女儿",
+      "aliases": [],
+      "kind": "relationship",
+      "facts": ["家族中的女性后代，圣经家谱和叙事常以父系关系称呼"],
+      "references": ["GEN:24:48"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "子女",
+      "aliases": [],
+      "kind": "relationship",
+      "facts": ["父母所生的后代，圣经也用来指神百姓的儿女"],
+      "references": ["PSA:127:3"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "母亲",
+      "aliases": [],
+      "kind": "relationship",
+      "facts": ["生育并养育子代的女性，圣经也以此比喻安慰和保护"],
+      "references": ["ISA:66:13"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "儿女",
+      "aliases": [],
+      "kind": "relationship",
+      "facts": ["父母所生的后代，也可指属神群体中的子代"],
+      "references": ["1JHN:3:1"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "教训",
+      "aliases": [],
+      "kind": "teaching",
+      "facts": ["从律法、先知或使徒而来的教导，用来纠正并塑造生命"],
+      "references": ["2TI:3:16"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "拯救",
+      "aliases": [],
+      "kind": "salvation",
+      "facts": ["神把人从罪、死亡或仇敌的危险中救出来的行动"],
+      "references": ["LUK:19:10"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "生命",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["神所赐的活着状态，新约也指在基督里得着的永生"],
+      "references": ["JHN:11:25"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "差遣",
+      "aliases": [],
+      "kind": "mission",
+      "facts": ["神或主把人派出去传达信息、作见证或完成使命"],
+      "references": ["JHN:20:21"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "罪孽",
+      "aliases": [],
+      "kind": "theology",
+      "facts": ["明知故犯、背逆神并造成亏欠的罪恶行为"],
+      "references": ["ISA:53:5"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "争战",
+      "aliases": [],
+      "kind": "event",
+      "facts": ["军队之间的战斗，圣经也用来描述属灵的冲突"],
+      "references": ["EPH:6:12"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "磐石",
+      "aliases": [],
+      "kind": "symbol",
+      "facts": ["坚固的岩石，圣经常借此比喻神的可靠保护和基督"],
+      "references": ["1CO:10:4"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "邦人",
+      "aliases": [],
+      "kind": "group",
+      "facts": ["以色列以外各民族的人，等同于外邦各族"],
+      "references": ["MAT:28:19"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "明白",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["领会教导、异象或神旨意的意义并据此回应"],
+      "references": ["MAT:13:23"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "加勒底",
+      "aliases": [],
+      "kind": "nation",
+      "facts": ["后来建立巴比伦帝国并参与攻陷耶路撒冷的民族"],
+      "references": ["2KI:24:2"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "约拿单",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["扫罗的儿子，与大卫立约并忠于朋友的王子"],
+      "references": ["1SA:18:3"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "拿单",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["大卫时代奉神责备君王并传达神旨意的先知"],
+      "references": ["2SA:12:7"],
       "source": "project-curated-scripture"
     }
   ]
