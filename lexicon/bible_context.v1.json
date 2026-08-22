@@ -28,7 +28,7 @@
     },
     {
       "term": "保罗",
-      "aliases": ["扫罗"],
+      "aliases": [],
       "kind": "person",
       "facts": ["由逼迫教会者转为传讲基督福音的使徒"],
       "references": ["ACT:9:20"],
@@ -40,6 +40,438 @@
       "kind": "person",
       "facts": ["带领以色列人离开埃及的神的仆人"],
       "references": ["EXO:14:31"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "耶和华",
+      "aliases": [],
+      "kind": "deity-name",
+      "facts": ["以色列圣约中称呼独一真神的名字"],
+      "references": ["EXO:3:15"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "耶稣",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["新约所见应许的弥赛亚，借死而复活施行救赎的主"],
+      "references": ["MAT:1:21"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "大卫",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["受膏成为以色列王并建立王朝的君王"],
+      "references": ["1SA:16:13"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "祭司",
+      "aliases": [],
+      "kind": "office",
+      "facts": ["在会幕或圣殿中代表百姓献祭并事奉神的职分"],
+      "references": ["LEV:16:32"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "埃及",
+      "aliases": [],
+      "kind": "place",
+      "facts": ["以色列人曾寄居并蒙神带领离开之地"],
+      "references": ["EXO:12:31"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "先知",
+      "aliases": [],
+      "kind": "office",
+      "facts": ["奉神差遣向百姓传达启示和警告的人"],
+      "references": ["DEU:18:18"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "雅各",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["以撒的儿子，后来被改名为以色列的族长"],
+      "references": ["GEN:32:28"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "智慧",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["按神的真理分辨并实践善恶的能力"],
+      "references": ["PRO:9:10"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "荣耀",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["显明尊贵、威严和神圣同在的状态"],
+      "references": ["EXO:24:16"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "以利",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["士师时代兼任祭司和士师的以色列领袖"],
+      "references": ["1SA:4:18"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "基督",
+      "aliases": [],
+      "kind": "title",
+      "facts": ["希腊语中对受膏者的称呼，指神应许的救主"],
+      "references": ["MAT:16:16"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "门徒",
+      "aliases": [],
+      "kind": "group",
+      "facts": ["跟随耶稣受教并见证其工作的学习者"],
+      "references": ["MAT:28:19"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "亚伦",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["摩西的兄长，神所立的首任以色列大祭司"],
+      "references": ["EXO:28:1"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "律法",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["神借摩西赐给以色列人的约和生活规范"],
+      "references": ["DEU:4:8"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "利未人",
+      "aliases": [],
+      "kind": "group",
+      "facts": ["利未支派中负责会幕或圣殿事务的服事者"],
+      "references": ["NUM:3:6"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "巴比伦",
+      "aliases": [],
+      "kind": "place",
+      "facts": ["古代两河流域帝国，曾攻陷耶路撒冷并掳走犹大人"],
+      "references": ["2KI:25:9"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "非利士",
+      "aliases": [],
+      "kind": "group",
+      "facts": ["与以色列长期争战的迦南沿海民族"],
+      "references": ["1SA:17:1"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "所罗门",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["大卫之子，以智慧和建造耶路撒冷圣殿闻名的以色列王"],
+      "references": ["1KI:6:1"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "公义",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["在神面前合乎正直标准的状态"],
+      "references": ["DEU:6:25"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "亚伯拉罕",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["蒙神呼召离开本地并领受应许的族长"],
+      "references": ["GEN:12:1"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "燔祭",
+      "aliases": [],
+      "kind": "ritual",
+      "facts": ["将祭牲全然焚烧献给神的祭"],
+      "references": ["LEV:1:9"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "法老",
+      "aliases": [],
+      "kind": "title",
+      "facts": ["古埃及君王的称号"],
+      "references": ["EXO:5:2"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "约书亚",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["摩西之后带领以色列人进入应许之地的领袖"],
+      "references": ["JOS:1:1"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "约旦河",
+      "aliases": [],
+      "kind": "place",
+      "facts": ["以色列地的重要河流，耶稣在那里受洗"],
+      "references": ["MAT:3:13"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "慈爱",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["神以信实关系持续施行的怜悯和善意"],
+      "references": ["EXO:34:6"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "天使",
+      "aliases": [],
+      "kind": "being",
+      "facts": ["奉神差遣传信或执行任务的属灵使者"],
+      "references": ["HEB:1:14"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "彼得",
+      "aliases": [],
+      "kind": "person",
+      "facts": ["耶稣十二门徒之一，也是早期教会的使徒"],
+      "references": ["MAT:16:18"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "罪",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["违背神旨意和公义标准的行为或状态"],
+      "references": ["1JN:3:4"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "旷野",
+      "aliases": [],
+      "kind": "place",
+      "facts": ["以色列人在出埃及旅程中经过并受试验的荒凉地区"],
+      "references": ["EXO:16:1"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "审判",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["神按人的行为显明公义裁决的行动"],
+      "references": ["REV:20:12"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "祷告",
+      "aliases": [],
+      "kind": "practice",
+      "facts": ["人向神献上敬拜、祈求和交通的行动"],
+      "references": ["MAT:6:6"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "复活",
+      "aliases": [],
+      "kind": "event",
+      "facts": ["死者重新得生命，基督信仰以此宣告耶稣胜过死亡"],
+      "references": ["1CO:15:4"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "圣灵",
+      "aliases": [],
+      "kind": "deity",
+      "facts": ["奉父和子差遣、教导信徒的神的灵"],
+      "references": ["JHN:14:26"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "福音",
+      "aliases": [],
+      "kind": "message",
+      "facts": ["宣告耶稣基督救恩的好消息"],
+      "references": ["ROM:1:16"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "教会",
+      "aliases": [],
+      "kind": "group",
+      "facts": ["由基督召聚并共同敬拜的信徒群体"],
+      "references": ["MAT:16:18"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "圣殿",
+      "aliases": [],
+      "kind": "place",
+      "facts": ["耶路撒冷中供以色列敬拜神的殿宇"],
+      "references": ["JHN:2:19"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "会幕",
+      "aliases": [],
+      "kind": "place",
+      "facts": ["以色列人在旷野时期作为神同在象征的移动会所"],
+      "references": ["EXO:25:8"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "安息日",
+      "aliases": [],
+      "kind": "practice",
+      "facts": ["每周第七日分别出来停止劳作并敬拜神"],
+      "references": ["EXO:20:8"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "逾越节",
+      "aliases": [],
+      "kind": "festival",
+      "facts": ["纪念以色列人蒙拯救离开埃及的节期"],
+      "references": ["EXO:12:11"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "受膏",
+      "aliases": [],
+      "kind": "ritual",
+      "facts": ["以油礼表示某人被分别承担君王、祭司或先知职分"],
+      "references": ["1SA:16:13"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "十字架",
+      "aliases": [],
+      "kind": "symbol",
+      "facts": ["罗马刑具，在福音中成为基督受死救赎的记号"],
+      "references": ["1CO:1:18"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "救恩",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["神把人从罪和死亡中拯救出来的恩赐"],
+      "references": ["EPH:2:8"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "恩典",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["神向不配的人白白施予的慈爱和拯救"],
+      "references": ["EPH:2:8"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "信心",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["对神及其应许的信靠"],
+      "references": ["HEB:11:1"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "怜悯",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["看见困苦而施行宽恕和帮助的慈爱"],
+      "references": ["LUK:6:36"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "犹太人",
+      "aliases": [],
+      "kind": "group",
+      "facts": ["源自以色列传统并持守犹太信仰的群体"],
+      "references": ["ROM:1:16"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "外邦人",
+      "aliases": [],
+      "kind": "group",
+      "facts": ["以色列民族以外的各族人"],
+      "references": ["ROM:1:16"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "使徒",
+      "aliases": [],
+      "kind": "office",
+      "facts": ["被基督差遣作见证并建立教会的代表"],
+      "references": ["EPH:4:11"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "圣洁",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["从罪中分别出来并归属于神的状态"],
+      "references": ["1PE:1:15"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "悔改",
+      "aliases": [],
+      "kind": "practice",
+      "facts": ["转离罪恶并归向神的心志和行动"],
+      "references": ["ACT:2:38"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "赦免",
+      "aliases": [],
+      "kind": "concept",
+      "facts": ["神不再追讨悔罪者过犯的恩典行动"],
+      "references": ["ACT:2:38"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "撒但",
+      "aliases": [],
+      "kind": "being",
+      "facts": ["在圣经中抵挡神并控告人的邪恶势力"],
+      "references": ["REV:12:9"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "魔鬼",
+      "aliases": [],
+      "kind": "being",
+      "facts": ["在圣经中迷惑世人并敌挡神的邪恶者"],
+      "references": ["REV:12:9"],
+      "source": "project-curated-scripture"
+    },
+    {
+      "term": "羔羊",
+      "aliases": [],
+      "kind": "symbol",
+      "facts": ["祭牲中的幼羊，新约也以此象征基督的牺牲"],
+      "references": ["JHN:1:29"],
       "source": "project-curated-scripture"
     }
   ]
