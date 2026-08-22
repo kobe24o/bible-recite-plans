@@ -11,6 +11,9 @@ from generate_quiz_bank import FUNCTION_WORDS
 from quiz_lexicon import LexiconTerm, find_overlapping_terms
 
 
+_OLD_MEANING_FINDINGS = {"answer_leaking_meaning", "generic_meaning"}
+
+
 @dataclass(frozen=True)
 class CandidateDecision:
     key: str
@@ -56,7 +59,8 @@ def classify_question(
     reasons = tuple(
         finding.code
         for finding in findings
-        if not (complete_term and finding.code == "partial_segmented_term")
+        if finding.code not in _OLD_MEANING_FINDINGS
+        and not (complete_term and finding.code == "partial_segmented_term")
     )
     copied.pop("_scripture_text", None)
     return CandidateDecision(question_key(copied), not reasons, reasons, copied)

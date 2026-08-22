@@ -12,7 +12,7 @@
 
 ## Global Constraints
 
-- 历史输入固定为 `e242fe2`，所有运行产物记录 commit、输入 SHA-256、题数和规则版本。
+- 历史输入固定为 `e242fe2` 的索引和索引列出的全部 6 个分片，所有运行产物记录 commit、每个输入 SHA-256、题数和规则版本。
 - 未通过完整词、位置、释义或经文事实审计的题必须隔离，不能以泛化释义进入候选输出。
 - 释义不得包含 `word` 的规范化文本、不得复述本节原文、不得仅使用“人名”“地名”等泛词。
 - 释义中的圣经知识必须来自经文窗口或版本化事实条目；事实不足时隔离。
@@ -228,7 +228,7 @@ git commit -m "feat: audit rewritten quiz meanings"
 - Modify: `README.md`
 
 **Interfaces:**
-- Consumes: Tasks 1–4 的模块和 `git show e242fe2:quiz-bank.json` 输入。
+- Consumes: Tasks 1–4 的模块，以及 `git show e242fe2:quiz-bank.index.json` 列出的 6 个历史分片。
 - Produces: `input-manifest.json`、`candidates.jsonl`、`rewritten.jsonl`、`quarantine.jsonl`、`summary.md`。
 
 - [ ] **Step 1: 写出失败测试**
@@ -248,7 +248,7 @@ Expected: FAIL，因为端到端审阅器不存在。
 
 - [ ] **Step 3: 实现流水线与报告**
 
-CLI 必须使用 `--historical-revision e242fe2 --output-dir reports/historical-v1 --seed 20260821`；模型连接参数固定为 `--base-url-env QUIZ_MODEL_BASE_URL --model-env QUIZ_MODEL_NAME --api-key-env QUIZ_MODEL_API_KEY`。先读取历史文件并写输入清单，再做候选筛选、可恢复批量重写、释义审计。每题恰好输出到 accepted 或 quarantine；输出按题目位置排序，摘要写明总数、每类原因、书卷、词长、释义来源和固定 100 条分层样本。
+CLI 必须使用 `--historical-revision e242fe2 --output-dir reports/historical-v1 --seed 20260821`；模型连接参数固定为 `--base-url-env QUIZ_MODEL_BASE_URL --model-env QUIZ_MODEL_NAME --api-key-env QUIZ_MODEL_API_KEY`。先读取历史索引及其列出的所有分片并写输入清单，再做候选筛选、可恢复批量重写、释义审计。每题恰好输出到 accepted 或 quarantine；输出按题目位置排序，摘要写明总数、每类原因、书卷、词长、释义来源和固定 100 条分层样本。
 
 - [ ] **Step 4: 运行端到端测试与小批演练**
 

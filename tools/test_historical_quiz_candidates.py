@@ -21,7 +21,7 @@ TERMS = (
 RULES = {"forbiddenExactMeanings": ["人名", "地名"]}
 
 
-def question(word: str, start: int, end: int) -> dict[str, object]:
+def question(word: str, start: int, end: int, *, meaning: str = "旧释义") -> dict[str, object]:
     return {
         "translationId": "cmn-cu89s",
         "bookId": "GEN",
@@ -31,7 +31,7 @@ def question(word: str, start: int, end: int) -> dict[str, object]:
         "end": end,
         "word": word,
         "partOfSpeech": "名词",
-        "meaning": "旧释义",
+        "meaning": meaning,
         "reference": "创世记 1:1",
     }
 
@@ -68,6 +68,17 @@ class HistoricalQuizCandidatesTest(unittest.TestCase):
 
         self.assertFalse(decision.accepted)
         self.assertEqual(decision.reasons, ("function_word",))
+
+    def test_keeps_a_complete_word_when_its_old_meaning_needs_rewrite(self) -> None:
+        decision = classify_question(
+            question("以色列", 0, 3, meaning="地名"),
+            {"GEN:1:1": "以色列人"},
+            TERMS,
+            RULES,
+        )
+
+        self.assertTrue(decision.accepted)
+        self.assertEqual(decision.reasons, ())
 
 
 if __name__ == "__main__":
