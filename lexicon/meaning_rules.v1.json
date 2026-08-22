@@ -11,5 +11,15 @@
     "相关对象",
     "某个人",
     "某个地方"
-  ]
+  ],
+  "forbiddenGenericPatterns": [
+    "人名",
+    "地名",
+    "人物",
+    "地点",
+    "专名",
+    "某人",
+    "某地"
+  ],
+  "minimumMeaningChars": 6
 }
