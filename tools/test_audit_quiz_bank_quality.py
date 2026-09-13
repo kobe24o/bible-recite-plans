@@ -103,6 +103,19 @@ class AuditQuizBankQualityTest(unittest.TestCase):
 
         self.assertEqual(findings, [])
 
+    def test_command_is_accepted_only_at_curated_second_john_1_6_position(self) -> None:
+        item = question("命令", 6, 8, meaning="主所颁布、要求信徒遵守的旨意")
+        item.update({"bookId": "2JN", "chapter": 1, "verse": 6, "reference": "1:6"})
+
+        findings = audit_questions(
+            [item],
+            {"2JN:1:6": "我们若照他的命令行，这就是爱。你们从起初所听见当行的，就是这命令。"},
+            (),
+            RULES,
+        )
+
+        self.assertEqual(findings, [])
+
     def test_jieba_rejects_a_word_crossing_token_boundaries(self) -> None:
         second = question("们厌", 1, 3)
         second["verse"] = 2

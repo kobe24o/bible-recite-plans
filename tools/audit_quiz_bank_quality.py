@@ -13,6 +13,14 @@ from quiz_lexicon import LexiconTerm, find_overlapping_terms, load_terms
 from validate_quiz_bank import load_sources, parse_translation, slice_utf16
 
 
+# Human-reviewed choices that look like a token fragment to generic Chinese
+# segmentation, but are semantically complete in their exact scripture scope.
+# Keep entries position-specific so they never weaken validation elsewhere.
+CURATED_FULL_TERM_POSITIONS = {
+    ("cmn-cu89s", "2JN", 1, 6, 6, 8, "命令"),
+}
+
+
 @dataclass(frozen=True)
 class QualityFinding:
     index: int
@@ -75,7 +83,11 @@ def audit_questions(
         if overlaps and not is_full_term:
             findings.append(QualityFinding(index, key, "critical", "partial_lexicon_term", "答案只覆盖已知词条的一部分"))
             continue
-        if not is_full_term and _is_partial_segmented_term(text, start, end, word):
+        if (
+            not is_full_term
+            and _is_partial_segmented_term(text, start, end, word)
+            and not _is_curated_full_term(question, word)
+        ):
             findings.append(QualityFinding(index, key, "critical", "partial_segmented_term", "答案只覆盖结巴识别词语的一部分"))
             continue
         if word.strip() and word.strip() in str(question.get("meaning", "")).strip():
@@ -84,6 +96,22 @@ def audit_questions(
         if normalized_meaning(question.get("meaning", "")) in generic_meanings:
             findings.append(QualityFinding(index, key, "critical", "generic_meaning", "释义过于笼统"))
     return findings
+
+
+def _is_curated_full_term(question: dict[str, object], word: str) -> bool:
+    try:
+        position = (
+            str(question["translationId"]),
+            str(question["bookId"]),
+            int(question["chapter"]),
+            int(question["verse"]),
+            int(question["start"]),
+            int(question["end"]),
+            word,
+        )
+    except (KeyError, TypeError, ValueError):
+        return False
+    return position in CURATED_FULL_TERM_POSITIONS
 
 
 def write_quality_report(findings: Iterable[QualityFinding], path: Path) -> None:
