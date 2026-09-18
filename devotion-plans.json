@@ -1,0 +1,4399 @@
+{
+  "format": "bible-recite-devotion-plans",
+  "version": 1,
+  "revision": 1,
+  "years": [
+    {
+      "year": 2026,
+      "days": [
+        {
+          "date": "2026-01-01",
+          "passages": [
+            {
+              "bookId": "EZR",
+              "startChapter": 1,
+              "startVerse": 1,
+              "endChapter": 1,
+              "endVerse": 11
+            }
+          ]
+        },
+        {
+          "date": "2026-01-02",
+          "passages": [
+            {
+              "bookId": "EZR",
+              "startChapter": 2,
+              "startVerse": 1,
+              "endChapter": 2,
+              "endVerse": 70
+            }
+          ]
+        },
+        {
+          "date": "2026-01-03",
+          "passages": [
+            {
+              "bookId": "EZR",
+              "startChapter": 3,
+              "startVerse": 1,
+              "endChapter": 3,
+              "endVerse": 13
+            }
+          ]
+        },
+        {
+          "date": "2026-01-04",
+          "passages": [
+            {
+              "bookId": "EZR",
+              "startChapter": 4,
+              "startVerse": 1,
+              "endChapter": 4,
+              "endVerse": 24
+            }
+          ]
+        },
+        {
+          "date": "2026-01-05",
+          "passages": [
+            {
+              "bookId": "EZR",
+              "startChapter": 5,
+              "startVerse": 1,
+              "endChapter": 5,
+              "endVerse": 17
+            }
+          ]
+        },
+        {
+          "date": "2026-01-06",
+          "passages": [
+            {
+              "bookId": "EZR",
+              "startChapter": 6,
+              "startVerse": 1,
+              "endChapter": 6,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-01-07",
+          "passages": [
+            {
+              "bookId": "EZR",
+              "startChapter": 7,
+              "startVerse": 1,
+              "endChapter": 7,
+              "endVerse": 28
+            }
+          ]
+        },
+        {
+          "date": "2026-01-08",
+          "passages": [
+            {
+              "bookId": "EZR",
+              "startChapter": 8,
+              "startVerse": 1,
+              "endChapter": 8,
+              "endVerse": 36
+            }
+          ]
+        },
+        {
+          "date": "2026-01-09",
+          "passages": [
+            {
+              "bookId": "EZR",
+              "startChapter": 9,
+              "startVerse": 1,
+              "endChapter": 9,
+              "endVerse": 15
+            }
+          ]
+        },
+        {
+          "date": "2026-01-10",
+          "passages": [
+            {
+              "bookId": "EZR",
+              "startChapter": 10,
+              "startVerse": 1,
+              "endChapter": 10,
+              "endVerse": 44
+            }
+          ]
+        },
+        {
+          "date": "2026-01-11",
+          "passages": [
+            {
+              "bookId": "NEH",
+              "startChapter": 1,
+              "startVerse": 1,
+              "endChapter": 1,
+              "endVerse": 11
+            }
+          ]
+        },
+        {
+          "date": "2026-01-12",
+          "passages": [
+            {
+              "bookId": "NEH",
+              "startChapter": 2,
+              "startVerse": 1,
+              "endChapter": 2,
+              "endVerse": 20
+            }
+          ]
+        },
+        {
+          "date": "2026-01-13",
+          "passages": [
+            {
+              "bookId": "NEH",
+              "startChapter": 3,
+              "startVerse": 1,
+              "endChapter": 3,
+              "endVerse": 32
+            }
+          ]
+        },
+        {
+          "date": "2026-01-14",
+          "passages": [
+            {
+              "bookId": "NEH",
+              "startChapter": 4,
+              "startVerse": 1,
+              "endChapter": 4,
+              "endVerse": 23
+            }
+          ]
+        },
+        {
+          "date": "2026-01-15",
+          "passages": [
+            {
+              "bookId": "NEH",
+              "startChapter": 5,
+              "startVerse": 1,
+              "endChapter": 5,
+              "endVerse": 19
+            }
+          ]
+        },
+        {
+          "date": "2026-01-16",
+          "passages": [
+            {
+              "bookId": "NEH",
+              "startChapter": 6,
+              "startVerse": 1,
+              "endChapter": 6,
+              "endVerse": 19
+            }
+          ]
+        },
+        {
+          "date": "2026-01-17",
+          "passages": [
+            {
+              "bookId": "NEH",
+              "startChapter": 7,
+              "startVerse": 1,
+              "endChapter": 7,
+              "endVerse": 73
+            }
+          ]
+        },
+        {
+          "date": "2026-01-18",
+          "passages": [
+            {
+              "bookId": "NEH",
+              "startChapter": 8,
+              "startVerse": 1,
+              "endChapter": 8,
+              "endVerse": 18
+            }
+          ]
+        },
+        {
+          "date": "2026-01-19",
+          "passages": [
+            {
+              "bookId": "NEH",
+              "startChapter": 9,
+              "startVerse": 1,
+              "endChapter": 9,
+              "endVerse": 38
+            }
+          ]
+        },
+        {
+          "date": "2026-01-20",
+          "passages": [
+            {
+              "bookId": "NEH",
+              "startChapter": 10,
+              "startVerse": 1,
+              "endChapter": 10,
+              "endVerse": 39
+            }
+          ]
+        },
+        {
+          "date": "2026-01-21",
+          "passages": [
+            {
+              "bookId": "NEH",
+              "startChapter": 11,
+              "startVerse": 1,
+              "endChapter": 11,
+              "endVerse": 36
+            }
+          ]
+        },
+        {
+          "date": "2026-01-22",
+          "passages": [
+            {
+              "bookId": "NEH",
+              "startChapter": 12,
+              "startVerse": 1,
+              "endChapter": 12,
+              "endVerse": 47
+            }
+          ]
+        },
+        {
+          "date": "2026-01-23",
+          "passages": [
+            {
+              "bookId": "NEH",
+              "startChapter": 13,
+              "startVerse": 1,
+              "endChapter": 13,
+              "endVerse": 31
+            }
+          ]
+        },
+        {
+          "date": "2026-01-24",
+          "passages": [
+            {
+              "bookId": "EST",
+              "startChapter": 1,
+              "startVerse": 1,
+              "endChapter": 1,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-01-25",
+          "passages": [
+            {
+              "bookId": "EST",
+              "startChapter": 2,
+              "startVerse": 1,
+              "endChapter": 2,
+              "endVerse": 23
+            }
+          ]
+        },
+        {
+          "date": "2026-01-26",
+          "passages": [
+            {
+              "bookId": "EST",
+              "startChapter": 3,
+              "startVerse": 1,
+              "endChapter": 3,
+              "endVerse": 15
+            }
+          ]
+        },
+        {
+          "date": "2026-01-27",
+          "passages": [
+            {
+              "bookId": "EST",
+              "startChapter": 4,
+              "startVerse": 1,
+              "endChapter": 4,
+              "endVerse": 17
+            }
+          ]
+        },
+        {
+          "date": "2026-01-28",
+          "passages": [
+            {
+              "bookId": "EST",
+              "startChapter": 5,
+              "startVerse": 1,
+              "endChapter": 5,
+              "endVerse": 14
+            }
+          ]
+        },
+        {
+          "date": "2026-01-29",
+          "passages": [
+            {
+              "bookId": "EST",
+              "startChapter": 6,
+              "startVerse": 1,
+              "endChapter": 6,
+              "endVerse": 14
+            }
+          ]
+        },
+        {
+          "date": "2026-01-30",
+          "passages": [
+            {
+              "bookId": "EST",
+              "startChapter": 7,
+              "startVerse": 1,
+              "endChapter": 7,
+              "endVerse": 10
+            }
+          ]
+        },
+        {
+          "date": "2026-01-31",
+          "passages": [
+            {
+              "bookId": "EST",
+              "startChapter": 8,
+              "startVerse": 1,
+              "endChapter": 8,
+              "endVerse": 17
+            }
+          ]
+        },
+        {
+          "date": "2026-02-01",
+          "passages": [
+            {
+              "bookId": "EST",
+              "startChapter": 9,
+              "startVerse": 1,
+              "endChapter": 9,
+              "endVerse": 16
+            }
+          ]
+        },
+        {
+          "date": "2026-02-02",
+          "passages": [
+            {
+              "bookId": "EST",
+              "startChapter": 9,
+              "startVerse": 17,
+              "endChapter": 9,
+              "endVerse": 32
+            },
+            {
+              "bookId": "EST",
+              "startChapter": 10,
+              "startVerse": 1,
+              "endChapter": 10,
+              "endVerse": 3
+            }
+          ]
+        },
+        {
+          "date": "2026-02-03",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 1,
+              "startVerse": 1,
+              "endChapter": 1,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 2,
+              "startVerse": 1,
+              "endChapter": 2,
+              "endVerse": 13
+            }
+          ]
+        },
+        {
+          "date": "2026-02-05",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 3,
+              "startVerse": 1,
+              "endChapter": 3,
+              "endVerse": 26
+            }
+          ]
+        },
+        {
+          "date": "2026-02-06",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 4,
+              "startVerse": 1,
+              "endChapter": 4,
+              "endVerse": 21
+            }
+          ]
+        },
+        {
+          "date": "2026-02-07",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 5,
+              "startVerse": 1,
+              "endChapter": 5,
+              "endVerse": 27
+            }
+          ]
+        },
+        {
+          "date": "2026-02-08",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 6,
+              "startVerse": 1,
+              "endChapter": 6,
+              "endVerse": 30
+            }
+          ]
+        },
+        {
+          "date": "2026-02-09",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 7,
+              "startVerse": 1,
+              "endChapter": 7,
+              "endVerse": 21
+            }
+          ]
+        },
+        {
+          "date": "2026-02-10",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 8,
+              "startVerse": 1,
+              "endChapter": 8,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-02-11",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 9,
+              "startVerse": 1,
+              "endChapter": 9,
+              "endVerse": 35
+            }
+          ]
+        },
+        {
+          "date": "2026-02-12",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 10,
+              "startVerse": 1,
+              "endChapter": 10,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-02-13",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 11,
+              "startVerse": 1,
+              "endChapter": 11,
+              "endVerse": 20
+            }
+          ]
+        },
+        {
+          "date": "2026-02-14",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 12,
+              "startVerse": 1,
+              "endChapter": 12,
+              "endVerse": 25
+            }
+          ]
+        },
+        {
+          "date": "2026-02-15",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 13,
+              "startVerse": 1,
+              "endChapter": 13,
+              "endVerse": 28
+            }
+          ]
+        },
+        {
+          "date": "2026-02-16",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 14,
+              "startVerse": 1,
+              "endChapter": 14,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-02-17",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 15,
+              "startVerse": 1,
+              "endChapter": 15,
+              "endVerse": 35
+            }
+          ]
+        },
+        {
+          "date": "2026-02-18",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 16,
+              "startVerse": 1,
+              "endChapter": 16,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-02-19",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 17,
+              "startVerse": 1,
+              "endChapter": 17,
+              "endVerse": 16
+            }
+          ]
+        },
+        {
+          "date": "2026-02-20",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 18,
+              "startVerse": 1,
+              "endChapter": 18,
+              "endVerse": 21
+            }
+          ]
+        },
+        {
+          "date": "2026-02-21",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 19,
+              "startVerse": 1,
+              "endChapter": 19,
+              "endVerse": 29
+            }
+          ]
+        },
+        {
+          "date": "2026-02-22",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 20,
+              "startVerse": 1,
+              "endChapter": 20,
+              "endVerse": 29
+            }
+          ]
+        },
+        {
+          "date": "2026-02-23",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 21,
+              "startVerse": 1,
+              "endChapter": 21,
+              "endVerse": 34
+            }
+          ]
+        },
+        {
+          "date": "2026-02-24",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 22,
+              "startVerse": 1,
+              "endChapter": 22,
+              "endVerse": 30
+            }
+          ]
+        },
+        {
+          "date": "2026-02-25",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 23,
+              "startVerse": 1,
+              "endChapter": 23,
+              "endVerse": 17
+            }
+          ]
+        },
+        {
+          "date": "2026-02-26",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 24,
+              "startVerse": 1,
+              "endChapter": 24,
+              "endVerse": 25
+            }
+          ]
+        },
+        {
+          "date": "2026-02-27",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 25,
+              "startVerse": 1,
+              "endChapter": 25,
+              "endVerse": 6
+            }
+          ]
+        },
+        {
+          "date": "2026-02-28",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 26,
+              "startVerse": 1,
+              "endChapter": 26,
+              "endVerse": 14
+            }
+          ]
+        },
+        {
+          "date": "2026-03-01",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 27,
+              "startVerse": 1,
+              "endChapter": 27,
+              "endVerse": 23
+            }
+          ]
+        },
+        {
+          "date": "2026-03-02",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 28,
+              "startVerse": 1,
+              "endChapter": 28,
+              "endVerse": 28
+            }
+          ]
+        },
+        {
+          "date": "2026-03-03",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 29,
+              "startVerse": 1,
+              "endChapter": 29,
+              "endVerse": 25
+            }
+          ]
+        },
+        {
+          "date": "2026-03-04",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 30,
+              "startVerse": 1,
+              "endChapter": 30,
+              "endVerse": 31
+            }
+          ]
+        },
+        {
+          "date": "2026-03-05",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 31,
+              "startVerse": 1,
+              "endChapter": 31,
+              "endVerse": 40
+            }
+          ]
+        },
+        {
+          "date": "2026-03-06",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 32,
+              "startVerse": 1,
+              "endChapter": 32,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-03-07",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 33,
+              "startVerse": 1,
+              "endChapter": 33,
+              "endVerse": 33
+            }
+          ]
+        },
+        {
+          "date": "2026-03-08",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 34,
+              "startVerse": 1,
+              "endChapter": 34,
+              "endVerse": 37
+            }
+          ]
+        },
+        {
+          "date": "2026-03-09",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 35,
+              "startVerse": 1,
+              "endChapter": 35,
+              "endVerse": 16
+            }
+          ]
+        },
+        {
+          "date": "2026-03-10",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 36,
+              "startVerse": 1,
+              "endChapter": 36,
+              "endVerse": 33
+            }
+          ]
+        },
+        {
+          "date": "2026-03-11",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 37,
+              "startVerse": 1,
+              "endChapter": 37,
+              "endVerse": 24
+            }
+          ]
+        },
+        {
+          "date": "2026-03-12",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 38,
+              "startVerse": 1,
+              "endChapter": 38,
+              "endVerse": 41
+            }
+          ]
+        },
+        {
+          "date": "2026-03-13",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 39,
+              "startVerse": 1,
+              "endChapter": 39,
+              "endVerse": 30
+            }
+          ]
+        },
+        {
+          "date": "2026-03-14",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 40,
+              "startVerse": 1,
+              "endChapter": 40,
+              "endVerse": 24
+            }
+          ]
+        },
+        {
+          "date": "2026-03-15",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 41,
+              "startVerse": 1,
+              "endChapter": 41,
+              "endVerse": 34
+            }
+          ]
+        },
+        {
+          "date": "2026-03-16",
+          "passages": [
+            {
+              "bookId": "JOB",
+              "startChapter": 42,
+              "startVerse": 1,
+              "endChapter": 42,
+              "endVerse": 17
+            }
+          ]
+        },
+        {
+          "date": "2026-03-17",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 1,
+              "startVerse": 1,
+              "endChapter": 1,
+              "endVerse": 6
+            }
+          ]
+        },
+        {
+          "date": "2026-03-18",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 2,
+              "startVerse": 1,
+              "endChapter": 2,
+              "endVerse": 12
+            }
+          ]
+        },
+        {
+          "date": "2026-03-19",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 3,
+              "startVerse": 1,
+              "endChapter": 4,
+              "endVerse": 8
+            }
+          ]
+        },
+        {
+          "date": "2026-03-20",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 5,
+              "startVerse": 1,
+              "endChapter": 5,
+              "endVerse": 12
+            }
+          ]
+        },
+        {
+          "date": "2026-03-21",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 6,
+              "startVerse": 1,
+              "endChapter": 6,
+              "endVerse": 10
+            }
+          ]
+        },
+        {
+          "date": "2026-03-22",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 7,
+              "startVerse": 1,
+              "endChapter": 8,
+              "endVerse": 9
+            }
+          ]
+        },
+        {
+          "date": "2026-03-23",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 9,
+              "startVerse": 1,
+              "endChapter": 9,
+              "endVerse": 20
+            }
+          ]
+        },
+        {
+          "date": "2026-03-24",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 10,
+              "startVerse": 1,
+              "endChapter": 10,
+              "endVerse": 18
+            }
+          ]
+        },
+        {
+          "date": "2026-03-25",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 11,
+              "startVerse": 1,
+              "endChapter": 12,
+              "endVerse": 8
+            }
+          ]
+        },
+        {
+          "date": "2026-03-26",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 13,
+              "startVerse": 1,
+              "endChapter": 14,
+              "endVerse": 7
+            }
+          ]
+        },
+        {
+          "date": "2026-03-27",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 15,
+              "startVerse": 1,
+              "endChapter": 16,
+              "endVerse": 11
+            }
+          ]
+        },
+        {
+          "date": "2026-03-28",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 17,
+              "startVerse": 1,
+              "endChapter": 17,
+              "endVerse": 15
+            }
+          ]
+        },
+        {
+          "date": "2026-03-29",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 18,
+              "startVerse": 1,
+              "endChapter": 18,
+              "endVerse": 50
+            }
+          ]
+        },
+        {
+          "date": "2026-03-30",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 19,
+              "startVerse": 1,
+              "endChapter": 20,
+              "endVerse": 9
+            }
+          ]
+        },
+        {
+          "date": "2026-03-31",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 21,
+              "startVerse": 1,
+              "endChapter": 21,
+              "endVerse": 13
+            }
+          ]
+        },
+        {
+          "date": "2026-04-01",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 22,
+              "startVerse": 1,
+              "endChapter": 22,
+              "endVerse": 31
+            }
+          ]
+        },
+        {
+          "date": "2026-04-02",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 23,
+              "startVerse": 1,
+              "endChapter": 24,
+              "endVerse": 10
+            }
+          ]
+        },
+        {
+          "date": "2026-04-03",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 25,
+              "startVerse": 1,
+              "endChapter": 25,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-04-04",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 26,
+              "startVerse": 1,
+              "endChapter": 26,
+              "endVerse": 12
+            }
+          ]
+        },
+        {
+          "date": "2026-04-05",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 27,
+              "startVerse": 1,
+              "endChapter": 27,
+              "endVerse": 14
+            }
+          ]
+        },
+        {
+          "date": "2026-04-06",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 28,
+              "startVerse": 1,
+              "endChapter": 28,
+              "endVerse": 9
+            }
+          ]
+        },
+        {
+          "date": "2026-04-07",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 29,
+              "startVerse": 1,
+              "endChapter": 29,
+              "endVerse": 11
+            }
+          ]
+        },
+        {
+          "date": "2026-04-08",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 30,
+              "startVerse": 1,
+              "endChapter": 30,
+              "endVerse": 12
+            }
+          ]
+        },
+        {
+          "date": "2026-04-09",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 31,
+              "startVerse": 1,
+              "endChapter": 31,
+              "endVerse": 24
+            }
+          ]
+        },
+        {
+          "date": "2026-04-10",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 32,
+              "startVerse": 1,
+              "endChapter": 32,
+              "endVerse": 11
+            }
+          ]
+        },
+        {
+          "date": "2026-04-11",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 33,
+              "startVerse": 1,
+              "endChapter": 33,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-04-12",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 34,
+              "startVerse": 1,
+              "endChapter": 34,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-04-13",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 35,
+              "startVerse": 1,
+              "endChapter": 35,
+              "endVerse": 28
+            }
+          ]
+        },
+        {
+          "date": "2026-04-14",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 36,
+              "startVerse": 1,
+              "endChapter": 36,
+              "endVerse": 12
+            }
+          ]
+        },
+        {
+          "date": "2026-04-15",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 37,
+              "startVerse": 1,
+              "endChapter": 37,
+              "endVerse": 40
+            }
+          ]
+        },
+        {
+          "date": "2026-04-16",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 38,
+              "startVerse": 1,
+              "endChapter": 38,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-04-17",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 39,
+              "startVerse": 1,
+              "endChapter": 39,
+              "endVerse": 13
+            }
+          ]
+        },
+        {
+          "date": "2026-04-18",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 40,
+              "startVerse": 1,
+              "endChapter": 40,
+              "endVerse": 17
+            }
+          ]
+        },
+        {
+          "date": "2026-04-19",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 41,
+              "startVerse": 1,
+              "endChapter": 41,
+              "endVerse": 13
+            }
+          ]
+        },
+        {
+          "date": "2026-04-20",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 42,
+              "startVerse": 1,
+              "endChapter": 43,
+              "endVerse": 5
+            }
+          ]
+        },
+        {
+          "date": "2026-04-21",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 44,
+              "startVerse": 1,
+              "endChapter": 44,
+              "endVerse": 26
+            }
+          ]
+        },
+        {
+          "date": "2026-04-22",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 45,
+              "startVerse": 1,
+              "endChapter": 45,
+              "endVerse": 17
+            }
+          ]
+        },
+        {
+          "date": "2026-04-23",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 46,
+              "startVerse": 1,
+              "endChapter": 47,
+              "endVerse": 9
+            }
+          ]
+        },
+        {
+          "date": "2026-04-24",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 48,
+              "startVerse": 1,
+              "endChapter": 48,
+              "endVerse": 14
+            }
+          ]
+        },
+        {
+          "date": "2026-04-25",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 49,
+              "startVerse": 1,
+              "endChapter": 49,
+              "endVerse": 20
+            }
+          ]
+        },
+        {
+          "date": "2026-04-26",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 50,
+              "startVerse": 1,
+              "endChapter": 50,
+              "endVerse": 23
+            }
+          ]
+        },
+        {
+          "date": "2026-04-27",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 51,
+              "startVerse": 1,
+              "endChapter": 51,
+              "endVerse": 19
+            }
+          ]
+        },
+        {
+          "date": "2026-04-28",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 52,
+              "startVerse": 1,
+              "endChapter": 52,
+              "endVerse": 9
+            }
+          ]
+        },
+        {
+          "date": "2026-04-29",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 53,
+              "startVerse": 1,
+              "endChapter": 54,
+              "endVerse": 7
+            }
+          ]
+        },
+        {
+          "date": "2026-04-30",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 55,
+              "startVerse": 1,
+              "endChapter": 55,
+              "endVerse": 23
+            }
+          ]
+        },
+        {
+          "date": "2026-05-01",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 56,
+              "startVerse": 1,
+              "endChapter": 56,
+              "endVerse": 13
+            }
+          ]
+        },
+        {
+          "date": "2026-05-02",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 57,
+              "startVerse": 1,
+              "endChapter": 57,
+              "endVerse": 11
+            }
+          ]
+        },
+        {
+          "date": "2026-05-03",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 58,
+              "startVerse": 1,
+              "endChapter": 58,
+              "endVerse": 11
+            }
+          ]
+        },
+        {
+          "date": "2026-05-04",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 59,
+              "startVerse": 1,
+              "endChapter": 59,
+              "endVerse": 17
+            }
+          ]
+        },
+        {
+          "date": "2026-05-05",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 60,
+              "startVerse": 1,
+              "endChapter": 60,
+              "endVerse": 12
+            }
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 61,
+              "startVerse": 1,
+              "endChapter": 62,
+              "endVerse": 12
+            }
+          ]
+        },
+        {
+          "date": "2026-05-07",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 63,
+              "startVerse": 1,
+              "endChapter": 63,
+              "endVerse": 11
+            }
+          ]
+        },
+        {
+          "date": "2026-05-08",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 64,
+              "startVerse": 1,
+              "endChapter": 64,
+              "endVerse": 10
+            }
+          ]
+        },
+        {
+          "date": "2026-05-09",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 65,
+              "startVerse": 1,
+              "endChapter": 65,
+              "endVerse": 13
+            }
+          ]
+        },
+        {
+          "date": "2026-05-10",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 66,
+              "startVerse": 1,
+              "endChapter": 67,
+              "endVerse": 7
+            }
+          ]
+        },
+        {
+          "date": "2026-05-11",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 68,
+              "startVerse": 1,
+              "endChapter": 68,
+              "endVerse": 35
+            }
+          ]
+        },
+        {
+          "date": "2026-05-12",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 69,
+              "startVerse": 1,
+              "endChapter": 69,
+              "endVerse": 36
+            }
+          ]
+        },
+        {
+          "date": "2026-05-13",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 70,
+              "startVerse": 1,
+              "endChapter": 70,
+              "endVerse": 5
+            }
+          ]
+        },
+        {
+          "date": "2026-05-14",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 71,
+              "startVerse": 1,
+              "endChapter": 71,
+              "endVerse": 24
+            }
+          ]
+        },
+        {
+          "date": "2026-05-15",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 72,
+              "startVerse": 1,
+              "endChapter": 72,
+              "endVerse": 20
+            }
+          ]
+        },
+        {
+          "date": "2026-05-16",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 73,
+              "startVerse": 1,
+              "endChapter": 73,
+              "endVerse": 28
+            }
+          ]
+        },
+        {
+          "date": "2026-05-17",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 74,
+              "startVerse": 1,
+              "endChapter": 74,
+              "endVerse": 23
+            }
+          ]
+        },
+        {
+          "date": "2026-05-18",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 75,
+              "startVerse": 1,
+              "endChapter": 75,
+              "endVerse": 10
+            }
+          ]
+        },
+        {
+          "date": "2026-05-19",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 76,
+              "startVerse": 1,
+              "endChapter": 76,
+              "endVerse": 12
+            }
+          ]
+        },
+        {
+          "date": "2026-05-20",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 77,
+              "startVerse": 1,
+              "endChapter": 77,
+              "endVerse": 20
+            }
+          ]
+        },
+        {
+          "date": "2026-05-21",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 78,
+              "startVerse": 1,
+              "endChapter": 78,
+              "endVerse": 72
+            }
+          ]
+        },
+        {
+          "date": "2026-05-22",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 79,
+              "startVerse": 1,
+              "endChapter": 79,
+              "endVerse": 13
+            }
+          ]
+        },
+        {
+          "date": "2026-05-23",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 80,
+              "startVerse": 1,
+              "endChapter": 80,
+              "endVerse": 19
+            }
+          ]
+        },
+        {
+          "date": "2026-05-24",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 81,
+              "startVerse": 1,
+              "endChapter": 81,
+              "endVerse": 16
+            }
+          ]
+        },
+        {
+          "date": "2026-05-25",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 82,
+              "startVerse": 1,
+              "endChapter": 83,
+              "endVerse": 18
+            }
+          ]
+        },
+        {
+          "date": "2026-05-26",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 84,
+              "startVerse": 1,
+              "endChapter": 84,
+              "endVerse": 12
+            }
+          ]
+        },
+        {
+          "date": "2026-05-27",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 85,
+              "startVerse": 1,
+              "endChapter": 85,
+              "endVerse": 13
+            }
+          ]
+        },
+        {
+          "date": "2026-05-28",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 86,
+              "startVerse": 1,
+              "endChapter": 87,
+              "endVerse": 7
+            }
+          ]
+        },
+        {
+          "date": "2026-05-29",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 88,
+              "startVerse": 1,
+              "endChapter": 88,
+              "endVerse": 18
+            }
+          ]
+        },
+        {
+          "date": "2026-05-30",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 89,
+              "startVerse": 1,
+              "endChapter": 89,
+              "endVerse": 52
+            }
+          ]
+        },
+        {
+          "date": "2026-05-31",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 90,
+              "startVerse": 1,
+              "endChapter": 90,
+              "endVerse": 17
+            }
+          ]
+        },
+        {
+          "date": "2026-06-01",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 91,
+              "startVerse": 1,
+              "endChapter": 91,
+              "endVerse": 16
+            }
+          ]
+        },
+        {
+          "date": "2026-06-02",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 92,
+              "startVerse": 1,
+              "endChapter": 93,
+              "endVerse": 5
+            }
+          ]
+        },
+        {
+          "date": "2026-06-03",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 94,
+              "startVerse": 1,
+              "endChapter": 94,
+              "endVerse": 23
+            }
+          ]
+        },
+        {
+          "date": "2026-06-04",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 95,
+              "startVerse": 1,
+              "endChapter": 96,
+              "endVerse": 13
+            }
+          ]
+        },
+        {
+          "date": "2026-06-05",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 97,
+              "startVerse": 1,
+              "endChapter": 97,
+              "endVerse": 12
+            }
+          ]
+        },
+        {
+          "date": "2026-06-06",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 98,
+              "startVerse": 1,
+              "endChapter": 98,
+              "endVerse": 9
+            }
+          ]
+        },
+        {
+          "date": "2026-06-07",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 99,
+              "startVerse": 1,
+              "endChapter": 100,
+              "endVerse": 5
+            }
+          ]
+        },
+        {
+          "date": "2026-06-08",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 101,
+              "startVerse": 1,
+              "endChapter": 101,
+              "endVerse": 8
+            }
+          ]
+        },
+        {
+          "date": "2026-06-09",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 102,
+              "startVerse": 1,
+              "endChapter": 102,
+              "endVerse": 28
+            }
+          ]
+        },
+        {
+          "date": "2026-06-10",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 103,
+              "startVerse": 1,
+              "endChapter": 103,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-06-11",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 104,
+              "startVerse": 1,
+              "endChapter": 104,
+              "endVerse": 35
+            }
+          ]
+        },
+        {
+          "date": "2026-06-12",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 105,
+              "startVerse": 1,
+              "endChapter": 105,
+              "endVerse": 45
+            }
+          ]
+        },
+        {
+          "date": "2026-06-13",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 106,
+              "startVerse": 1,
+              "endChapter": 106,
+              "endVerse": 48
+            }
+          ]
+        },
+        {
+          "date": "2026-06-14",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 107,
+              "startVerse": 1,
+              "endChapter": 107,
+              "endVerse": 43
+            }
+          ]
+        },
+        {
+          "date": "2026-06-15",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 108,
+              "startVerse": 1,
+              "endChapter": 108,
+              "endVerse": 13
+            }
+          ]
+        },
+        {
+          "date": "2026-06-16",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 109,
+              "startVerse": 1,
+              "endChapter": 109,
+              "endVerse": 31
+            }
+          ]
+        },
+        {
+          "date": "2026-06-17",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 110,
+              "startVerse": 1,
+              "endChapter": 111,
+              "endVerse": 10
+            }
+          ]
+        },
+        {
+          "date": "2026-06-18",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 112,
+              "startVerse": 1,
+              "endChapter": 113,
+              "endVerse": 9
+            }
+          ]
+        },
+        {
+          "date": "2026-06-19",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 114,
+              "startVerse": 1,
+              "endChapter": 115,
+              "endVerse": 18
+            }
+          ]
+        },
+        {
+          "date": "2026-06-20",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 116,
+              "startVerse": 1,
+              "endChapter": 117,
+              "endVerse": 2
+            }
+          ]
+        },
+        {
+          "date": "2026-06-21",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 118,
+              "startVerse": 1,
+              "endChapter": 118,
+              "endVerse": 29
+            }
+          ]
+        },
+        {
+          "date": "2026-06-22",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 119,
+              "startVerse": 1,
+              "endChapter": 119,
+              "endVerse": 64
+            }
+          ]
+        },
+        {
+          "date": "2026-06-23",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 119,
+              "startVerse": 65,
+              "endChapter": 119,
+              "endVerse": 144
+            }
+          ]
+        },
+        {
+          "date": "2026-06-24",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 119,
+              "startVerse": 145,
+              "endChapter": 119,
+              "endVerse": 176
+            }
+          ]
+        },
+        {
+          "date": "2026-06-25",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 120,
+              "startVerse": 1,
+              "endChapter": 121,
+              "endVerse": 8
+            }
+          ]
+        },
+        {
+          "date": "2026-06-26",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 122,
+              "startVerse": 1,
+              "endChapter": 123,
+              "endVerse": 4
+            }
+          ]
+        },
+        {
+          "date": "2026-06-27",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 124,
+              "startVerse": 1,
+              "endChapter": 125,
+              "endVerse": 5
+            }
+          ]
+        },
+        {
+          "date": "2026-06-28",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 126,
+              "startVerse": 1,
+              "endChapter": 127,
+              "endVerse": 5
+            }
+          ]
+        },
+        {
+          "date": "2026-06-29",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 128,
+              "startVerse": 1,
+              "endChapter": 129,
+              "endVerse": 8
+            }
+          ]
+        },
+        {
+          "date": "2026-06-30",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 130,
+              "startVerse": 1,
+              "endChapter": 131,
+              "endVerse": 3
+            }
+          ]
+        },
+        {
+          "date": "2026-07-01",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 132,
+              "startVerse": 1,
+              "endChapter": 133,
+              "endVerse": 3
+            }
+          ]
+        },
+        {
+          "date": "2026-07-02",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 134,
+              "startVerse": 1,
+              "endChapter": 135,
+              "endVerse": 21
+            }
+          ]
+        },
+        {
+          "date": "2026-07-03",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 136,
+              "startVerse": 1,
+              "endChapter": 136,
+              "endVerse": 26
+            }
+          ]
+        },
+        {
+          "date": "2026-07-04",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 137,
+              "startVerse": 1,
+              "endChapter": 138,
+              "endVerse": 8
+            }
+          ]
+        },
+        {
+          "date": "2026-07-05",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 139,
+              "startVerse": 1,
+              "endChapter": 139,
+              "endVerse": 24
+            }
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 140,
+              "startVerse": 1,
+              "endChapter": 141,
+              "endVerse": 10
+            }
+          ]
+        },
+        {
+          "date": "2026-07-07",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 142,
+              "startVerse": 1,
+              "endChapter": 142,
+              "endVerse": 7
+            }
+          ]
+        },
+        {
+          "date": "2026-07-08",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 143,
+              "startVerse": 1,
+              "endChapter": 143,
+              "endVerse": 12
+            }
+          ]
+        },
+        {
+          "date": "2026-07-09",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 144,
+              "startVerse": 1,
+              "endChapter": 144,
+              "endVerse": 15
+            }
+          ]
+        },
+        {
+          "date": "2026-07-10",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 145,
+              "startVerse": 1,
+              "endChapter": 145,
+              "endVerse": 21
+            }
+          ]
+        },
+        {
+          "date": "2026-07-11",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 146,
+              "startVerse": 1,
+              "endChapter": 146,
+              "endVerse": 10
+            }
+          ]
+        },
+        {
+          "date": "2026-07-12",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 147,
+              "startVerse": 1,
+              "endChapter": 147,
+              "endVerse": 20
+            }
+          ]
+        },
+        {
+          "date": "2026-07-13",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 148,
+              "startVerse": 1,
+              "endChapter": 149,
+              "endVerse": 9
+            }
+          ]
+        },
+        {
+          "date": "2026-07-14",
+          "passages": [
+            {
+              "bookId": "PSA",
+              "startChapter": 150,
+              "startVerse": 1,
+              "endChapter": 150,
+              "endVerse": 6
+            }
+          ]
+        },
+        {
+          "date": "2026-07-15",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 1,
+              "startVerse": 1,
+              "endChapter": 1,
+              "endVerse": 33
+            }
+          ]
+        },
+        {
+          "date": "2026-07-16",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 2,
+              "startVerse": 1,
+              "endChapter": 2,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-07-17",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 3,
+              "startVerse": 1,
+              "endChapter": 3,
+              "endVerse": 35
+            }
+          ]
+        },
+        {
+          "date": "2026-07-18",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 4,
+              "startVerse": 1,
+              "endChapter": 4,
+              "endVerse": 27
+            }
+          ]
+        },
+        {
+          "date": "2026-07-19",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 5,
+              "startVerse": 1,
+              "endChapter": 5,
+              "endVerse": 23
+            }
+          ]
+        },
+        {
+          "date": "2026-07-20",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 6,
+              "startVerse": 1,
+              "endChapter": 6,
+              "endVerse": 35
+            }
+          ]
+        },
+        {
+          "date": "2026-07-21",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 7,
+              "startVerse": 1,
+              "endChapter": 7,
+              "endVerse": 27
+            }
+          ]
+        },
+        {
+          "date": "2026-07-22",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 8,
+              "startVerse": 1,
+              "endChapter": 8,
+              "endVerse": 36
+            }
+          ]
+        },
+        {
+          "date": "2026-07-23",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 9,
+              "startVerse": 1,
+              "endChapter": 9,
+              "endVerse": 18
+            }
+          ]
+        },
+        {
+          "date": "2026-07-24",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 10,
+              "startVerse": 1,
+              "endChapter": 10,
+              "endVerse": 32
+            }
+          ]
+        },
+        {
+          "date": "2026-07-25",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 11,
+              "startVerse": 1,
+              "endChapter": 11,
+              "endVerse": 31
+            }
+          ]
+        },
+        {
+          "date": "2026-07-26",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 12,
+              "startVerse": 1,
+              "endChapter": 12,
+              "endVerse": 28
+            }
+          ]
+        },
+        {
+          "date": "2026-07-27",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 13,
+              "startVerse": 1,
+              "endChapter": 13,
+              "endVerse": 25
+            }
+          ]
+        },
+        {
+          "date": "2026-07-28",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 14,
+              "startVerse": 1,
+              "endChapter": 14,
+              "endVerse": 35
+            }
+          ]
+        },
+        {
+          "date": "2026-07-29",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 15,
+              "startVerse": 1,
+              "endChapter": 15,
+              "endVerse": 33
+            }
+          ]
+        },
+        {
+          "date": "2026-07-30",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 16,
+              "startVerse": 1,
+              "endChapter": 16,
+              "endVerse": 33
+            }
+          ]
+        },
+        {
+          "date": "2026-07-31",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 17,
+              "startVerse": 1,
+              "endChapter": 17,
+              "endVerse": 28
+            }
+          ]
+        },
+        {
+          "date": "2026-08-01",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 18,
+              "startVerse": 1,
+              "endChapter": 18,
+              "endVerse": 24
+            }
+          ]
+        },
+        {
+          "date": "2026-08-02",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 19,
+              "startVerse": 1,
+              "endChapter": 19,
+              "endVerse": 29
+            }
+          ]
+        },
+        {
+          "date": "2026-08-03",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 20,
+              "startVerse": 1,
+              "endChapter": 20,
+              "endVerse": 30
+            }
+          ]
+        },
+        {
+          "date": "2026-08-04",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 21,
+              "startVerse": 1,
+              "endChapter": 21,
+              "endVerse": 31
+            }
+          ]
+        },
+        {
+          "date": "2026-08-05",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 22,
+              "startVerse": 1,
+              "endChapter": 22,
+              "endVerse": 29
+            }
+          ]
+        },
+        {
+          "date": "2026-08-06",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 23,
+              "startVerse": 1,
+              "endChapter": 23,
+              "endVerse": 35
+            }
+          ]
+        },
+        {
+          "date": "2026-08-07",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 24,
+              "startVerse": 1,
+              "endChapter": 24,
+              "endVerse": 34
+            }
+          ]
+        },
+        {
+          "date": "2026-08-08",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 25,
+              "startVerse": 1,
+              "endChapter": 25,
+              "endVerse": 28
+            }
+          ]
+        },
+        {
+          "date": "2026-08-09",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 26,
+              "startVerse": 1,
+              "endChapter": 26,
+              "endVerse": 28
+            }
+          ]
+        },
+        {
+          "date": "2026-08-10",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 27,
+              "startVerse": 1,
+              "endChapter": 27,
+              "endVerse": 27
+            }
+          ]
+        },
+        {
+          "date": "2026-08-11",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 28,
+              "startVerse": 1,
+              "endChapter": 28,
+              "endVerse": 28
+            }
+          ]
+        },
+        {
+          "date": "2026-08-12",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 29,
+              "startVerse": 1,
+              "endChapter": 29,
+              "endVerse": 27
+            }
+          ]
+        },
+        {
+          "date": "2026-08-13",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 30,
+              "startVerse": 1,
+              "endChapter": 30,
+              "endVerse": 33
+            }
+          ]
+        },
+        {
+          "date": "2026-08-14",
+          "passages": [
+            {
+              "bookId": "PRO",
+              "startChapter": 31,
+              "startVerse": 1,
+              "endChapter": 31,
+              "endVerse": 31
+            }
+          ]
+        },
+        {
+          "date": "2026-08-15",
+          "passages": [
+            {
+              "bookId": "ECC",
+              "startChapter": 1,
+              "startVerse": 1,
+              "endChapter": 1,
+              "endVerse": 18
+            }
+          ]
+        },
+        {
+          "date": "2026-08-16",
+          "passages": [
+            {
+              "bookId": "ECC",
+              "startChapter": 2,
+              "startVerse": 1,
+              "endChapter": 2,
+              "endVerse": 26
+            }
+          ]
+        },
+        {
+          "date": "2026-08-17",
+          "passages": [
+            {
+              "bookId": "ECC",
+              "startChapter": 3,
+              "startVerse": 1,
+              "endChapter": 3,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-08-18",
+          "passages": [
+            {
+              "bookId": "ECC",
+              "startChapter": 4,
+              "startVerse": 1,
+              "endChapter": 4,
+              "endVerse": 16
+            }
+          ]
+        },
+        {
+          "date": "2026-08-19",
+          "passages": [
+            {
+              "bookId": "ECC",
+              "startChapter": 5,
+              "startVerse": 1,
+              "endChapter": 5,
+              "endVerse": 20
+            }
+          ]
+        },
+        {
+          "date": "2026-08-20",
+          "passages": [
+            {
+              "bookId": "ECC",
+              "startChapter": 6,
+              "startVerse": 1,
+              "endChapter": 6,
+              "endVerse": 12
+            }
+          ]
+        },
+        {
+          "date": "2026-08-21",
+          "passages": [
+            {
+              "bookId": "ECC",
+              "startChapter": 7,
+              "startVerse": 1,
+              "endChapter": 7,
+              "endVerse": 29
+            }
+          ]
+        },
+        {
+          "date": "2026-08-22",
+          "passages": [
+            {
+              "bookId": "ECC",
+              "startChapter": 8,
+              "startVerse": 1,
+              "endChapter": 8,
+              "endVerse": 17
+            }
+          ]
+        },
+        {
+          "date": "2026-08-23",
+          "passages": [
+            {
+              "bookId": "ECC",
+              "startChapter": 9,
+              "startVerse": 1,
+              "endChapter": 9,
+              "endVerse": 18
+            }
+          ]
+        },
+        {
+          "date": "2026-08-24",
+          "passages": [
+            {
+              "bookId": "ECC",
+              "startChapter": 10,
+              "startVerse": 1,
+              "endChapter": 10,
+              "endVerse": 20
+            }
+          ]
+        },
+        {
+          "date": "2026-08-25",
+          "passages": [
+            {
+              "bookId": "ECC",
+              "startChapter": 11,
+              "startVerse": 1,
+              "endChapter": 11,
+              "endVerse": 10
+            }
+          ]
+        },
+        {
+          "date": "2026-08-26",
+          "passages": [
+            {
+              "bookId": "ECC",
+              "startChapter": 12,
+              "startVerse": 1,
+              "endChapter": 12,
+              "endVerse": 14
+            }
+          ]
+        },
+        {
+          "date": "2026-08-27",
+          "passages": [
+            {
+              "bookId": "SNG",
+              "startChapter": 1,
+              "startVerse": 1,
+              "endChapter": 1,
+              "endVerse": 17
+            }
+          ]
+        },
+        {
+          "date": "2026-08-28",
+          "passages": [
+            {
+              "bookId": "SNG",
+              "startChapter": 2,
+              "startVerse": 1,
+              "endChapter": 2,
+              "endVerse": 17
+            }
+          ]
+        },
+        {
+          "date": "2026-08-29",
+          "passages": [
+            {
+              "bookId": "SNG",
+              "startChapter": 3,
+              "startVerse": 1,
+              "endChapter": 3,
+              "endVerse": 11
+            }
+          ]
+        },
+        {
+          "date": "2026-08-30",
+          "passages": [
+            {
+              "bookId": "SNG",
+              "startChapter": 4,
+              "startVerse": 1,
+              "endChapter": 4,
+              "endVerse": 16
+            }
+          ]
+        },
+        {
+          "date": "2026-08-31",
+          "passages": [
+            {
+              "bookId": "SNG",
+              "startChapter": 5,
+              "startVerse": 1,
+              "endChapter": 5,
+              "endVerse": 16
+            }
+          ]
+        },
+        {
+          "date": "2026-09-01",
+          "passages": [
+            {
+              "bookId": "SNG",
+              "startChapter": 6,
+              "startVerse": 1,
+              "endChapter": 6,
+              "endVerse": 13
+            }
+          ]
+        },
+        {
+          "date": "2026-09-02",
+          "passages": [
+            {
+              "bookId": "SNG",
+              "startChapter": 7,
+              "startVerse": 1,
+              "endChapter": 7,
+              "endVerse": 13
+            }
+          ]
+        },
+        {
+          "date": "2026-09-03",
+          "passages": [
+            {
+              "bookId": "SNG",
+              "startChapter": 8,
+              "startVerse": 1,
+              "endChapter": 8,
+              "endVerse": 14
+            }
+          ]
+        },
+        {
+          "date": "2026-09-04",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 1,
+              "startVerse": 1,
+              "endChapter": 1,
+              "endVerse": 31
+            }
+          ]
+        },
+        {
+          "date": "2026-09-05",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 2,
+              "startVerse": 1,
+              "endChapter": 2,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-09-06",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 3,
+              "startVerse": 1,
+              "endChapter": 3,
+              "endVerse": 26
+            }
+          ]
+        },
+        {
+          "date": "2026-09-07",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 4,
+              "startVerse": 1,
+              "endChapter": 4,
+              "endVerse": 6
+            }
+          ]
+        },
+        {
+          "date": "2026-09-08",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 5,
+              "startVerse": 1,
+              "endChapter": 5,
+              "endVerse": 30
+            }
+          ]
+        },
+        {
+          "date": "2026-09-09",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 6,
+              "startVerse": 1,
+              "endChapter": 6,
+              "endVerse": 13
+            }
+          ]
+        },
+        {
+          "date": "2026-09-10",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 7,
+              "startVerse": 1,
+              "endChapter": 7,
+              "endVerse": 25
+            }
+          ]
+        },
+        {
+          "date": "2026-09-11",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 8,
+              "startVerse": 1,
+              "endChapter": 8,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-09-12",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 9,
+              "startVerse": 1,
+              "endChapter": 9,
+              "endVerse": 21
+            }
+          ]
+        },
+        {
+          "date": "2026-09-13",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 10,
+              "startVerse": 1,
+              "endChapter": 10,
+              "endVerse": 34
+            }
+          ]
+        },
+        {
+          "date": "2026-09-14",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 11,
+              "startVerse": 1,
+              "endChapter": 11,
+              "endVerse": 16
+            }
+          ]
+        },
+        {
+          "date": "2026-09-15",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 12,
+              "startVerse": 1,
+              "endChapter": 12,
+              "endVerse": 6
+            }
+          ]
+        },
+        {
+          "date": "2026-09-16",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 13,
+              "startVerse": 1,
+              "endChapter": 13,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-09-17",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 14,
+              "startVerse": 1,
+              "endChapter": 14,
+              "endVerse": 32
+            }
+          ]
+        },
+        {
+          "date": "2026-09-18",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 15,
+              "startVerse": 1,
+              "endChapter": 15,
+              "endVerse": 9
+            }
+          ]
+        },
+        {
+          "date": "2026-09-19",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 16,
+              "startVerse": 1,
+              "endChapter": 16,
+              "endVerse": 14
+            }
+          ]
+        },
+        {
+          "date": "2026-09-20",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 17,
+              "startVerse": 1,
+              "endChapter": 17,
+              "endVerse": 14
+            }
+          ]
+        },
+        {
+          "date": "2026-09-21",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 18,
+              "startVerse": 1,
+              "endChapter": 18,
+              "endVerse": 7
+            }
+          ]
+        },
+        {
+          "date": "2026-09-22",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 19,
+              "startVerse": 1,
+              "endChapter": 19,
+              "endVerse": 25
+            }
+          ]
+        },
+        {
+          "date": "2026-09-23",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 20,
+              "startVerse": 1,
+              "endChapter": 20,
+              "endVerse": 6
+            }
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 21,
+              "startVerse": 1,
+              "endChapter": 21,
+              "endVerse": 17
+            }
+          ]
+        },
+        {
+          "date": "2026-09-25",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 22,
+              "startVerse": 1,
+              "endChapter": 22,
+              "endVerse": 25
+            }
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 23,
+              "startVerse": 1,
+              "endChapter": 23,
+              "endVerse": 18
+            }
+          ]
+        },
+        {
+          "date": "2026-09-27",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 24,
+              "startVerse": 1,
+              "endChapter": 24,
+              "endVerse": 23
+            }
+          ]
+        },
+        {
+          "date": "2026-09-28",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 25,
+              "startVerse": 1,
+              "endChapter": 25,
+              "endVerse": 12
+            }
+          ]
+        },
+        {
+          "date": "2026-09-29",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 26,
+              "startVerse": 1,
+              "endChapter": 26,
+              "endVerse": 21
+            }
+          ]
+        },
+        {
+          "date": "2026-09-30",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 27,
+              "startVerse": 1,
+              "endChapter": 27,
+              "endVerse": 13
+            }
+          ]
+        },
+        {
+          "date": "2026-10-01",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 28,
+              "startVerse": 1,
+              "endChapter": 28,
+              "endVerse": 29
+            }
+          ]
+        },
+        {
+          "date": "2026-10-02",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 29,
+              "startVerse": 1,
+              "endChapter": 29,
+              "endVerse": 24
+            }
+          ]
+        },
+        {
+          "date": "2026-10-03",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 30,
+              "startVerse": 1,
+              "endChapter": 30,
+              "endVerse": 33
+            }
+          ]
+        },
+        {
+          "date": "2026-10-04",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 31,
+              "startVerse": 1,
+              "endChapter": 31,
+              "endVerse": 9
+            }
+          ]
+        },
+        {
+          "date": "2026-10-05",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 32,
+              "startVerse": 1,
+              "endChapter": 32,
+              "endVerse": 20
+            }
+          ]
+        },
+        {
+          "date": "2026-10-06",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 33,
+              "startVerse": 1,
+              "endChapter": 33,
+              "endVerse": 24
+            }
+          ]
+        },
+        {
+          "date": "2026-10-07",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 34,
+              "startVerse": 1,
+              "endChapter": 34,
+              "endVerse": 17
+            }
+          ]
+        },
+        {
+          "date": "2026-10-08",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 35,
+              "startVerse": 1,
+              "endChapter": 35,
+              "endVerse": 10
+            }
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 36,
+              "startVerse": 1,
+              "endChapter": 36,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 37,
+              "startVerse": 1,
+              "endChapter": 37,
+              "endVerse": 38
+            }
+          ]
+        },
+        {
+          "date": "2026-10-11",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 38,
+              "startVerse": 1,
+              "endChapter": 38,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-10-12",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 39,
+              "startVerse": 1,
+              "endChapter": 39,
+              "endVerse": 8
+            }
+          ]
+        },
+        {
+          "date": "2026-10-13",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 40,
+              "startVerse": 1,
+              "endChapter": 40,
+              "endVerse": 31
+            }
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 41,
+              "startVerse": 1,
+              "endChapter": 41,
+              "endVerse": 29
+            }
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 42,
+              "startVerse": 1,
+              "endChapter": 42,
+              "endVerse": 25
+            }
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 43,
+              "startVerse": 1,
+              "endChapter": 43,
+              "endVerse": 28
+            }
+          ]
+        },
+        {
+          "date": "2026-10-17",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 44,
+              "startVerse": 1,
+              "endChapter": 44,
+              "endVerse": 28
+            }
+          ]
+        },
+        {
+          "date": "2026-10-18",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 45,
+              "startVerse": 1,
+              "endChapter": 45,
+              "endVerse": 25
+            }
+          ]
+        },
+        {
+          "date": "2026-10-19",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 46,
+              "startVerse": 1,
+              "endChapter": 46,
+              "endVerse": 13
+            }
+          ]
+        },
+        {
+          "date": "2026-10-20",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 47,
+              "startVerse": 1,
+              "endChapter": 47,
+              "endVerse": 15
+            }
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 48,
+              "startVerse": 1,
+              "endChapter": 48,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-10-22",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 49,
+              "startVerse": 1,
+              "endChapter": 49,
+              "endVerse": 26
+            }
+          ]
+        },
+        {
+          "date": "2026-10-23",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 50,
+              "startVerse": 1,
+              "endChapter": 50,
+              "endVerse": 11
+            }
+          ]
+        },
+        {
+          "date": "2026-10-24",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 51,
+              "startVerse": 1,
+              "endChapter": 51,
+              "endVerse": 23
+            }
+          ]
+        },
+        {
+          "date": "2026-10-25",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 52,
+              "startVerse": 1,
+              "endChapter": 52,
+              "endVerse": 15
+            }
+          ]
+        },
+        {
+          "date": "2026-10-26",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 53,
+              "startVerse": 1,
+              "endChapter": 53,
+              "endVerse": 12
+            }
+          ]
+        },
+        {
+          "date": "2026-10-27",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 54,
+              "startVerse": 1,
+              "endChapter": 54,
+              "endVerse": 17
+            }
+          ]
+        },
+        {
+          "date": "2026-10-28",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 55,
+              "startVerse": 1,
+              "endChapter": 55,
+              "endVerse": 13
+            }
+          ]
+        },
+        {
+          "date": "2026-10-29",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 56,
+              "startVerse": 1,
+              "endChapter": 56,
+              "endVerse": 12
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 57,
+              "startVerse": 1,
+              "endChapter": 57,
+              "endVerse": 21
+            }
+          ]
+        },
+        {
+          "date": "2026-10-31",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 58,
+              "startVerse": 1,
+              "endChapter": 58,
+              "endVerse": 14
+            }
+          ]
+        },
+        {
+          "date": "2026-11-01",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 59,
+              "startVerse": 1,
+              "endChapter": 59,
+              "endVerse": 21
+            }
+          ]
+        },
+        {
+          "date": "2026-11-02",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 60,
+              "startVerse": 1,
+              "endChapter": 60,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-11-03",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 61,
+              "startVerse": 1,
+              "endChapter": 61,
+              "endVerse": 11
+            }
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 62,
+              "startVerse": 1,
+              "endChapter": 62,
+              "endVerse": 12
+            }
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 63,
+              "startVerse": 1,
+              "endChapter": 63,
+              "endVerse": 19
+            }
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 64,
+              "startVerse": 1,
+              "endChapter": 64,
+              "endVerse": 12
+            }
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 65,
+              "startVerse": 1,
+              "endChapter": 65,
+              "endVerse": 25
+            }
+          ]
+        },
+        {
+          "date": "2026-11-08",
+          "passages": [
+            {
+              "bookId": "ISA",
+              "startChapter": 66,
+              "startVerse": 1,
+              "endChapter": 66,
+              "endVerse": 24
+            }
+          ]
+        },
+        {
+          "date": "2026-11-09",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 1,
+              "startVerse": 1,
+              "endChapter": 1,
+              "endVerse": 19
+            }
+          ]
+        },
+        {
+          "date": "2026-11-10",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 2,
+              "startVerse": 1,
+              "endChapter": 2,
+              "endVerse": 37
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 3,
+              "startVerse": 1,
+              "endChapter": 3,
+              "endVerse": 25
+            }
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 4,
+              "startVerse": 1,
+              "endChapter": 4,
+              "endVerse": 31
+            }
+          ]
+        },
+        {
+          "date": "2026-11-13",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 5,
+              "startVerse": 1,
+              "endChapter": 5,
+              "endVerse": 31
+            }
+          ]
+        },
+        {
+          "date": "2026-11-14",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 6,
+              "startVerse": 1,
+              "endChapter": 6,
+              "endVerse": 30
+            }
+          ]
+        },
+        {
+          "date": "2026-11-15",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 7,
+              "startVerse": 1,
+              "endChapter": 7,
+              "endVerse": 34
+            }
+          ]
+        },
+        {
+          "date": "2026-11-16",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 8,
+              "startVerse": 1,
+              "endChapter": 8,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-11-17",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 9,
+              "startVerse": 1,
+              "endChapter": 9,
+              "endVerse": 26
+            }
+          ]
+        },
+        {
+          "date": "2026-11-18",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 10,
+              "startVerse": 1,
+              "endChapter": 10,
+              "endVerse": 25
+            }
+          ]
+        },
+        {
+          "date": "2026-11-19",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 11,
+              "startVerse": 1,
+              "endChapter": 11,
+              "endVerse": 23
+            }
+          ]
+        },
+        {
+          "date": "2026-11-20",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 12,
+              "startVerse": 1,
+              "endChapter": 12,
+              "endVerse": 17
+            }
+          ]
+        },
+        {
+          "date": "2026-11-21",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 13,
+              "startVerse": 1,
+              "endChapter": 13,
+              "endVerse": 27
+            }
+          ]
+        },
+        {
+          "date": "2026-11-22",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 14,
+              "startVerse": 1,
+              "endChapter": 14,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-11-23",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 15,
+              "startVerse": 1,
+              "endChapter": 15,
+              "endVerse": 21
+            }
+          ]
+        },
+        {
+          "date": "2026-11-24",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 16,
+              "startVerse": 1,
+              "endChapter": 16,
+              "endVerse": 21
+            }
+          ]
+        },
+        {
+          "date": "2026-11-25",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 17,
+              "startVerse": 1,
+              "endChapter": 17,
+              "endVerse": 27
+            }
+          ]
+        },
+        {
+          "date": "2026-11-26",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 18,
+              "startVerse": 1,
+              "endChapter": 18,
+              "endVerse": 23
+            }
+          ]
+        },
+        {
+          "date": "2026-11-27",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 19,
+              "startVerse": 1,
+              "endChapter": 19,
+              "endVerse": 15
+            }
+          ]
+        },
+        {
+          "date": "2026-11-28",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 20,
+              "startVerse": 1,
+              "endChapter": 20,
+              "endVerse": 18
+            }
+          ]
+        },
+        {
+          "date": "2026-11-29",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 21,
+              "startVerse": 1,
+              "endChapter": 21,
+              "endVerse": 14
+            }
+          ]
+        },
+        {
+          "date": "2026-11-30",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 22,
+              "startVerse": 1,
+              "endChapter": 22,
+              "endVerse": 30
+            }
+          ]
+        },
+        {
+          "date": "2026-12-01",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 23,
+              "startVerse": 1,
+              "endChapter": 23,
+              "endVerse": 40
+            }
+          ]
+        },
+        {
+          "date": "2026-12-02",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 24,
+              "startVerse": 1,
+              "endChapter": 24,
+              "endVerse": 10
+            }
+          ]
+        },
+        {
+          "date": "2026-12-03",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 25,
+              "startVerse": 1,
+              "endChapter": 25,
+              "endVerse": 38
+            }
+          ]
+        },
+        {
+          "date": "2026-12-04",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 26,
+              "startVerse": 1,
+              "endChapter": 26,
+              "endVerse": 24
+            }
+          ]
+        },
+        {
+          "date": "2026-12-05",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 27,
+              "startVerse": 1,
+              "endChapter": 27,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-12-06",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 28,
+              "startVerse": 1,
+              "endChapter": 28,
+              "endVerse": 17
+            }
+          ]
+        },
+        {
+          "date": "2026-12-07",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 29,
+              "startVerse": 1,
+              "endChapter": 29,
+              "endVerse": 32
+            }
+          ]
+        },
+        {
+          "date": "2026-12-08",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 30,
+              "startVerse": 1,
+              "endChapter": 30,
+              "endVerse": 24
+            }
+          ]
+        },
+        {
+          "date": "2026-12-09",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 31,
+              "startVerse": 1,
+              "endChapter": 31,
+              "endVerse": 40
+            }
+          ]
+        },
+        {
+          "date": "2026-12-10",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 32,
+              "startVerse": 1,
+              "endChapter": 32,
+              "endVerse": 44
+            }
+          ]
+        },
+        {
+          "date": "2026-12-11",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 33,
+              "startVerse": 1,
+              "endChapter": 33,
+              "endVerse": 26
+            }
+          ]
+        },
+        {
+          "date": "2026-12-12",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 34,
+              "startVerse": 1,
+              "endChapter": 34,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-12-13",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 35,
+              "startVerse": 1,
+              "endChapter": 35,
+              "endVerse": 19
+            }
+          ]
+        },
+        {
+          "date": "2026-12-14",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 36,
+              "startVerse": 1,
+              "endChapter": 36,
+              "endVerse": 32
+            }
+          ]
+        },
+        {
+          "date": "2026-12-15",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 37,
+              "startVerse": 1,
+              "endChapter": 37,
+              "endVerse": 21
+            }
+          ]
+        },
+        {
+          "date": "2026-12-16",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 38,
+              "startVerse": 1,
+              "endChapter": 38,
+              "endVerse": 28
+            }
+          ]
+        },
+        {
+          "date": "2026-12-17",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 39,
+              "startVerse": 1,
+              "endChapter": 39,
+              "endVerse": 18
+            }
+          ]
+        },
+        {
+          "date": "2026-12-18",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 40,
+              "startVerse": 1,
+              "endChapter": 40,
+              "endVerse": 16
+            }
+          ]
+        },
+        {
+          "date": "2026-12-19",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 41,
+              "startVerse": 1,
+              "endChapter": 41,
+              "endVerse": 18
+            }
+          ]
+        },
+        {
+          "date": "2026-12-20",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 42,
+              "startVerse": 1,
+              "endChapter": 42,
+              "endVerse": 22
+            }
+          ]
+        },
+        {
+          "date": "2026-12-21",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 43,
+              "startVerse": 1,
+              "endChapter": 43,
+              "endVerse": 13
+            }
+          ]
+        },
+        {
+          "date": "2026-12-22",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 44,
+              "startVerse": 1,
+              "endChapter": 44,
+              "endVerse": 30
+            }
+          ]
+        },
+        {
+          "date": "2026-12-23",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 45,
+              "startVerse": 1,
+              "endChapter": 45,
+              "endVerse": 5
+            }
+          ]
+        },
+        {
+          "date": "2026-12-24",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 46,
+              "startVerse": 1,
+              "endChapter": 46,
+              "endVerse": 28
+            }
+          ]
+        },
+        {
+          "date": "2026-12-25",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 47,
+              "startVerse": 1,
+              "endChapter": 47,
+              "endVerse": 7
+            }
+          ]
+        },
+        {
+          "date": "2026-12-26",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 48,
+              "startVerse": 1,
+              "endChapter": 48,
+              "endVerse": 47
+            }
+          ]
+        },
+        {
+          "date": "2026-12-27",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 49,
+              "startVerse": 1,
+              "endChapter": 49,
+              "endVerse": 39
+            }
+          ]
+        },
+        {
+          "date": "2026-12-28",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 50,
+              "startVerse": 1,
+              "endChapter": 50,
+              "endVerse": 20
+            }
+          ]
+        },
+        {
+          "date": "2026-12-29",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 50,
+              "startVerse": 21,
+              "endChapter": 50,
+              "endVerse": 46
+            }
+          ]
+        },
+        {
+          "date": "2026-12-30",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 51,
+              "startVerse": 1,
+              "endChapter": 51,
+              "endVerse": 64
+            }
+          ]
+        },
+        {
+          "date": "2026-12-31",
+          "passages": [
+            {
+              "bookId": "JER",
+              "startChapter": 52,
+              "startVerse": 1,
+              "endChapter": 52,
+              "endVerse": 34
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
